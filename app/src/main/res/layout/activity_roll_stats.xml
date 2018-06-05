@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.RollStatsActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/contextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:id="@+id/titleLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15sp"
+                android:text="Assign Your Statistics"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/mainStatsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7sp"
+                android:text="Assign Your Statistics"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="29sp"
+                android:layout_marginTop="140sp"
+                android:text="STR"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/choosenStatLabel1"
+                android:layout_marginLeft="18sp"
+                android:layout_toRightOf="@id/choosenStatLabel1"
+                android:text="DEX"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/choosenStatLabel1"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/choosenStatLabel2"
+                android:text="CON"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/choosenStatLabel1"
+                android:layout_marginLeft="19sp"
+                android:layout_toRightOf="@id/choosenStatLabel3"
+                android:text="INT"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/choosenStatLabel1"
+                android:layout_marginLeft="19sp"
+                android:layout_toRightOf="@id/choosenStatLabel4"
+                android:text="WIS"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choosenStatLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/choosenStatLabel1"
+                android:layout_marginLeft="20sp"
+                android:layout_toRightOf="@id/choosenStatLabel5"
+                android:text="CHA"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/rolledStat1"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledStr"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rolledStat2"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledDex"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:layout_toRightOf="@+id/rolledStat1"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rolledStat3"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledCon"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:layout_toRightOf="@+id/rolledStat2"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rolledStat4"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledInt"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:layout_toRightOf="@+id/rolledStat3"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rolledStat5"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledWis"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:layout_toRightOf="@+id/rolledStat4"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/rolledStat6"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledCha"
+                android:layout_below="@+id/mainStatsLabel"
+                android:layout_marginTop="100sp"
+                android:layout_toRightOf="@+id/rolledStat5"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/rolledStr"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="25sp" />
+
+            <Spinner
+                android:id="@+id/rolledDex"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="5sp"
+                android:layout_toRightOf="@+id/rolledStr" />
+
+            <Spinner
+                android:id="@+id/rolledCon"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="7sp"
+                android:layout_toRightOf="@+id/rolledDex" />
+
+            <Spinner
+                android:id="@+id/rolledInt"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="6sp"
+                android:layout_toRightOf="@+id/rolledCon" />
+
+            <Spinner
+                android:id="@+id/rolledWis"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="8sp"
+                android:layout_toRightOf="@+id/rolledInt" />
+
+            <Spinner
+                android:id="@+id/rolledCha"
+                android:layout_width="50sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rolledStat1"
+                android:layout_marginLeft="7sp"
+                android:layout_toRightOf="@+id/rolledWis" />
+
+            <Button
+                android:id="@+id/AssignStatsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="21dp"
+                android:onClick="onAssignStatsButton"
+                android:text="Done" />
+
+            <EditText
+                android:id="@+id/editDex"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editCon"
+                android:layout_alignBottom="@+id/editCon"
+                android:layout_alignLeft="@+id/rolledDex"
+                android:layout_alignStart="@+id/rolledDex"
+                android:layout_toLeftOf="@+id/rolledCon"
+                android:layout_toStartOf="@+id/rolledCon"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="DEX"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editStr"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/rolledStr"
+                android:layout_alignStart="@+id/rolledStr"
+                android:layout_below="@+id/checkBox"
+                android:layout_marginTop="22dp"
+                android:layout_toLeftOf="@+id/rolledDex"
+                android:layout_toStartOf="@+id/rolledDex"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="STR"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/editCon"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editStr"
+                android:layout_alignBottom="@+id/editStr"
+                android:layout_alignLeft="@+id/rolledCon"
+                android:layout_alignStart="@+id/rolledCon"
+                android:layout_toLeftOf="@+id/rolledInt"
+                android:layout_toStartOf="@+id/rolledInt"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="CON" />
+
+            <EditText
+                android:id="@+id/editInt"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editCon"
+                android:layout_alignBottom="@+id/editCon"
+                android:layout_alignLeft="@+id/rolledInt"
+                android:layout_alignStart="@+id/rolledInt"
+                android:layout_toLeftOf="@+id/rolledWis"
+                android:layout_toStartOf="@+id/rolledWis"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="INT" />
+
+            <EditText
+                android:id="@+id/editWis"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editInt"
+                android:layout_alignBottom="@+id/editInt"
+                android:layout_alignLeft="@+id/rolledWis"
+                android:layout_alignStart="@+id/rolledWis"
+                android:layout_toLeftOf="@+id/rolledCha"
+                android:layout_toStartOf="@+id/rolledCha"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="WIS" />
+
+            <EditText
+                android:id="@+id/editCha"
+                android:layout_width="?android:attr/windowTitleSize"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/editWis"
+                android:layout_alignBottom="@+id/editWis"
+                android:layout_alignEnd="@+id/rolledCha"
+                android:layout_alignLeft="@+id/choosenStatLabel6"
+                android:layout_alignRight="@+id/rolledCha"
+                android:layout_alignStart="@+id/choosenStatLabel6"
+                android:ems="10"
+                android:enabled="false"
+                android:inputType="text|textPersonName|number"
+                android:text="CHA" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/choosenStatLabel3"
+                android:layout_alignStart="@+id/choosenStatLabel3"
+                android:layout_below="@+id/rolledCon"
+                android:layout_marginTop="37dp"
+                android:text="Manual Assign"
+                android:onClick="onCHeckBoxClick"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

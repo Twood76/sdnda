@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.WizardActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="25sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Rogue"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Sorcerer"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Wizard"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Warlock"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="WIZARD"/>
+
+                <TextView
+                    android:id="@+id/characterDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/title"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="\tClad in the silver robes that denote her station, an elf closes her eyes to shut out the distractions of the battlefield and begins her quiet chant. Fingers weaving in front of her, she completes her spell and launches a tiny bead of fire toward the enemy ranks, where it erupts into a conflagration that engulfs the soldiers.\n\tWizards are supreme magic-users, defined and united as a class by the spells they cast. Drawing on the subtle weave of magic that permeates the cosmos, wizards cast spells of explosive fire, arcing lightning, subtle deception, and brute-force mind control. Their magic conjures monsters from other planes of existence, glimpses the future, or turns slain foes into zombies. Their mightiest spells change one substance into another, call meteors down from the sky, or open portals to other worlds."/>
+
+
+                <TextView
+                    android:id="@+id/creatingClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/characterDescription"
+                    android:textSize="15sp"
+                    android:text="CREATING WIZARD"/>
+
+                <TextView
+                    android:id="@+id/creatingClassDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/creatingClass"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="\tCreating a wizard character demands a backstory dominated by at least one extraordinary event. How did your character first com e into contact with magic? How did you discover you had an aptitude for it? Do you have a natural talent, or did you simply study hard and practice incessantly? Did you encounter a magical creature or an ancient tome that taught you the basics of magic? \n\tWhat drew you forth from your life of study? Did your first taste of magical knowledge leave you hungry for more? Have you received word of a secret repository of knowledge not yet plundered by any other wizard? Perhaps you’re simply eager to put your newfound magical skills to the test in the face of danger"/>
+
+
+                <TextView
+                    android:id="@+id/classFeatures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/creatingClassDescription"
+                    android:textSize="15sp"
+                    android:text="WIZARD FEATURES"/>
+
+                <TextView
+                    android:id="@+id/classFeaturesDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/classFeatures"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="@string/wizard_string"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/classFeaturesDescription"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="Wybierz"
+                    android:onClick="wizardButton"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

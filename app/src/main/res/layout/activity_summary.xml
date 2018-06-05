@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SummaryActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Stats"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Abilities"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/abilities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Weapons"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/weapons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="...>"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/menuLayout"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:id="@+id/lvlLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="20sp"
+                android:text="LVL: "
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Short Rest"
+                android:layout_below="@+id/lvlLabel"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Long Rest"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/lvlLabel"/>
+
+            <TextView
+                android:id="@+id/lvlValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_toRightOf="@+id/lvlLabel"
+                android:text="0"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/hpButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lvlValue"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="HP:\n0"
+                android:onClick="onHpButtonClick"
+                />
+
+
+            <Button
+                android:id="@+id/speedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hpButton"
+                android:layout_marginLeft="25sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Speed:\n0" />
+
+            <Button
+                android:id="@+id/acButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/speedButton"
+                android:layout_alignLeft="@id/hpButton"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="AC:\n0" />
+
+            <Button
+                android:id="@+id/profButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/speedButton"
+                android:layout_toRightOf="@id/acButton"
+                android:layout_marginLeft="38sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="Prof:\n0" />
+            <TextView
+                android:id="@+id/rollLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/acButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25sp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="Roll 0D0"/>
+
+            <Button
+                android:id="@+id/subButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rollButton"
+                android:layout_alignRight="@id/speedButton"
+                android:layout_marginTop="25sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="-"/>
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/rollButton"
+                android:layout_alignLeft="@id/profButton"
+                android:layout_marginTop="25sp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="+"/>
+
+            <Button
+                android:id="@+id/rollButton"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:layout_below="@id/rollLabel"
+                android:layout_centerHorizontal="true"
+
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="0"/>
+
+            <Button
+                android:id="@+id/stButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saving Throw"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9sp"
+                android:layout_below="@+id/rollButton"/>
+
+            <ImageButton
+                android:id="@+id/d4Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d4"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d6Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d4Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d6"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d8Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d6Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d8"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d10Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d8Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d10"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d12Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d10Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d12"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d20Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d12Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d20"
+                android:scaleType="fitCenter"/>
+            <ImageButton
+                android:id="@+id/d100Button"
+                android:layout_width="54sp"
+                android:layout_height="54sp"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@+id/d20Button"
+                android:background="@android:color/transparent"
+                android:src="@drawable/d100"
+                android:scaleType="fitCenter"/>
+
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

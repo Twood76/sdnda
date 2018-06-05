@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.FighterActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Fighter"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Monk"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Paladin"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Ranger"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="FIGHTER"/>
+
+                <TextView
+                    android:id="@+id/characterDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/title"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="\tA human in clanging plate armor holds her shield before her as she runs toward the massed goblins. An elf behind her, clad in studded leather armor, peppers the goblins with arrows loosed from his exquisite bow. The half-orc nearby shouts orders, helping the two combatants coordinate their assault to the best advantage. \n\tAll of these heroes are fighters, perhaps the most diverse class of characters in the worlds of DnD . Questing knights, conquering overlords, royal champions, elite foot soldiers, hardened mercenaries, and bandit kings—as fighters, they all share an unparalleled mastery with weapons and armor, and a thorough knowledge of the skills of combat. And they are well acquainted with death, both meting it out and staring it defiantly in the face."/>
+
+
+                <TextView
+                    android:id="@+id/creatingClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/characterDescription"
+                    android:textSize="15sp"
+                    android:text="CREATING FIGHTER"/>
+
+                <TextView
+                    android:id="@+id/creatingClassDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/creatingClass"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="\tAs you build your fighter, think about two related elements of your character's background: Where did you get your combat training, and what set you apart from the mundane warriors around you? Were you particularly ruthless? Did you get extra help from a mentor, perhaps because of your exceptional dedication? What drove you to this training in the first place? A threat to your homeland, a thirst for revenge, or a need to prove yourself might all have been factors.\n\tYou might have enjoyed formal training in a noble’s army or in a local militia. Perhaps you trained in a war academy, learning strategy, tactics, and military history. Or you might be self-taught—unpolished but well tested. Did you take up the sword as a way to escape the limits of life on a farm, or are you following a proud family tradition? Where did you acquire your weapons and armor? They might have been military issue or family heirlooms, or perhaps you scrimped and saved for years to buy them. Your armaments are now among your most important possessions—the only things that stand between you and death’s embrace."/>
+
+                <TextView
+                    android:id="@+id/classFeatures"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/creatingClassDescription"
+                    android:textSize="15sp"
+                    android:text="FIGHTER FEATURES"/>
+
+                <TextView
+                    android:id="@+id/classFeaturesDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/classFeatures"
+                    android:layout_marginRight="25sp"
+                    android:textSize="14sp"
+                    android:text="@string/fighter_String"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/classFeaturesDescription"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="Wybierz"
+                    android:onClick="fighterButton"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

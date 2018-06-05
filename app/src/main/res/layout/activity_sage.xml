@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SageActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Outlander"
+                android:textSize="15sp" />
+
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Sage"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Sailor"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Soldier"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/titleLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="SAGE:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/BgDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/titleLabel"
+                    android:text="@string/sage_string"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/PersonalityTraitLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BgDescription"
+                    android:layout_marginTop="10sp"
+                    android:text="Personality Trait:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/persTrait1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/PersonalityTraitLabel"
+                    android:layout_marginTop="10sp"
+                    android:text="   I use polysyllabic words that convey the impression of great erudition. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait1"
+                    android:layout_marginTop="10sp"
+                    android:text="  I've read every book in the world’s greatest libraries— or I like to boast that I have. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait2"
+                    android:layout_marginTop="10sp"
+                    android:text="  I'm used to helping out those who aren’t as smart as  I am, and I patiently explain anything and everything to others. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait3"
+                    android:layout_marginTop="10sp"
+                    android:text=" There’s nothing I like more than a good mystery. "/>
+
+
+                <RadioButton
+                    android:id="@+id/persTrait5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait4"
+                    android:layout_marginTop="10sp"
+                    android:text="   I’m willing to listen to every side of an argument before I make my own judgment. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait5"
+                    android:layout_marginTop="10sp"
+                    android:text="   I . . . speak . . . slowly . .  . when talking . . . to idiots, . . . which . . . almost.  . . everyone . . .  is . . . compared . . . to me. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait6"
+                    android:layout_marginTop="10sp"
+                    android:text="  I am horribly, horribly awkward in social situations. "/>
+
+                <RadioButton
+                    android:id="@+id/persTrait8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait7"
+                    android:layout_marginTop="10sp"
+                    android:text="  I’m convinced that people are always trying to steal my secrets."/>
+
+
+                <TextView
+                    android:id="@+id/bondLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:text="Bond:"
+                    android:layout_below="@+id/persTrait8"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/bond1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bondLabel"
+                    android:layout_marginTop="10sp"
+                    android:text="  It is my duty to protect my students. "/>
+
+                <RadioButton
+                    android:id="@+id/bond2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond1"
+                    android:layout_marginTop="10sp"
+                    android:text="  I have an ancient text that holds terrible secrets that must not fall into the wrong hands"/>
+
+                <RadioButton
+                    android:id="@+id/bond3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond2"
+                    android:layout_marginTop="10sp"
+                    android:text="  I work to preserve a library, university, scriptorium, or monastery. "/>
+
+
+                <RadioButton
+                    android:id="@+id/bond4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond3"
+                    android:layout_marginTop="10sp"
+                    android:text="   My life’s work is a series of tomes related to a specific field of lore. "/>
+
+                <RadioButton
+                    android:id="@+id/bond5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond4"
+                    android:layout_marginTop="10sp"
+                    android:text="   I've been searching my whole life for the answer to a certain question."/>
+
+                <RadioButton
+                    android:id="@+id/bond6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond5"
+                    android:layout_marginTop="10sp"
+                    android:text="  I sold my soul for knowledge. I hope to do great deeds and win it back."/>
+
+                <TextView
+                    android:id="@+id/IdealsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bond6"
+                    android:layout_marginTop="20sp"
+                    android:text="Ideal:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/ideal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/IdealsLabel"
+                    android:layout_marginTop="10sp"
+                    android:text="    The path to power and self-improvement is through knowledge. (Neutral)"/>
+
+                <RadioButton
+                    android:id="@+id/ideal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal1"
+                    android:layout_marginTop="10sp"
+                    android:text="   What is beautiful points us beyond itself toward what is true. (Good) "/>
+
+                <RadioButton
+                    android:id="@+id/ideal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal2"
+                    android:layout_marginTop="10sp"
+                    android:text="  Emotions must not cloud our logical thinking. (Lawful) "/>
+
+                <RadioButton
+                    android:id="@+id/ideal4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal3"
+                    android:layout_marginTop="10sp"
+                    android:text="   Nothing should fetter the infinite possibility inherent in all existence. (Chaotic) "/>
+
+                <RadioButton
+                    android:id="@+id/ideal5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal4"
+                    android:layout_marginTop="10sp"
+                    android:text="     Knowledge is the path to power and domination. (Evil)"/>
+                <RadioButton
+                    android:id="@+id/ideal6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal5"
+                    android:layout_marginTop="10sp"
+                    android:text="     The goal of a life of study is the betterment of oneself. (Any)"/>
+                <TextView
+                    android:id="@+id/FlawsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ideal6"
+                    android:layout_marginTop="20sp"
+                    android:text="Flaw:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/flaw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_below="@id/FlawsLabel"
+                    android:text=" I am easily distracted by the promise of information. "/>
+
+                <RadioButton
+                    android:id="@+id/flaw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw1"
+                    android:layout_marginTop="10sp"
+                    android:text="  Most people scream and run when they see a demon.  I stop and take notes on its anatomy."/>
+
+                <RadioButton
+                    android:id="@+id/flaw3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw2"
+                    android:layout_marginTop="10sp"
+                    android:text="   Unlocking an ancient mystery is worth the price of a civilization. "/>
+
+                <RadioButton
+                    android:id="@+id/flaw4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw3"
+                    android:layout_marginTop="10sp"
+                    android:text="   I overlook obvious solutions in favor of complicated ones."/>
+
+                <RadioButton
+                    android:id="@+id/flaw5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw4"
+                    android:layout_marginTop="10sp"
+                    android:text="    I speak without really thinking through my words, invariably insulting others."/>
+
+                <RadioButton
+                    android:id="@+id/flaw6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw5"
+                    android:layout_marginTop="10sp"
+                    android:text="  I can’t keep a secret to save my life, or anyone else’s."/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:layout_below="@id/flaw6"
+                    android:layout_marginTop="25sp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.chooseClassScreen">
+
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="112dp">
+
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@drawable/background">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="34dp"
+                    android:text="Choose Your Class"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/ChooseClassImageView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="200sp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/title"
+                    android:layout_marginTop="23dp"
+                    app:srcCompat="@drawable/chose_class" />
+
+                <TextView
+                    android:id="@+id/chooseClassTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/ChooseClassImageView"
+                    android:layout_marginTop="19dp"
+                    android:textSize="20sp"
+                    android:text="@string/choose_your_class_string"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"/>
+
+                <Button
+                    android:id="@+id/chooseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onNextButoton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="Continue"
+                    android:layout_below="@id/chooseClassTextView"
+                    android:layout_marginTop="20sp"/>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

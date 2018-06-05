@@ -1,0 +1,735 @@
+<resources>
+    <string name="app_name">DnD</string>
+    <string name="title_activity_summary">SummaryActivity</string>
+    <string name="title_activity_eq">EqActivity</string>
+    <string name="dwarf_string"><b>ABILITY SCORE INCREASE</b>:Your Constitution score increases by 2.
+        \n<b>AGE:</b> Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.
+        \n\n<b>ALIGNMENT</b>: Most dwarves are lawful, believing firmly in the benefits of a well-ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
+        \n\n<b>SIZE:</b> Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.
+        \n\n<b>SPEED:</b> Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor.
+        \n\n<b>DARKVISION:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>DWARVEN RESILENCE:</b> You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).
+        \n\n<b>TOOL PROFITIENCY:</b> You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.
+        \n\n<b>DWARVEN COMBAT TRAINING:</b> You have proficiency with the battleaxe, handaxe, throwing hammer, and warhammer.
+        \n\n<b>STONE CUNNING:</b> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak.
+        \n\n<b>SUBRACES:</b> Two main subraces of dwarves populate the worlds of DnD: hill dwarves and mountain dwarves. Choose one of these subraces.</string>
+
+    <string name="elf_string"><b>ABILITY SCORE INCREASE</b>:Your Dexterity score increases by 2.
+        \n\n<b>AGE:</b>  Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.
+        \n\n<b>ALIGNMENT</b>:  Elves love freedom, variety, and self- expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others freedom as well as their own, and they are more often good than not. The drow are an exception; their exile into the Underdark has made them vicious and dangerous. Drow are more often evil than not.
+        \n\n<b>SIZE:</b>  Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>DARKVISION:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>KEEN SENSES:</b> You have proficiency in the Perception skill.
+        \n\n<b>TOOL PROFITIENCY:</b> You gain proficiency with the artisan’s tools of your choice: smith’s tools, brewer’s supplies, or mason’s tools.
+        \n\n<b>FEY ANCESTRY:</b> You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+        \n\n<b>TRANCE:</b> Elves don’t need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is “trance.”) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have becom e reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires.
+        \n\n<b>SUBRACES:</b>  Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of these subraces. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.
+    </string>
+
+    <string name="halfling_string"><b>ABILITY SCORE INCREASE</b>:Your Dexterity score increases by 2.
+        \n<b>AGE:</b>  A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.
+        \n\n<b>ALIGNMENT</b>: Most halflings are lawful good. As a rule, they are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.
+        \n\n<b>SIZE:</b> Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.
+        \n\n<b>SPEED:</b> Your base walking speed is 25 feet.
+        \n\n<b>DARKVISION:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>LUCKY:</b> W hen you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.
+        \n\n<b>BRAVE:</b> You have advantage on saving throws against being frightened.
+        \n\n<b>HALFLING NIMBLENESS:</b> You can move through the space of any creature that is of a size larger than yours.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common and Halfling. The Halfling language isn’t secret, but halflings are loath to share it with others. They write very little, so they don’t have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling.
+        \n\n<b>SUBRACES:</b> The two main kinds of halfling, lightfoot and stout, are more like closely related families than true subraces. Choose one of these subraces.
+    </string>
+
+    <string name="human_string"><b>ABILITY SCORE INCREASE</b>: Your ability scores each increase by 1.
+        \n<b>AGE:</b> Humans reach adulthood in their late teens and live less than a century.
+        \n\n<b>ALIGNMENT</b>: Humans tend toward no particular alignment. The best and the worst are found among them.
+        \n\n<b>SIZE:</b>  Humans vary w idely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium .
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common and on eextra language of your choice. Hum ans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</string>
+
+    <string name="dragonborn_string"><b>ABILITY SCORE INCREASE</b>:Your Strength score increases by 2, and your Charism a score increases by 1.
+        \n<b>AGE:</b> Young dragonborn grow quickly. They w alk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
+        \n\n<b>ALIGNMENT</b>: Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil (represented by Bahamut and Tiamat, respectively). Most dragonborn are good, but those who side with Tiamat can be terrible villains.
+        \n\n<b>SIZE:</b> Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium .
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>DRACONIC ANCESTRY:</b> You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.
+        \n\n<b><p align="center">DRACONIC ANCESTRY</p></b>
+        \n<b>Dragon\t\tDamage Type\t\tBreath Weapon</b>
+        \nBlack\t\t\tAcid\t\t\t\t\t\t\t5 by 30 ft. line (Dex. save)
+        \nBlue\t\t\t\tLightning\t\t\t\t5 by 30 ft. line (Dex. save)
+        \nBrass\t\t\tFire\t\t\t\t\t\t\t5 by 30 ft. line (Dex. save)
+        \nBronze\t\tLightning\t\t\t\t5 by 30 ft. line (Dex. save)
+        \nCopper\t\tAcid\t\t\t\t\t\t\t5 by 30 ft. line (Dex. save)
+        \nGold\t\t\tFire\t\t\t\t\t\t\t15 ft. cone (Dex. save)
+        \nGreen\t\t\tPoison\t\t\t\t\t15 ft. cone (Con. save)
+        \nRed\t\t\t\tFire\t\t\t\t\t\t\t15 ft. cone (Dex. save)
+        \nSilver\t\t\tCold\t\t\t\t\t\t15 ft. cone (Con. save)
+        \nBrass\t\t\tCold\t\t\t\t\t\t15 ft. cone (Con. save)
+
+        \n\n<b>BREATH WEAPON:</b> You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.\n\tWhen you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level. \n\tAfter you use your breath weapon, you can’t use it again until you complete a short or long rest.
+        \n\n<b>DAMAGE RESISTANCE:</b> You have resistance to the damage type associated with your draconic ancestry.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants.
+    </string>
+
+    <string name="gnome_string"><b>ABILITY SCORE INCREASE</b>:Your Intelligence score increases by 2.
+        \n<b>AGE:</b>  Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.
+        \n\n<b>ALIGNMENT</b>:Gnomes are most often good. Those who tend toward law are sages, engineers, researchers, scholars, investigators, or inventors. Those who tend toward chaos are minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.
+        \n\n<b>SIZE:</b>  Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small.
+        \n\n<b>SPEED:</b> Your base walking speed is 25 feet.
+        \n\n<b>DARKVISION:</b> Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>GNOME CUNNING:</b>  You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic.
+        \n\n<b>LANGUAGES:</b>  You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world.
+        \n\n<b>SUBRACES:</b> Two subraces of gnomes are found among the worlds of DnD: forest gnomes and rock gnomes. Choose one of these subraces.
+    </string>
+
+    <string name="halfelf_string"><b>ABILITY SCORE INCREASE</b>: Your Charisma score increases by 2, and two other ability scores of your choice increase by 1.
+        \n<b>AGE:</b>  Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.
+        \n\n<b>ALIGNMENT</b>: Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others’ demands, and sometimes prove unreliable, or at least unpredictable.
+        \n\n<b>SIZE:</b> Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium.
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>DARKVISION:</b>  Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>FEY ANCESTRY:</b> You have advantage on saving throws against being charmed, and magic can’t put you to sleep.
+        \n\n<b>SKILL VERSATILITY:</b>  You gain proficiency in two skills of your choice.
+        \n\n<b>LANGUAGES:</b> You can speak, read, and write Common, Elvish, and one extra language of your choice.
+    </string>
+
+    <string name="halforc_string"><b>ABILITY SCORE INCREASE</b>:  Your Strength score increases by 2, and your Constitution score increases by 1.
+        \n<b>AGE:</b>  Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
+        \n\n<b>ALIGNMENT</b>:  Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among ores and willing to live out their lives among them are usually evil.
+        \n\n<b>SIZE:</b>  Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>DARKVISION:</b> Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>MENACING:</b>You gain proficiency in the Intimidation skill.
+        \n\n<b>RELENTLESS ENDURANCE:</b>  When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can’t use this feature again until you finish a long rest.
+        \n\n<b>SAVAGE ATTACKS:</b> When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.
+        \n\n<b>LANGUAGES:</b>  You can speak, read, and write Common and Orc . Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script.
+    </string>
+
+    <string name="tiefling_string"><b>ABILITY SCORE INCREASE</b>: Your Intelligence score increases by 1, and your Charisma score increases by 2.
+        \n<b>AGE:</b>  Tieflings mature at the same rate as humans but live a few years longer.
+        \n\n<b>ALIGNMENT</b>: Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.
+        \n\n<b>SIZE:</b> Tieflings are about the same size and build as humans. Your size is Medium.
+        \n\n<b>SPEED:</b> Your base walking speed is 30 feet.
+        \n\n<b>DARKVISION:</b> Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it w ere bright light, and in darkness asif it were dim light. You can’t discern color in darkness, only shades of gray.
+        \n\n<b>HELLISH RESISTANCE:</b>You have resistance to fire damage.
+        \n\n<b>INFERNAL LEGACY:</b> You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell once per day as a 2nd-level spell. Once you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.
+        \n\n<b>LANGUAGES:</b>  You can speak, read, and write Common and Infernal.
+    </string>
+
+    <string name="acolyte_string">You have spent your life in the service of a temple to a specific god or pantheon of gods. You act as an intermediary between the realm of the holy and the mortal world, performing sacred rites and offering sacrifices in order to conduct worshipers into the presence of the divine. You are not necessarily a cleric-perform ing sacred rites is not the same thing as channeling divine power.
+        \nChoose a god, a pantheon of gods, or some other quasi-divine being from among those listed in appendix B or those specified by your DM, and work with your DM to detail the nature of your religious service. Were you a lesser functionary in a temple, raised from childhood to assist the priests in the sacred rites? Or were you a high priest who suddenly experienced a call to serve your god in a different way? Perhaps you were the leader of a small cult outside of any established temple structure, or even an occult group that served a fiendish master that you now deny.
+        \n
+        \n<b>Skill Profitiencys:</b> Insight, Religion
+        \n<b>Languages:</b> Two of your choice
+        \n<b>Equipment:</b>  A holy symbol (a gift to you when you entered the priesthood), a prayer book or prayer wheel, 5 sticks of incense, vestments, a set of common clothes, and a belt pouch containing 15 gp
+        \n
+        \n<b><p align="center">FEATURE: Shelter Of The Faithfull</p></b>
+        \nAs an acolyte, you command the respect of those who share your faith, and you can perform the religious ceremonies of your deity. You and your adventuring companions can expect to receive free healing and care at a temple, shrine, or other established presence of your faith, though you must provide any material components needed for spells. Those who share your religion will support you (but only you) at a modest lifestyle.
+        \nYou might also have ties to a specific temple dedicated to your chosen deity or pantheon, and you have a residence there. This could be the temple where you used to serve, if you remain on good terms with it, or a temple where you have found a new home. While near your temple, you can call upon the priests for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.
+    </string>
+
+    <string name="sharlatan_string">You have always had a way with people. You know what makes them tick, you can tease out their hearts desires after a few minutes of conversation, and with a few leading questions you can read them like they were childrens books. Its a useful talent, and one that you’re perfectly willing to use for your advantage.
+        \nYou know what people want and you deliver, or rather, you promise to deliver. Common sense should steer people away from things that sound too good to be true, but common sense seem s to be in short supply when you’re around. The bottle of pink-colored liquid will surely cure that unseemly rash, this ointment—nothing more than a bit of fat with a sprinkle of silver dust—can restore youth and vigor, and there’s a bridge in the city that just happens to be for sale. These marvels sound implausible, but you make them sound like the real deal.
+        \n
+        \n<b>Skill Profitiencys:</b>  Deception, Sleight of Hand
+        \n<b>Tool Profitiencys:</b> Disguise kit, forgery kit
+        \n<b>Equipment:</b>   A set of fine clothes, a disguise kit, tools of the con of your choice (ten stoppered bottles filled with colored liquid, a set of weighted dice, a deck of marked cards, or a signet ring of an imaginary duke), and a belt pouch containing 15 gp
+        \n
+        \n<b><p align="center">FEATURE: False Identity</p></b>
+        \nYou have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona. Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.
+    </string>
+
+    <string name="criminal_string">You are an experienced criminal with a history of breaking the law. You have spent a lot of time among other criminals and still have contacts within the criminal underworld. You’re far closer than most people to the world of murder, theft, and violence that pervades the underbelly of civilization, and you have survived up to this point by flouting the rules and regulations of society.
+        \n
+        \n<b>Skill Profitiencys:</b>   Deception, Stealth
+        \n<b>Tool Profitiencys:</b> One type of gaming set, thieves’ tools
+        \n<b>Equipment:</b>   A crowbar, a set of dark common clothes including a hood, and a belt pouch containing 15 gp
+        \n
+        \n<b><p align="center">FEATURE: Criminal Contact</p></b>
+        \nYou have a reliable and trustworthy contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; specifically, you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you.
+    </string>
+
+    <string name="enternainer_string">You thrive in front of an audience. You know how to entrance them, entertain them, and even inspire them. Your poetics can stir the hearts of those who hear you, awakening grief or joy, laughter or anger. Your music raises their spirits or captures their sorrow. Your dance steps captivate, your humor cuts to the quick. Whatever techniques you use, your art is your life.
+        \n
+        \n<b>Skill Profitiencys:</b>   Acrobatics, Performance
+        \n<b>Tool Profitiencys:</b> Disguise kit, one type of musical instrument
+        \n<b>Equipment:</b>   A musical instrument (one of your choice), the favor of an admirer (love letter, lock of hair, or trinket), a costume, and a belt pouch containing 15 gp
+        \n
+        \n<b><p align="center">FEATURE: By Popular Demand</p></b>
+        \nYou can always find a place to perform, usually in an inn or tavern but possibly with a circus, at a theater, or even in a noble’s court. At such a place, you receive free lodging and food of a modest or comfortable standard (depending on the quality of the establishment), as long as you perform each night. In addition, your performance makes you something of a local figure. When strangers recognize you in a town where you have performed, they typically take a liking to you.
+    </string>
+
+    <string name="folkhero_string">You com e from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere.
+        \n
+        \n<b>Skill Profitiencys:</b>   Animal Handling, Survival
+        \n<b>Tool Profitiencys:</b>  One type of artisan’s tools, vehicles (land)
+        \n<b>Equipment:</b>    A set of artisan’s tools (one of your choice), a shovel, an iron pot, a set of com m on clothes, and a belt pouch containing 10 gp
+        \n
+        \n<b><p align="center">FEATURE: Rustic Hospitality</p></b>
+        \nSince you com e from the ranks of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.
+    </string>
+
+    <string name="guildartisian_string">You are a member of an artisan’s guild, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your guild, until you became a master in your own righ
+        \n
+        \n<b>Skill Profitiencys:</b>   Insight, Persuasion
+        \n<b>Tool Profitiencys:</b>  One type of artisan’s tools
+        \n<b>Languages:</b> One of your choice.
+        \n<b>Equipment:</b>    A set of artisan’s tools (one of your choice), a letter of introduction from your guild, a set of traveler’s clothes, and a belt pouch containing 15 gp
+        \n
+        \n<b><p align="center">FEATURE: Guild Membership</p></b>
+        \nAs an established and respected member of a guild, you can rely on certain benefits that membership provides. Your fellow guild members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a guildhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.
+        \nGuilds often wield tremendous political power. If you are accused of a crime, your guild will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the guild, if you are a member in good standing. Such connections might require the donation of money or magic items to the guild’s coffers.
+        \nYou must pay dues of 5 gp per month to the guild. If you miss payments, you must make up back dues to remain in the guild’s good graces.
+    </string>
+
+    <string name="hermit_string">You lived in seclusion—either in a sheltered community such as a monastery, or entirely alone—for a formative part of your life. In your time apart from the clamor of society, you found quiet, solitude, and perhaps som e of the answers you were looking for.
+        \n
+        \n<b>Skill Profitiencys:</b>   Medicine, Religion
+        \n<b>Tool Profitiencys:</b>  Herbalism kit
+        \n<b>Languages:</b> One of your choice.
+        \n<b>Equipment:</b>   One of your choice Equipment: A scroll case stuffed full of notes from your studies or prayers, a winter blanket, a set of common clothes, an herbalism kit, and 5 gp
+        \n
+        \n<b><p align="center">FEATURE: Discovery</p></b>
+        \nThe quiet seclusion of your extended hermitage gave you access to a unique and powerful discovery. The exact nature of this revelation depends on the nature of your seclusion. It might be a great truth about the cosmos, the deities, the powerful beings of the outer planes, or the forces of nature. It could be a site that no one else has ever seen. You might have uncovered a fact that has long been forgotten, or unearthed som e relic of the past that could rewrite history. It might be information that would be damaging to the people who or consigned you to exile, and hence the reason for your return to society.
+        \nWork with your DM to determine the details of your discovery and its impact on the campaign
+    </string>
+
+
+    <string name="noble_string">You understand wealth, power, and privilege. You carry a noble title, and your family owns land, collects taxes, and wields significant political influence. You might be a pampered aristocrat unfamiliar with work or discomfort, a former merchant just elevated to the nobility, or a disinherited scoundrel with a disproportionate sense of entitlement. Or you could be an honest, hard-working landowner who cares deeply about the people who live and work on your land, keenly aware of your responsibility to them.
+        \nWork with your DM to com e up with an appropriate title and determine how much authority that title carries. A noble title doesn’t stand on its own—it’s connected to an entire family, and whatever title you hold, you will pass it down to your own children. Not only do you need to determine your noble title, but you should also work with the DM to describe your family and their influence on you.
+        \nIs your family old and established, or was your title only recently bestowed? How much influence do they wield, and over what area? What kind of reputationdoes your family have among the other aristocrats of the region? How do the common people regard them?
+        \ngion? How do the common people regard them? What’s your position in the family? Are you the heir to the head of the family? Have you already inherited the title? How do you feel about that responsibility? Or are you so far down the line of inheritance that no one cares what you do, as long as you don’t embarrass the family? How does the head of your family feel about your adventuring career? Are you in your family’s good graces, or shunned by the rest of your family?
+        \nDoes your family have a coat of arms? An insignia you might wear on a signet ring? Particular colors you wear all the time? An animal you regard as a symbol of your line or even a spiritual member of the family?
+        \nThese details help establish your family and your title as features of the world of the campaign.
+        \n
+        \n<b>Skill Profitiencys:</b>    History, Persuasion
+        \n<b>Tool Profitiencys:</b>   One type of gaming set
+        \n<b>Languages:</b> One of your choice.
+        \n<b>Equipment:</b>   A set of fine clothes, a signet ring, a scroll of pedigree, and a purse containing 25 gp
+        \n
+        \n<b><p align="center">FEATURE: Position of Privilege</p></b>
+        \nThanks to your noble birth, people are inclined to think the best of you. You are welcom e in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to.
+    </string>
+
+
+    <string name="outlander_string">You grew up in the wilds, far from civilization and the comforts of town and technology. You’ve witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don’t know the specific features of the terrain, you know the ways of the wild.
+        \n
+        \n<b>Skill Profitiencys:</b>   Athletics, Survival
+        \n<b>Tool Profitiencys:</b>  One type of musical instrument
+        \n<b>Languages:</b> One of your choice.
+        \n<b>Equipment:</b>    A staff, a hunting trap, a trophy from an animal you killed, a set of traveler’s clothes, and a belt pouch containing 10 gp
+        \n
+        \n<b><p align="center">FEATURE: Wanderer</p></b>
+        \nYou have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth.
+    </string>
+
+    <string name="sage_string">You spent years learning the lore of the multiverse. You scoured manuscripts, studied scrolls, and listened to the greatest experts on the subjects that interest you. Your efforts have made you a master in your fields of study.
+        \n
+        \n<b>Skill Profitiencys:</b>   Arcana, History
+        \n<b>Languages:</b> Two of your choice.
+        \n<b>Equipment:</b>   A bottle of black ink, a quill, a small knife, a letter from a dead colleague posing a question you have not yet been able to answer, a set of common clothes, and a belt pouch containing 10 gp
+        \n
+        \n<b><p align="center">FEATURE: Researcher</p></b>
+        \nWhen you attempt to learn or recall a piece of lore, if you do not know that information, you often know where and from whom you can obtain it. Usually, this information com es from a library, scriptorium, university, or a sage or other learned person or creature. Your DM might rule that the knowledge you seek is secreted away in an almost inaccessible place, or that it simply cannot be found. Unearthing the deepest secrets of the multiverse can require an adventure or even a whole campaign.
+    </string>
+
+    <string name="sailor_string">You sailed on a seagoing vessel for years. In that time, you faced down mighty storms, monsters of the deep, and those who wanted to sink your craft to the bottomless depths. Your first love is the distant line of the horizon, but the time has come to try your hand at something new.
+        \nDiscuss the nature of the ship you previously sailed with your Dungeon Master. Was it a merchant ship, a naval vessel, a ship of discovery, or a pirate ship? How famous (or infamous) is it? Is it widely traveled? Is it still sailing, or is it missing and presumed lost with all hands?
+        \nWhat were your duties on board—boatswain, captain, navigator, cook, or some other position? W ho were the captain and first mate? Did you leave your ship on good terms with your fellows, or on the run?
+        \n
+        \n<b>Skill Profitiencys:</b>   Athletics, Perception
+        \n<b>Tool Profitiencys:</b> Navigator’s tools, vehicles (water)
+        \n<b>Equipment:</b>   A belaying pin (club), 50 feet of silk rope, a lucky charm such as a rabbit foot or a small stone with a hole in the center (or you may roll for a random trinket on the Trinkets table in chapter 5), a set of common clothes, and a belt pouch containing 10 gp
+        \n
+        \n<b><p align="center">FEATURE: Ships Passage</p></b>
+        \nWhen you need to, you can secure free passage on a sailing ship for yourself and your adventuring companions. You might sail on the ship you served on, or another ship you have good relations with (perhaps one captained by a former crewmate). Because you’re calling in a favor, you can’t be certain of a schedule or route that will meet your every need. Your Dungeon Master will determine how long it takes to get where you need to go. In return for your free passage, you and your companions are expected to assist the crew during the voyage.
+    </string>
+
+    <string name="soldier_string">War has been your life for as long as you care to remember. You trained as a youth, studied the use of weapons and armor, learned basic survival techniques, including how to stay alive on the battlefield. You might have been part of a standing national army or a mercenary company, or perhaps a member of a local militia who rose to prominence during a recent war.
+        \nmilitia who rose to prominence during a recent war. When you choose this background, work with your DM to determine which military organization you were a part of, how far through its ranks you progressed, and what kind of experiences you had during your military career. Was it a standing army, a town guard, or a village militia? Or it might have been a noble’s or merchant’s private army, or a mercenary company.
+        \n
+        \n<b>Skill Profitiencys:</b>   Athletics, Intimidation
+        \n<b>Tool Profitiencys:</b> One type of gaming set, vehicles (land)
+        \n<b>Equipment:</b>    An insignia of rank, a trophy taken from a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of common clothes, and a belt pouch containing 10 gp
+        \n
+        \n<b><p align="center">FEATURE: Military Rank</p></b>
+        \nYou have a military rank from your career as a soldier. Soldiers loyal to your former military organization still recognize your authority and influence, and they defer to you if they are of a lower rank. You can invoke your rank to exert influence over other soldiers and requisition simple equipment or horses for temporary use. You can also usually gain access to friendly military encampments and fortresses where your rank is recognized.
+    </string>
+
+
+    <string-array name="weapon_types">
+        <item>Clubb</item>
+        <item>Dagger</item>
+        <item>Great Club</item>
+        <item>Handaxe</item>
+        <item>Javelin</item>
+        <item>Light Hammer</item>
+        <item>Mace</item>
+        <item>Quarterstaff</item>
+        <item>Sickle</item>
+        <item>Spear</item>
+        <item>Light Crossbow</item>
+        <item>Dart</item>
+        <item>Shortbow</item>
+        <item>Sling</item>
+        <item>Batleaxe</item>
+        <item>Flail</item>
+        <item>Glaive</item>
+        <item>Greatsword</item>
+        <item>Halberd</item>
+        <item>Lance</item>
+        <item>Longsword</item>
+        <item>Maul</item>
+        <item>Morningstar</item>
+        <item>Pike</item>
+        <item>Rapier</item>
+        <item>Scimitar</item>
+        <item>Shortsword</item>
+        <item>Trident</item>
+        <item>Warpick</item>
+        <item>Warhammer</item>
+        <item>Whip</item>
+        <item>Blowgun</item>
+        <item>Hand Crossbow</item>
+        <item>Heavy Crossbow</item>
+        <item>Longbow</item>
+        <item>Net</item>
+    </string-array>
+
+    <string-array name="d1values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="d2values">
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>12</item>
+        <item>20</item>
+    </string-array>
+
+    <string-array name="StatsValues1">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+
+    <string-array name="StatsValues2">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+
+    <string-array name="StatsValues3">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+
+    <string-array name="StatsValues4">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+
+    <string-array name="StatsValues5">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+
+    <string-array name="StatsValues6">
+        <item>STR</item>
+        <item>DEX</item>
+        <item>CON</item>
+        <item>INT</item>
+        <item>WIS</item>
+        <item>CHA</item>
+    </string-array>
+    <string name="title_activity_test_tab">testTab</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="hill_dwarf_string"><b>ABILITY SCORE INCREASE</b>: Your Wisdom score increases by 1.
+        \n\n<b>DWARVEN TOUGHNESS:</b> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.
+
+    </string>
+
+
+    <string name="montain_dwarf_string"><b>ABILITY SCORE INCREASE</b>: Your Strength score increases by 2.
+        \n\n<b>DWARVEN ARMOR TRAINING:</b> You have proficiency with light and medium armor.
+    </string>
+
+
+    <string name="MOUNTAIN_dwarf_string"><b>ABILITY SCORE INCREASE</b>: Your Strength score increases by 2.
+        \n\n<b>DWARVEN ARMOR TRAINING:</b> You have proficiency with light and medium armor.
+    </string>
+
+
+    <string name="high_elf_description">\t As a high elf, you have a keen mind and a mastery of
+    at least the basics of magic. In many of the worlds
+    of DnD, there are two kinds of high elves. One type
+    (which includes the gray elves and valley elves of
+    Greyhawk, the Silvanesti of Dragon lance, and the
+    sun elves of the Forgotten Realms) is haughty and
+    reclusive, believing them selves to be superior to
+    non-elves and even other elves. The other type
+    (including the high elves o f Greyhawk. the
+    Qualinesti of Dragon lance, and the moon elves
+    of the Forgotten Realms) are more common
+    and more friendly, and often encountered
+    among humans and other races.
+    \n\tThe sun elves of Faerun (also called gold
+    elves or sunrise elves) have bronze skin and
+    hair of copper, black, or golden blond. Their
+    eyes are golden, silver, or black. Moon elves (also
+    called silver elves or gray elves) are much paler,
+    with alabaster skin sometim es tinged with blue.
+    They often have hair of silver-white, black, or blue,
+    but various shades of blond, brown, and red are
+    not uncommon . Their eyes are blue or green and
+    flecked with gold.
+    </string>
+
+
+    <string name="high_elf_string"><b>ABILITY SCORE INCREASE</b>: Your Intelligence score increases by 1.
+        \n\n<b>ELF WEAPON TRAINING:</b> You have proficiency with the longsword, shortsword, shortbow , and longbow .
+        \n\n<b>CANTRIP: </b>You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.
+        \n\n<b>EXTRA LANGUAGE: </b>
+Extra Language. You can speak, read, and write one
+extra language of your choice.
+    </string>
+
+
+    <string name="wood_elf_description">\t As a wood elf, you have keen senses and intuition, and
+your fleet feet carry you quickly and stealthily through
+your native forests. This category includes the wild
+elves (grugach) of Greyhawk and the Kagonesti of
+Dragon lance, as well as the races called wood elves in
+Greyhawk and the Forgotten Realms. In Faerun, wood
+elves (also called wild elves, green elves, or forest elves)
+are reclusive and distrusting of non-elves.
+        \t Wood elves’ skin tends to be copperish in hue,
+sometimes with traces of green. Their hair tends toward
+brown s and blacks, but it is occasion ally blond or
+copper-colored . Their eyes are green, brown, or hazel.
+    </string>
+
+
+    <string name="wood_elf_string"><b>ABILITY SCORE INCREASE</b>: Your Wisdom score increases by 1.
+        \n\n<b>ELF WEAPON TRAINING:</b> You have proficiency with the longsword, shortsword, shortbow , and longbow .
+        \n\n<b>FLEET OF FOOT: </b>Your base walking speed in creases to 35 feet.
+        \n\n<b>MASK OF THE WILD: </b>Mask of the Wild. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow , mist, and other natural phenomena.
+    </string>
+
+
+    <string name="drow_elf_description">\t Descended from an earlier subrace of dark-skinned
+        elves, the drow w ere banished from the surface world
+            for following the goddess Lolth down the path to
+            evil and corruption. Now they have built their own
+            civilization in the depths of the Underdark, patterned
+            after the Way of Lolth. Also called dark elves, thedrow
+            have black skin that resembles polished obsidian and
+            stark white or pale yellow hair. They commonly have
+            very pale eyes (so pale as to be mistaken for white) in
+            shades of lilac, silver, pink, red, and blue. They tend to
+            be smaller and thinner than most elves.
+            \tDrow adventurers are rare, and the race does not exist
+            in all worlds. Check with your Dungeon Master to see
+            if you can play a drow character.
+    </string>
+
+    <string name="drow_elf_string"><b>ABILITY SCORE INCREASE</b>: Your Charisma score increases by 1.
+        \n\n<b>DROW WEAPON TRAINING: </b>Drow Weapon Training. You have proficiency with rapiers, shortswords, and hand crossbows.
+        \n\n<b>SUPERIOR DARKVISION: </b>Your darkvision has a radius of 120 feet.
+        \n\n<b>DROW MAGIC: </b>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day. When you reach 5th level, you can also cast the darkness spell once per day. Charisma is your spellcasting ability for these spells.
+    </string>
+
+
+
+
+
+
+
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+
+    <string name="druid_string">
+        \n\n<b>PRIMARY STATS(WISDOM/CONSTITUTION)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d8 na lvl
+        \n<b>HP at 1st lvl:</b> 8 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d8(min 5) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor: </b>Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)
+        \n<b>Weapons: </b>Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears
+        \n<b>Tools:</b>  Herbalism kit
+        \n<b>Saving Throws: </b>Wisdom, Intelligence
+        \n<b>Skills:</b> Choose two from: Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival
+
+        \n\n<b>EQUIPMENT:</b>
+        \n-any simple weapon
+        \n- (a) a scimitar or (b) any simple melee weapon
+        \n- Leather armor, an explorerss pack, and a druidic focus
+    </string>
+
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+    //*//*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*
+
+
+
+    <string name="fighter_String">
+        \n\n<b>PRIMARY STATS(STR/DEX/CON/INT)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d10 na lvl
+        \n<b>HP at 1st lvl:</b> 10 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d10(min 6) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> All Armors, Shield
+        \n<b>Weapons:</b> Simple Weapons, Martial Weapons
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b> Strenght, Constitution
+        \n<b>Skills:</b> Choose 2: Acrobamtics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
+        \n\n<b>EQUIPMENT:</b>
+        \n-Chain Mail lub Leather
+        \n-Longbow (20 Arrows)
+        \n-Martial Weapon and Shield or 2x Martial Weapon
+        \n-Light Crossbow(20 bolts) or 2x Handaxe
+        \n-Dungeoners Pack or  Explorers Pack"
+    </string>
+
+    <string name="monk_string">
+        \n\n<b>PRIMARY STATS(DEX/WIS)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d8 na lvl
+        \n<b>HP at 1st lvl:</b> 8 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d8(min 5) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor: </b>--
+        \n<b>Weapons:</b> Simple Weapons, Shortswords
+        \n<b>Tools:</b> Choose one of Artisians Tools or one Instrument
+        \n<b>Saving Throws:</b> Strenght, Dexterity
+        \n<b>Skills:</b> Choose two: Acrobamtics, Athletics, History, Religion, Insight, Stealth
+        \n\n<b>EQUIPMENT:</b>
+        \n-Shortsword or Any Simple Weapon
+        \n-Dungeoners Pack or explorers Pack
+        \n-10 Darts"
+    </string>
+
+    <string name="paladin_string">
+
+        \n\n<b>PRIMARY STATS(STR/CHA)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d10 na lvl
+        \n<b>HP at 1st lvl:</b> 10 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d10(min 6) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor: </b>All Armors, Shield
+        \n<b>Weapons:</b> Simple Weapons, Martial Weapons
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b> Wisdom, Charisma
+        \n<b>Skills: </b>Choose two from Athletics, Insight, Intimidation, Medicine, Persuasion, and Religion
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) a martial weapon and a shield or (b) two martial weapons
+        \n-(a) five javelins or (b) any simple melee weapon
+        \n-(a) a priests pack or (b) an explorers pack
+        \n-Chain mail and a holy symbol
+    </string>
+
+    <string name="ranger_string">
+
+        \n\n<b>PRIMARY STATS(DEX/WIS)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d10 na lvl
+        \n<b>HP at 1st level:</b> 10 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d10(min 6) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> Light armor, medium armor, shields
+        \n<b>Weapons:</b> Simple weapons, martial weapons
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b> Strength, Dexterity
+        \n<b>Skills:</b> Choose three from Animal Handling, Athletics, Insight, Investigation, Nature, Perception, Stealth, and Survival
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) scale mail or (b) leather armor
+        \n-(a) two shortswords or (b) two simple melee weapons
+        \n-(a) a dungeoneers pack or (b) an explorers pack
+        \n-A longbow and a quiver of 20 arrows
+    </string>
+
+    <string name="rogue_string">
+
+        \n\n<b>PRIMARY STATS(DEX/INT/CHA)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice: </b>1d8 na lvl
+        \n<b>HP at 1st lvl:</b> 8 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d8(min 5) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> Light armor
+        \n<b>Weapons:</b> Simple weapons, hand crossbows, longswords, rapiers, shortswords
+        \n<b>Tools:</b> Thieves tools
+        \n<b>Saving Throws:</b> Dexterity. Intelligence
+        \n<b>Skills:</b> Choose four from Acrobatics, Athletics, Deception. Insight, Intimidation, Investigation, Perception, Performance. Persuasion, Sleight of Hand, and Stealth
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) a rapier or (b) a shortsword
+        \n-(a) a shortbow and quiver of 20 arrows  or (b) a shortsword
+        \n-(a) a burglars pack, (b) a dungeoneers pack, or (c) an explorers pack
+        \n-Leather armor, two daggers, and thieves’ tools
+    </string>
+
+
+    <string name="sorcerer_string">
+        \n\n<b>PRIMARY STATS(CHA/CON)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d6 na lvl
+        \n<b>HP at 1st level:</b> 6 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d6(min 4) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> --
+        \n<b>Weapons:</b> Daggers, darts, slings, quarterstaffs, light crossbows
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b> Constitution, Charisma
+        \n<b>Skills:</b> Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) a light crossbow and 20 bolts or (b) any simple weapon
+        \n-(a) a component pouch or (b) an arcane focus
+        \n-(a) a dungeoneers pack or (b) an explorers pack
+        \n-Two daggers
+    </string>
+
+    <string name="wizard_string">
+        \n\n<b>PRIMARY STATS(INT/CON/DEX/CHA)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice:</b> 1d6 na lvl
+        \n<b>HP at 1st lvl:</b> 6 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d6(min 4) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> --
+        \n<b>Weapons:</b> Daggers, darts, slings, quarterstaffs, light crossbows
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b> Intelligence, Wisdom
+        \n<b>Skills:</b>  Choose two from Arcana, History, Insight, Investigation, Medicine, and Religion
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) a quarterstaff or (b) a dagger
+        \n-(a) a component pouch or (b) an arcane focus
+        \n-(a) a scholars pack or (b) an explorers pack
+        \n- A spellbook
+    </string>
+
+    <string name="warlock_String">
+        \n\n<b>PRIMARY STATS(CHA/CON)</b>
+        \n<b>HIT POINTS:</b>
+        \n<b>Hit Dice: </b>1d8 na lvl
+        \n<b>HP at 1st level: </b>8 + Constitution Modifier
+        \n<b>HP on higher levels: </b>1d8(min 5) + Constitution Modifier
+        \n\n<b>PROFITIENCYS:</b>
+        \n<b>Armor:</b> Light armor
+        \n<b>Weapons: </b>Simple weapons
+        \n<b>Tools:</b> --
+        \n<b>Saving Throws:</b>  Wisdom, Charisma
+        \n<b>Skills:</b>  Choose two skills from Arcana, Deception, History, Intimidation, Investigation, Nature, and Religion
+        \n\n<b>EQUIPMENT:</b>
+        \n-(a) a light crossbow and 20 bolts or (b) any simple weapon
+        \n-(a) a component pouch or (b) an arcane focus
+        \n-(a) a scholars pack or (b) a dungeoneers pack
+        \n-Leather armor, any simple weapon, and two daggers
+    </string>
+
+
+    <string name="lightfoot_string"><b>ABILITY SCORE INCREASE</b>: Your Charisma score increases by 1.
+        \n\n<b>NATURALLY STEALTHY</b> You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.
+    </string>
+
+    <string name="stout_string"><b>ABILITY SCORE INCREASE</b>: Your Constitution score increases by 1.
+        \n\n<b>Stout Resilience:</b> You have advantage on saving throws against poison , and you have resistance against poison damage.
+    </string>
+
+    <string name="forest_gnome_string">
+        <b>Ability Score Increase:</b>> Your Dexterity score increases by 1.
+        \n\n<b>Natural Illusionist:</b> You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.
+        \n\n<b>Speak with Small Beasts:</b> Through sounds and gestures, you can communicate simple ideas w ith Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, wood peckers, and other creatures as beloved pets.
+    </string>
+
+    <string name="rock_gnome_string">
+        <b>Ability Score Increase:</b>> Your Constitution score increases by 1.
+        \n\n<b>Artificer’s Lore:</b> Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.
+        \n\n<b>Tinker</b> You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clock work device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time. When you create a device, choose one of the following options:
+        \n\t\t<b>-Clockwork Toy:</b> This toy is a clock work animal, monster, or person , such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.
+        \n\t\t<b>-Fire Starter:</b> The device produces a miniature flame, which you can use to light a candle, torch, or campfire. U sing the device requires your action.
+        \n\t\t<b>-Music Box:</b>> When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the songs end or when it is closed.
+
+    </string>
+
+    <string name="character_creation_guide">
+     If you are willing to start your adventure, you will need your avatar.
+     \n\nThis application will do its best to navigate you through whole process of creating a DnD character. Try to read carefully all information about classes and races available in 5th edition of Dungeons and Dragons.
+     \n\nBefore you dive into step 1, think about the
+    kind of adventurer you want to play. You might be a
+    courageous fighter, a skulking rogue, a fervent cleric, or
+    a flamboyant wizard. Or you might be more interested
+    in an unconventional character, such as a brawny rogue
+    who likes hand-to-hand combat, or a sharpshooter who
+    picks off en emies from afar. Do you like fantasy fiction
+    featuring dwarves or elves? Try building a character of
+    one of those races. Do you want your character to be the
+    toughest adventurer at the table? Consider a class like
+    barbarian or paladin. If you don’t know where else to
+    begin, take a look at the illustrations to see
+    what catch es your interest.
+ </string>
+
+    <string name="choose_your_class_string">
+        Class is the primary definition of what your character
+        can do. It’s more than a profession; it’s your character’s
+        calling. Class shapes the way you think about the
+        world and interact with it and your relationship with
+        other people and powers in the multiverse.
+        \n\nA fighter,
+        for example, might view the world in pragmatic terms
+        of strategy and maneuvering, and see herself as just a
+        pawn in a much larger game. A cleric, by contrast, might
+        see himself as a willing servant in a god’s unfolding plan
+        or a conflict brewing among various deities. While the
+        fighter has contacts in a mercenary company or army,
+        the cleric might know a num ber of priests, paladins, and
+        devotees who share his faith.
+    </string>
+
+
+
+
+</resources>

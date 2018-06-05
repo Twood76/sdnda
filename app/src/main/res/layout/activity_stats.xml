@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.StatsActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Stats"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/stats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Abilities"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/abilities"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Weapons"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/weapons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="...>"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/menuLayout"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:id="@+id/topLabel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="60dp"
+                android:text="STATS: "
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/strLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/topLabel1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="STR: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/strValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/strLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dexLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/strLabel"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="DEX: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/dexValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/dexLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/conLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dexLabel"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="CON: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/conValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/conLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/intLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/conLabel"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="INT: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/intValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/intLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wisLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intLabel"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="WIS: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/wisValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/wisLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wisLabel"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="CHA: "
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/chaValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/chaLabel"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/strLabel"
+                android:layout_toRightOf="@+id/strLabel"
+                android:background="@android:color/white"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/topLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="60dp"
+                android:layout_toRightOf="@id/topLabel1"
+                android:text="MOD: "
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modStrValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/strLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modDexValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/dexLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modConValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/conLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modIntValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/intLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modWisValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/wisLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/modChaValue"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/chaLabel"
+                android:layout_marginLeft="90dp"
+                android:layout_toEndOf="@+id/strValue"
+                android:background="@android:color/white"
+                android:text="+0"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@android:drawable/ic_menu_edit"
+                tools:layout_editor_absoluteX="358dp"
+                tools:layout_editor_absoluteY="523dp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

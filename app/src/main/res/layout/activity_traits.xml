@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.TraitsActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="armors"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Spells"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Traits"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="eq"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/menuLayout">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/menuLayout"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:id="@+id/textLabel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30sp"
+                android:text="Features:"/>
+
+            <EditText
+                android:id="@+id/featuresBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel1"
+                android:layout_marginTop="5sp"
+                android:text="Features:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/featuresBox"
+                android:layout_marginTop="30sp"
+                android:text="Armor Profitiencys:"/>
+
+            <EditText
+                android:id="@+id/armorProfitiencysBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel2"
+                android:layout_marginTop="5sp"
+                android:text="Features:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/armorProfitiencysBox"
+                android:layout_marginTop="30sp"
+                android:text="Weapon Profitiencys:"/>
+
+            <EditText
+                android:id="@+id/weaponProfitiencysBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel3"
+                android:layout_marginTop="5sp"
+                android:text="Weapon Profitencys::\n"/>
+
+            <TextView
+                android:id="@+id/textLabel4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/weaponProfitiencysBox"
+                android:layout_marginTop="30sp"
+                android:text="Tools Profitiencys:"/>
+
+            <EditText
+                android:id="@+id/toolProfitiencysBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel4"
+                android:layout_marginTop="5sp"
+                android:text="Tool Profitiencys:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/toolProfitiencysBox"
+                android:layout_marginTop="30sp"
+                android:text="Languages:"/>
+
+            <EditText
+                android:id="@+id/languagesBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel5"
+                android:layout_marginTop="5sp"
+                android:text="Tool Profitiencys:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/languagesBox"
+                android:layout_marginTop="30sp"
+                android:text="Languages:"/>
+
+            <EditText
+                android:id="@+id/personalityTraitsBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel6"
+                android:layout_marginTop="5sp"
+                android:text="Personality Traits:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/personalityTraitsBox"
+                android:layout_marginTop="30sp"
+                android:text="Ideals:"/>
+
+            <EditText
+                android:id="@+id/idealsBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel7"
+                android:layout_marginTop="5sp"
+                android:text="Ideals:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/idealsBox"
+                android:layout_marginTop="30sp"
+                android:text="Bonds:"/>
+
+            <EditText
+                android:id="@+id/bondsBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel8"
+                android:layout_marginTop="5sp"
+                android:text="Bonds:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/bondsBox"
+                android:layout_marginTop="30sp"
+                android:text="Flaws:"/>
+
+            <EditText
+                android:id="@+id/flawsBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel9"
+                android:layout_marginTop="5sp"
+                android:text="Flaws:\n"/>
+
+            <TextView
+                android:id="@+id/textLabel10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/flawsBox"
+                android:layout_marginTop="30sp"
+                android:text="Notes:"/>
+
+            <EditText
+                android:id="@+id/notesBox"
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@android:color/white"
+                android:layout_below="@+id/textLabel10"
+                android:layout_marginTop="5sp"
+                android:text="Notes:\n"/>
+
+
+
+        </RelativeLayout>
+    </ScrollView>>
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

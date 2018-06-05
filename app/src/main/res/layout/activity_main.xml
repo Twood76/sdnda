@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.MainActivity"
+    android:background="@android:color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/createCharacter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="80dp"
+            android:text="Create Character"
+            android:onClick="onCreateCharacterSheetClick"/>
+
+
+        <Button
+            android:id="@+id/characterSheet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="30dp"
+            android:text="Character Sheet"
+            android:layout_below="@id/createCharacter"
+            android:onClick="onCharacterSheetClick"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SailorActivity">
+
+        <RelativeLayout
+            android:id="@+id/myLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+
+            <LinearLayout
+                android:id="@+id/menuLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:text="Outlander"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:text=""
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/armors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:text="Sage"
+                    android:textSize="15sp" />
+                <Button
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:text=""
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/spells"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_red_dark"
+                    android:text="Sailor"
+                    android:textSize="15sp" />
+                <Button
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:text=""
+                    android:textSize="15sp" />
+                <Button
+                    android:id="@+id/traits"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:text="Soldier"
+                    android:textSize="15sp" />
+                <Button
+                    android:layout_width="1sp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/black"
+                    android:text=""
+                    android:textSize="15sp" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/darker_gray"
+                    android:text="..."
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ScrollView
+                android:id="@+id/scrollId"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/menuLayout">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/menuLayout"
+                    android:background="@android:color/holo_red_dark">
+
+                    <TextView
+                        android:id="@+id/titleLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20sp"
+                        android:text="SAILOR:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/BgDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/titleLabel"
+                        android:text="@string/sailor_string"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/PersonalityTraitLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/BgDescription"
+                        android:layout_marginTop="10sp"
+                        android:text="Personality Trait:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/persTrait1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/PersonalityTraitLabel"
+                        android:layout_marginTop="10sp"
+                        android:text="   My friends know they can rely on me, no matter what."/>
+
+                    <RadioButton
+                        android:id="@+id/persTrait2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait1"
+                        android:layout_marginTop="10sp"
+                        android:text="   I work hard so that I can play hard when the work is done. "/>
+
+                    <RadioButton
+                        android:id="@+id/persTrait3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait2"
+                        android:layout_marginTop="10sp"
+                        android:text="   I enjoy sailing into new ports and making new friends over a flagon of ale. "/>
+
+                    <RadioButton
+                        android:id="@+id/persTrait4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait3"
+                        android:layout_marginTop="10sp"
+                        android:text="  I stretch the truth for the sake of a good story. "/>
+
+
+                    <RadioButton
+                        android:id="@+id/persTrait5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait4"
+                        android:layout_marginTop="10sp"
+                        android:text="    To me, a tavern brawl is a nice way to get to know a new city."/>
+                    <RadioButton
+                        android:id="@+id/persTrait6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait5"
+                        android:layout_marginTop="10sp"
+                        android:text="  I never pass up a friendly wager."/>
+
+                    <RadioButton
+                        android:id="@+id/persTrait7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait6"
+                        android:layout_marginTop="10sp"
+                        android:text="   My language is as foul as an otyugh nes"/>
+
+                    <RadioButton
+                        android:id="@+id/persTrait8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/persTrait7"
+                        android:layout_marginTop="10sp"
+                        android:text="   I like a job well done, especially if I can convince someone else to do it."/>
+
+
+                    <TextView
+                        android:id="@+id/bondLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:text="Bond:"
+                        android:layout_below="@+id/persTrait8"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black" />
+
+                    <RadioButton
+                        android:id="@+id/bond1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bondLabel"
+                        android:layout_marginTop="10sp"
+                        android:text="   I’m loyal to my captain first, everything else second. "/>
+
+
+                    <RadioButton
+                        android:id="@+id/bond2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bond1"
+                        android:layout_marginTop="10sp"
+                        android:text="  The ship is most important—crewmates and captains come and go. "/>
+
+                    <RadioButton
+                        android:id="@+id/bond3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bond2"
+                        android:layout_marginTop="10sp"
+                        android:text="  I’ll always remember my first ship. "/>
+
+
+                    <RadioButton
+                        android:id="@+id/bond4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bond3"
+                        android:layout_marginTop="10sp"
+                        android:text="    In a harbor town, I have a paramour whose eyes nearly stole me from the sea. "/>
+
+                    <RadioButton
+                        android:id="@+id/bond5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bond4"
+                        android:layout_marginTop="10sp"
+                        android:text="  I was cheated out of my fair share of the profits, and  I want to get my due. "/>
+                    <RadioButton
+                        android:id="@+id/bond6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/bond5"
+                        android:layout_marginTop="10sp"
+                        android:text=" Ruthless pirates murdered my captain and crewmates, plundered our ship, and left me to die. Vengeance will be mine."/>
+                    <TextView
+                        android:id="@+id/IdealsLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bond6"
+                        android:layout_marginTop="20sp"
+                        android:text="Ideal:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/ideal1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/IdealsLabel"
+                        android:layout_marginTop="10sp"
+                        android:text="    The thing that keeps a ship together is mutual respect between captain and crew. (Good) "/>
+
+                    <RadioButton
+                        android:id="@+id/ideal2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ideal1"
+                        android:layout_marginTop="10sp"
+                        android:text="    We all do the work, so we all share in the rewards. (Lawful) "/>
+
+                    <RadioButton
+                        android:id="@+id/ideal3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ideal2"
+                        android:layout_marginTop="10sp"
+                        android:text="   The sea is freedom—the freedom to go anywhere and do anything. (Chaotic) "/>
+
+                    <RadioButton
+                        android:id="@+id/ideal4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ideal3"
+                        android:layout_marginTop="10sp"
+                        android:text="   I’m a predator, and the other ships on the sea are my prey. (Evil) "/>
+
+                    <RadioButton
+                        android:id="@+id/ideal5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ideal4"
+                        android:layout_marginTop="10sp"
+                        android:text="    I’m committed to my crewmates, not to ideals. (Neutral) "/>
+
+                    <RadioButton
+                        android:id="@+id/ideal6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ideal5"
+                        android:layout_marginTop="10sp"
+                        android:text="    Someday I’ll own my own ship and chart my own destiny. (Any)"/>
+
+                    <TextView
+                        android:id="@+id/FlawsLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ideal6"
+                        android:layout_marginTop="20sp"
+                        android:text="Flaw:"
+                        android:textColor="@android:color/black"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/flaw1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10sp"
+                        android:layout_below="@id/FlawsLabel"
+                        android:text=" I follow orders, even if I think they’re wrong."/>
+
+                    <RadioButton
+                        android:id="@+id/flaw2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flaw1"
+                        android:layout_marginTop="10sp"
+                        android:text="   I’ll say anything to avoid having to do extra work."/>
+
+                    <RadioButton
+                        android:id="@+id/flaw3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flaw2"
+                        android:layout_marginTop="10sp"
+                        android:text="    Once someone questions my courage, I never back down no matter how dangerous the situation. "/>
+
+
+                    <RadioButton
+                        android:id="@+id/flaw4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flaw3"
+                        android:layout_marginTop="10sp"
+                        android:text="   Once I start drinking, it’s hard for me to stop."/>
+
+
+                    <RadioButton
+                        android:id="@+id/flaw5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flaw4"
+                        android:layout_marginTop="10sp"
+                        android:text="   I can’t help but pocket loose coins and other trinkets I come across. "/>
+
+                    <RadioButton
+                        android:id="@+id/flaw6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/flaw5"
+                        android:layout_marginTop="10sp"
+                        android:text=" My pride will probably lead to my destruction."/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Select"
+                        android:layout_below="@id/flaw6"
+                        android:layout_marginTop="25sp"
+                        android:layout_centerHorizontal="true"/>
+
+                </RelativeLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

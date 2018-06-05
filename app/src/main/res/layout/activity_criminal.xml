@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.CriminalActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Acolyte"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Charlatan"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Criminal"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Entertainer"
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="15sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/titleLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="CRIMINAL:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/BgDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/titleLabel"
+                    android:text="@string/criminal_string"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/PersonalityTraitLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BgDescription"
+                    android:layout_marginTop="10sp"
+                    android:text="Personality Trait:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/persTrait1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/PersonalityTraitLabel"
+                    android:layout_marginTop="10sp"
+                    android:text=" I always have a plan for what to do when things go wrong"/>
+
+                <RadioButton
+                    android:id="@+id/persTrait2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait1"
+                    android:layout_marginTop="10sp"
+                    android:text=" I am always calm. No matter what the situation. I never raise my voice or let my emotions control me."/>
+
+                <RadioButton
+                    android:id="@+id/persTrait3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait2"
+                    android:layout_marginTop="10sp"
+                    android:text="The firt thing in a new place is note the location of everything valuable - or where such thing can be hidden."/>
+
+                <RadioButton
+                    android:id="@+id/persTrait4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait3"
+                    android:layout_marginTop="10sp"
+                    android:text="  I would rather make a new friend than a new enemy."/>
+
+                <RadioButton
+                    android:id="@+id/persTrait5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait4"
+                    android:layout_marginTop="10sp"
+                    android:text=" I am incredibly slow to trust. Those who seem the fairest often have the most to hide."/>
+
+                <RadioButton
+                    android:id="@+id/persTrait6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait5"
+                    android:layout_marginTop="10sp"
+                    android:text=" I dont pay attention to the risks in a situation. Never tell me the odds."/>
+
+
+                <RadioButton
+                    android:id="@+id/persTrait7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait6"
+                    android:layout_marginTop="10sp"
+                    android:text=" The best way to get me to do something is to tell me i can't do it"/>
+
+                <RadioButton
+                    android:id="@+id/persTrait8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/persTrait7"
+                    android:layout_marginTop="10sp"
+                    android:text="I blow up at the slightest insult."/>
+
+                <TextView
+                    android:id="@+id/bondLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:text="Bond:"
+                    android:layout_below="@+id/persTrait8"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black" />
+
+                <RadioButton
+                    android:id="@+id/bond1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bondLabel"
+                    android:layout_marginTop="10sp"
+                    android:text="  I’m trying to pay off an old debt I owe to a generous benefactor."/>
+
+                <RadioButton
+                    android:id="@+id/bond2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond1"
+                    android:layout_marginTop="10sp"
+                    android:text=" My ill-gotten gains go to support my family. "/>
+
+                <RadioButton
+                    android:id="@+id/bond3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond2"
+                    android:layout_marginTop="10sp"
+                    android:text="Something important was taken from me, and I aim to steal it back. "/>
+
+                <RadioButton
+                    android:id="@+id/bond4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond3"
+                    android:layout_marginTop="10sp"
+                    android:text="  I’m guilty of a terrible crime. I hope I can redeem myself for it."/>
+
+                <RadioButton
+                    android:id="@+id/bond5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond4"
+                    android:layout_marginTop="10sp"
+                    android:text="A powerful person killed someone I love. Some day soon, I’ll have my revenge."/>
+
+                <RadioButton
+                    android:id="@+id/bond6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bond5"
+                    android:layout_marginTop="10sp"
+                    android:text="  Someone I loved died because of a mistake I made. That will never happen again."/>
+
+
+                <TextView
+                    android:id="@+id/IdealsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bond6"
+                    android:layout_marginTop="20sp"
+                    android:text="Ideal:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/ideal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/IdealsLabel"
+                    android:layout_marginTop="10sp"
+                    android:text="  I don’t steal from others in the trade. (Lawful)"/>
+
+                <RadioButton
+                    android:id="@+id/ideal2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal1"
+                    android:layout_marginTop="10sp"
+                    android:text=" Chains are meant to be broken, as are those who would forge them. (Chaotic)"/>
+
+                <RadioButton
+                    android:id="@+id/ideal3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal2"
+                    android:layout_marginTop="10sp"
+                    android:text=" I steal from the wealthy so that I can help people in need. (Good) "/>
+
+                <RadioButton
+                    android:id="@+id/ideal4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal3"
+                    android:layout_marginTop="10sp"
+                    android:text="  I will do whatever it takes to become wealthy. (Evil)"/>
+
+                <RadioButton
+                    android:id="@+id/ideal5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal4"
+                    android:layout_marginTop="10sp"
+                    android:text="I’m loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care. (Neutral)"/>
+
+                <RadioButton
+                    android:id="@+id/ideal6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ideal5"
+                    android:layout_marginTop="10sp"
+                    android:text="  There’s a spark of good in everyone. (Good)"/>
+
+                <TextView
+                    android:id="@+id/FlawsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ideal6"
+                    android:layout_marginTop="20sp"
+                    android:text="Flaw:"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/flaw1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_below="@id/FlawsLabel"
+                    android:text="  When I see something valuable, I can’t think about anything but how to steal it. "/>
+
+                <RadioButton
+                    android:id="@+id/flaw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw1"
+                    android:layout_marginTop="10sp"
+                    android:text="  When faced with a choice between money and my friends, I usually choose the money."/>
+
+                <RadioButton
+                    android:id="@+id/flaw3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw2"
+                    android:layout_marginTop="10sp"
+                    android:text=" If there’s a plan, I’ll forget it. If I don’t forget it, I’ll ignore it. "/>
+
+
+                <RadioButton
+                    android:id="@+id/flaw4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw3"
+                    android:layout_marginTop="10sp"
+                    android:text="  I have a “tell” that reveals when I'm lying. "/>
+
+                <RadioButton
+                    android:id="@+id/flaw5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw4"
+                    android:layout_marginTop="10sp"
+                    android:text="  I turn tail and run when things look bad."/>
+
+
+                <RadioButton
+                    android:id="@+id/flaw6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/flaw5"
+                    android:layout_marginTop="10sp"
+                    android:text=" An innocent person is in prison for a crime that  I committed. I’m okay with that."/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select"
+                    android:layout_below="@id/flaw6"
+                    android:layout_marginTop="25sp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

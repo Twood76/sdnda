@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SelectLanguagesActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/label1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="Choose Languages:"
+                    android:layout_centerHorizontal="true"
+                    />
+                <CheckBox
+                    android:id="@+id/commonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/label1"
+                    android:text="Common"
+                    android:checked="false"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginLeft="120sp"
+                    android:buttonTint = "#000000"
+                    />
+
+
+                <CheckBox
+                    android:id="@+id/DwarvishButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/commonButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Dwarvish" />
+
+
+                <CheckBox
+                    android:id="@+id/ElvishButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/DwarvishButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Elvish" />
+
+
+                <CheckBox
+                    android:id="@+id/giantButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ElvishButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Giant" />
+
+
+                <CheckBox
+                    android:id="@+id/GnomishButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/giantButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Gnomish" />
+
+
+                <CheckBox
+                    android:id="@+id/goblinButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/GnomishButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Goblin" />
+
+
+                <CheckBox
+                    android:id="@+id/halflingButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/goblinButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Halfling" />
+
+
+                <CheckBox
+                    android:id="@+id/orcButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/halflingButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Orc" />
+
+
+                <CheckBox
+                    android:id="@+id/abbysalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/orcButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Abbysal" />
+
+
+                <CheckBox
+                    android:id="@+id/celestialButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/abbysalButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Celestial" />
+
+
+                <CheckBox
+                    android:id="@+id/draconicButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/celestialButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Draconic" />
+
+
+                <CheckBox
+                    android:id="@+id/deppSpeechButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/draconicButton"
+                    android:layout_marginLeft="120sp"
+                    android:layout_marginTop="7sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Deep Speech" />
+
+
+                <CheckBox
+                    android:id="@+id/InfernalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/deppSpeechButton"
+                    android:layout_alignStart="@+id/deppSpeechButton"
+                    android:layout_below="@+id/deppSpeechButton"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Infernal" />
+
+
+                <CheckBox
+                    android:id="@+id/primordialButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/InfernalButton"
+                    android:layout_alignStart="@+id/InfernalButton"
+                    android:layout_below="@+id/InfernalButton"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Primordial" />
+
+
+
+                <CheckBox
+                    android:id="@+id/sylvanButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/primordialButton"
+                    android:layout_marginTop="7sp"
+                    android:text="Sylvan"
+                    android:checked="false"
+                    android:buttonTint = "#000000"
+                    android:layout_marginLeft="120sp"/>
+
+
+
+                <CheckBox
+                    android:id="@+id/undercommonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sylvanButton"
+                    android:layout_marginTop="7sp"
+                    android:text="Undercommon"
+                    android:checked="false"
+                    android:buttonTint = "#000000"
+                    android:layout_marginLeft="120sp"/>
+
+
+
+
+                <Button
+                    android:id="@+id/chooseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/undercommonButton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="Wybierz"/>
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

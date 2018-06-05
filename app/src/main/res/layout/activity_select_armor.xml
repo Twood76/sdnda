@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SelectArmorActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/chooseArmor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="ChooseArmor:"
+                    android:layout_centerHorizontal="true"
+                    />
+
+
+                <TextView
+                    android:id="@+id/lightArmorLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/chooseArmor"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Light Armor:"/>
+
+                <TextView
+                    android:id="@+id/armorNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lightArmorLabel"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Armor Name:"/>
+
+                <CheckBox
+                    android:id="@+id/paddedArmorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/armorNameLabel"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Padded Armor" />
+
+                <CheckBox
+                    android:id="@+id/leatherArmorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/paddedArmorButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Leather Armor" />
+
+                <CheckBox
+                    android:id="@+id/studdedLeatherArmorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/leatherArmorButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Studded Leather" />
+
+                <TextView
+                    android:id="@+id/mediumArmorLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/studdedLeatherArmorButton"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Medium Armor:"/>
+
+                <TextView
+                    android:id="@+id/mediumArmorNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/mediumArmorLabel"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Armor Name:"/>
+
+                <CheckBox
+                    android:id="@+id/hideArmorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/mediumArmorNameLabel"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Hide Armor" />
+
+                <CheckBox
+                    android:id="@+id/chainSkirtButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/hideArmorButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Chain Skirt" />
+
+                <CheckBox
+                    android:id="@+id/scaleMailButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chainSkirtButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Scale Mail" />
+
+                <CheckBox
+                    android:id="@+id/breastPlateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/scaleMailButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Breast Plate" />
+
+                <CheckBox
+                    android:id="@+id/halfPlateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/breastPlateButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Half Plate" />
+
+                <TextView
+                    android:id="@+id/heavyArmorLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/halfPlateButton"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Heavy Armor:"/>
+
+                <TextView
+                    android:id="@+id/heavyArmorNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/heavyArmorLabel"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Armor Name:"/>
+
+                <CheckBox
+                    android:id="@+id/ringMailButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/heavyArmorNameLabel"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Ring Mail" />
+
+
+                <CheckBox
+                    android:id="@+id/chainMailButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ringMailButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Chain Mail" />
+
+
+                <CheckBox
+                    android:id="@+id/splintButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chainMailButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Splint" />
+
+
+                <CheckBox
+                    android:id="@+id/plateButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/splintButton"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Plate" />
+
+
+                <TextView
+                    android:id="@+id/shieldLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/plateButton"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Shield:"/>
+
+                <TextView
+                    android:id="@+id/shieldNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/shieldLabel"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Shield Name:"/>
+
+                <CheckBox
+                    android:id="@+id/shieldButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shieldNameLabel"
+                    android:layout_alignLeft="@+id/armorNameLabel"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Shield" />
+
+                <CheckBox
+                    android:id="@+id/noArmorButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/shieldButton"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30sp"
+                    android:buttonTint="#000000"
+                    android:checked="false"
+                    android:text="Shield" />
+
+                <TextView
+                android:id="@+id/lightArmorAcLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/armorNameLabel"
+                android:layout_alignBottom="@+id/armorNameLabel"
+                android:textStyle="bold"
+                android:layout_marginLeft="80sp"
+                android:textColor="@android:color/black"
+                android:layout_centerHorizontal="true"
+                android:text="AC:"/>
+
+                <TextView
+                    android:id="@+id/mediumArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/mediumArmorNameLabel"
+                    android:layout_alignBottom="@+id/mediumArmorNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="AC:"/>
+
+                <TextView
+                    android:id="@+id/heavyArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/heavyArmorNameLabel"
+                    android:layout_alignBottom="@+id/heavyArmorNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="AC:"/>
+
+                <TextView
+                    android:id="@+id/shieldAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/shieldNameLabel"
+                    android:layout_alignBottom="@+id/shieldNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="AC:"/>
+
+                <TextView
+                    android:id="@+id/paddedArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/paddedArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="11 + DEX" />
+
+                <TextView
+                    android:id="@+id/leatherArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/leatherArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="11 + DEX" />
+
+                <TextView
+                    android:id="@+id/studdedArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/studdedLeatherArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="11 + DEX" />
+
+                <TextView
+                    android:id="@+id/hideArmorAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/hideArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="12 + DEX (2)" />
+
+                <TextView
+                    android:id="@+id/chanSkirtAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainSkirtButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="13 + DEX (2)" />
+
+                <TextView
+                    android:id="@+id/ScaleMailAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/scaleMailButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="14 + DEX (2)" />
+
+                <TextView
+                    android:id="@+id/breastPlateAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/breastPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="14 + DEX (2)" />
+
+                <TextView
+                    android:id="@+id/halfPlateAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/halfPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="15 + DEX (2)" />
+
+                <TextView
+                    android:id="@+id/ringMailAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ringMailButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="14" />
+
+                <TextView
+                    android:id="@+id/chainMailAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainMailButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="16" />
+
+                <TextView
+                    android:id="@+id/splintAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/splintButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="17" />
+
+                <TextView
+                    android:id="@+id/plateAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/plateButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="18" />
+
+                <TextView
+                    android:id="@+id/hshieldAcLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/shieldButton"
+                    android:layout_alignLeft="@+id/lightArmorAcLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="+2" />
+
+                <TextView
+                    android:id="@+id/lightArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lightArmorAcLabel"
+                    android:layout_alignBottom="@+id/armorNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STR:"/>
+
+                <TextView
+                    android:id="@+id/mediumArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/mediumArmorAcLabel"
+                    android:layout_alignBottom="@+id/mediumArmorNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STR:"/>
+
+                <TextView
+                    android:id="@+id/heavyArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/heavyArmorAcLabel"
+                    android:layout_alignBottom="@+id/heavyArmorNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STR:"/>
+
+                <TextView
+                    android:id="@+id/shieldStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/shieldAcLabel"
+                    android:layout_alignBottom="@+id/shieldNameLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="80sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STR:"/>
+
+                <TextView
+                    android:id="@+id/paddedArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/paddedArmorButton"
+                    android:layout_alignBottom="@+id/leatherArmorButton"
+                    android:layout_alignLeft="@+id/studdedArmorStrLabel"
+                    android:layout_alignStart="@+id/studdedArmorStrLabel"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/leatherArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/leatherArmorButton"
+                    android:layout_alignBottom="@+id/leatherArmorButton"
+                    android:layout_alignLeft="@+id/studdedArmorStrLabel"
+                    android:layout_alignStart="@+id/studdedArmorStrLabel"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/studdedArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/studdedLeatherArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/hideArmorStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/hideArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/chainSkirtStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainSkirtButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/scaleMailStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/scaleMailButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/BreastPlateStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/breastPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/halfPlateStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/halfPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/ringMailStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ringMailButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/chainMailStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainMailButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="13" />
+
+                <TextView
+                    android:id="@+id/splintStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/splintButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="15" />
+
+                <TextView
+                    android:id="@+id/plateStrLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/plateButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="15" />
+
+                <TextView
+                    android:id="@+id/shieldStrLabel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/shieldButton"
+                    android:layout_alignLeft="@+id/lightArmorStrLabel"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/lightArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lightArmorStrLabel"
+                    android:layout_alignBottom="@+id/lightArmorStrLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STLTH:"/>
+
+                <TextView
+                    android:id="@+id/mediumArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/mediumArmorStrLabel"
+                    android:layout_alignBottom="@+id/mediumArmorStrLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STLTH:"/>
+
+                <TextView
+                    android:id="@+id/heavyArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lightArmorStrLabel"
+                    android:layout_alignBottom="@+id/heavyArmorStrLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STLTH:"/>
+
+                <TextView
+                    android:id="@+id/shieldStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/lightArmorStrLabel"
+                    android:layout_alignBottom="@+id/shieldStrLabel"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="16sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="STLTH:"/>
+
+                <TextView
+                    android:id="@+id/paddedArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/paddedArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/leatherArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/leatherArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/studdedArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/studdedLeatherArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/hideArmorStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/hideArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/chainSkirtStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainSkirtButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/scaleMailStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/scaleMailButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/breastPlateStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/breastPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/halfPlateStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/paddedArmorButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/ringMailStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/halfPlateButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/chainMailStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/chainMailButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/splintStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/splintButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/plateStealthLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/plateButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="Dis" />
+
+                <TextView
+                    android:id="@+id/shieldStealthLabel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/shieldButton"
+                    android:layout_alignLeft="@+id/lightArmorStealthLabel"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <Button
+                    android:id="@+id/chooseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/noArmorButton"
+                    android:layout_marginTop="50sp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Wybierz" />
+
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

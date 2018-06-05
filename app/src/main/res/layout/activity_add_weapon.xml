@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.AddWeaponActivity">
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/weapoanNameLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Weapon Name:"/>
+
+                <EditText
+                    android:id="@+id/weaponNameInput"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/weapoanNameLabel"
+                    android:layout_marginTop="5sp"/>
+
+                <TextView
+                    android:id="@+id/WeaponTypeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/weaponNameInput"
+                    android:text="Weapon Type:"/>
+
+                <Spinner
+                    android:id="@+id/weaponTypeSpinner"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/WeaponTypeLabel"
+                    android:layout_marginTop="5sp">
+                </Spinner>
+
+                <TextView
+                    android:id="@+id/weaponDamegeLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/weaponTypeSpinner"
+                    android:text="Weapon Damage:"/>
+
+                <Spinner
+                    android:id="@+id/weaponD1DamageSpinner"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/weaponDamegeLabel"
+                    android:layout_toLeftOf="@id/dlabel"
+                    android:layout_marginTop="5sp">
+                </Spinner>
+
+                <TextView
+                    android:id="@+id/dlabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_below="@+id/weaponDamegeLabel"
+                    android:text="d:"/>
+
+                <Spinner
+                    android:id="@+id/weaponD2DamageSpinner"
+                    android:layout_width="70sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toRightOf="@id/dlabel"
+                    android:layout_below="@+id/weaponDamegeLabel"
+                    android:layout_marginTop="5sp">
+                </Spinner>
+
+                <TextView
+                    android:id="@+id/weaponTaitsLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:layout_below="@id/dlabel"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Weapon Traits:"/>
+
+                <EditText
+                    android:id="@+id/weaponTraitsInput"
+                    android:layout_width="200sp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/weaponTaitsLabel"
+                    android:layout_marginTop="5sp"/>
+
+
+
+            </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

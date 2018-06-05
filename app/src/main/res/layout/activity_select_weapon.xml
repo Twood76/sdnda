@@ -1,0 +1,1406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SelectWeaponActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/label1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:text="Choose Weapons:"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:id="@+id/taskDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="25sp"
+                    android:textColor="@android:color/black"
+                    android:layout_below="@+id/label1"
+                    android:textSize="14sp"
+                    android:text="This place is for task description"
+                    android:layout_centerHorizontal="true"
+                    />
+w
+                <Button
+                    android:id="@+id/chooseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameD5"
+                    android:layout_centerHorizontal="true"
+                    android:text="Wybierz"
+                    android:onClick="selectWeaponButton"/>
+
+
+
+                <TextView
+                    android:id="@+id/label2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/taskDescription"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Simple Melee Weapons:"/>
+
+                <TextView
+                    android:id="@+id/weaponName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/label2"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Weapon Name:"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:layout_below="@+id/weaponName"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="Club"
+                    android:textColorLink="@android:color/black" />
+
+                <CheckBox
+                    android:id="@+id/weaponName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName1"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Dagger"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName2"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Greatclub"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName3"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Handaxe"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName4"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Javelin"
+                    android:enabled="false"/>
+                <CheckBox
+                    android:id="@+id/weaponName6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName5"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Light Hammer"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName6"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Mace"
+                    android:enabled="false"/>
+                <CheckBox
+                    android:id="@+id/weaponName8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName7"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Quarterstaff"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName8"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Sickle"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName9"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Spear"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponName11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponName10"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Unarmed"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/labelDmg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/weaponName"
+                    android:layout_alignBottom="@+id/weaponName"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="DMG:"/>
+
+                <TextView
+                    android:id="@+id/weaponDmg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName1"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName2"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName3"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName4"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmg5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName5"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmg6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName6"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmg7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName7"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmg8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName8"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmg9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName9"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmg10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName10"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmg11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName11"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1 Bld" />
+
+
+                <TextView
+                    android:id="@+id/labelProp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/labelDmg1"
+                    android:layout_alignBottom="@+id/weaponName"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Proporties::"/>
+
+                <TextView
+                    android:id="@+id/weaponProp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName1"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="L" />
+
+                <TextView
+                    android:id="@+id/weaponProp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName2"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F,L,T(20/60)" />
+
+                <TextView
+                    android:id="@+id/weaponProp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName3"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="2H" />
+
+                <TextView
+                    android:id="@+id/weaponProp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName4"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="L,T(20/60)" />
+
+                <TextView
+                    android:id="@+id/weaponProp5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName5"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="T(30/120)" />
+
+                <TextView
+                    android:id="@+id/weaponProp6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName6"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="L,T (20,60)" />
+
+                <TextView
+                    android:id="@+id/weaponProp7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName7"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/weaponProp8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName8"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="V(1d8)" />
+
+                <TextView
+                    android:id="@+id/weaponProp9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName9"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="L" />
+
+                <TextView
+                    android:id="@+id/weaponProp10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName10"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="T(20/60)" />
+
+                <TextView
+                    android:id="@+id/weaponProp11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponName11"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/labelx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/labelProp1"
+                    android:layout_alignBottom="@+id/weaponName"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="x2:"/>
+
+                <CheckBox
+                    android:id="@+id/handaxeX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponProp4"
+                    android:layout_toEndOf="@+id/weaponPropD3"
+                    android:layout_toRightOf="@+id/weaponPropD3"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+
+                <CheckBox
+                    android:id="@+id/daggerX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponProp2"
+                    android:layout_toEndOf="@+id/weaponPropD1"
+                    android:layout_toRightOf="@+id/weaponPropD1"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/lightHammerX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponProp6"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/sickleX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponProp9"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/scimitarX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponPropC13"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/shortSwordX2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponPropC14"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/handCrossbowx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponPropD2"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/clubx2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:layout_alignTop="@+id/weaponProp1"
+                    android:layout_toEndOf="@+id/weaponPropD5"
+                    android:layout_toRightOf="@+id/weaponPropD5"
+                    android:layout_alignLeft="@+id/labelx2"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/label3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/weaponName11"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Simple Ranged Weapons:"/>
+
+                <TextView
+                    android:id="@+id/weaponNameB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/label3"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Weapon Name:"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameB"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Light Crossbow"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameB1"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Dart"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameB2"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Shortbow"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameB3"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Sling"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/labelDmg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/weaponName"
+                    android:layout_alignBottom="@+id/weaponNameB"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="DMG:"/>
+
+                <TextView
+                    android:id="@+id/weaponDmgB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB1"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmgB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB2"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmgB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB3"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmgB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB4"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Bld" />
+
+                <TextView
+                    android:id="@+id/labelPropB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/labelDmg1"
+                    android:layout_alignBottom="@+id/weaponNameB"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Proporties::"/>
+
+                <TextView
+                    android:id="@+id/weaponPropB1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB1"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(80/320),2H" />
+                <TextView
+                    android:id="@+id/weaponPropB2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB2"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F,T(20/60)" />
+                <TextView
+                    android:id="@+id/weaponPropB3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB3"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(80/320),2H" />
+                <TextView
+                    android:id="@+id/weaponPropB4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameB4"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(30/120)" />
+
+
+
+
+                <TextView
+                    android:id="@+id/label4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/weaponNameB4"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Martial Melee Weapons:"/>
+
+                <TextView
+                    android:id="@+id/weaponNameC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/label4"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Weapon Name:"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:layout_below="@+id/weaponNameC"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="Battleaxe" />
+
+                <CheckBox
+                    android:id="@+id/weaponNameC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC1"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Flail"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC2"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Glaive"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC3"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Greataxe"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC4"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Greatsword"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC5"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Halberd"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC6"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Lance"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC7"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Longsword"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC8"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Maul"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC9"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Morningstar"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC10"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Pike"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC11"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Rapier"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC12"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Scimitar"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC13"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Shortsword"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC14"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Trident"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC15"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Warpick"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC16"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Warhammer"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameC18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameC17"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Whip"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/labelDmg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/weaponName"
+                    android:layout_alignBottom="@+id/weaponNameC"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="DMG:"/>
+
+                <TextView
+                    android:id="@+id/weaponDmgC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC1"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC2"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC3"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d10 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC4"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1s12 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC5"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC6"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d10 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC7"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d12 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC8"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Sls" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC9"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="2d6 Bld" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC10"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Prc" />
+
+                <TextView
+                    android:id="@+id/weaponDmgC11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC11"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d10 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgC12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC12"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgC13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC13"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Sls" />
+                <TextView
+                    android:id="@+id/weaponDmgC14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC14"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgC15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC15"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgC16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC16"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgC17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC17"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Bld" />
+                <TextView
+                    android:id="@+id/weaponDmgC18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC18"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d4 Sls" />
+
+                <TextView
+                    android:id="@+id/labelPropC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/labelDmg1"
+                    android:layout_alignBottom="@+id/weaponNameC"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Proporties::"/>
+
+                <TextView
+                    android:id="@+id/weaponPropC1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC1"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="V(1d10)" />
+                <TextView
+                    android:id="@+id/weaponPropC2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC2"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+                <TextView
+                    android:id="@+id/weaponPropC3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC3"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,R,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC4"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC5"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC6"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,R,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC7"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="R,S" />
+                <TextView
+                    android:id="@+id/weaponPropC8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC8"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="V(1d10)" />
+                <TextView
+                    android:id="@+id/weaponPropC9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC9"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC10"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+                <TextView
+                    android:id="@+id/weaponPropC11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC11"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="H,R,2H" />
+                <TextView
+                    android:id="@+id/weaponPropC12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC12"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F" />
+                <TextView
+                    android:id="@+id/weaponPropC13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC13"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F,L" />
+                <TextView
+                    android:id="@+id/weaponPropC14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC14"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F,L" />
+                <TextView
+                    android:id="@+id/weaponPropC15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC15"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="T(20/60),V(1d8)" />
+                <TextView
+                    android:id="@+id/weaponPropC16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC16"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+                <TextView
+                    android:id="@+id/weaponPropC17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC17"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="V(1d10)" />
+                <TextView
+                    android:id="@+id/weaponPropC18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameC18"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="F,R" />
+
+                <TextView
+                    android:id="@+id/label5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/weaponNameC18"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Martial Range Weapons:"/>
+
+                <TextView
+                    android:id="@+id/weaponNameD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/label5"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:text="Weapon Name:"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameD"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Blowgun"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameD1"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Hand Crossbow"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameD2"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Heavy Crossbow"
+                    android:enabled="false"/>
+
+                <CheckBox
+                    android:id="@+id/weaponNameD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:layout_below="@+id/weaponNameD3"
+                    android:checked="false"
+                    android:enabled="false"
+                    android:text="Longbow" />
+
+                <CheckBox
+                    android:id="@+id/weaponNameD5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/weaponNameD4"
+                    android:layout_alignLeft="@+id/weaponName"
+                    android:checked="false"
+                    android:text="Net"
+                    android:enabled="false"/>
+
+                <TextView
+                    android:id="@+id/labelDmg4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/weaponName"
+                    android:layout_alignBottom="@+id/weaponNameD"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="DMG:"/>
+
+                <TextView
+                    android:id="@+id/weaponDmgD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD1"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD2"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d6 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD3"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d10 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD4"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="1d8 Prc" />
+                <TextView
+                    android:id="@+id/weaponDmgD5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD5"
+                    android:layout_alignLeft="@+id/labelDmg1"
+                    android:layout_marginTop="5sp"
+                    android:text="-" />
+
+
+
+                <TextView
+                    android:id="@+id/labelPropD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/labelDmg1"
+                    android:layout_alignBottom="@+id/weaponNameD"
+                    android:layout_marginLeft="20sp"
+                    android:layout_marginTop="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="40sp"
+                    android:textColor="@android:color/black"
+                    android:layout_centerHorizontal="true"
+                    android:text="Proporties::"/>
+
+                <TextView
+                    android:id="@+id/weaponPropD1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD1"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(25/100),Ld" />
+                <TextView
+                    android:id="@+id/weaponPropD2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD2"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(30/120),L, Ld" />
+                <TextView
+                    android:id="@+id/weaponPropD3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD3"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(100/400),H,Ld,2H" />
+                <TextView
+                    android:id="@+id/weaponPropD4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD4"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="A(150/600),H,2H" />
+                <TextView
+                    android:id="@+id/weaponPropD5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/weaponNameD5"
+                    android:layout_alignLeft="@+id/labelProp1"
+                    android:layout_marginTop="5sp"
+                    android:text="S,T(5/15)" />
+
+
+
+
+            </RelativeLayout>>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

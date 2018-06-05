@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.SpellsActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="30sp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="..."
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/armors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="armors"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/spells"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="Spells"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text=""
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/traits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="Traits"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="1sp"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:text="Summary"
+                android:textSize="18sp" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/darker_gray"
+                android:text="eq"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/contextLayout"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/menuLayout"
+                android:background="@android:color/holo_red_dark">
+
+                <TextView
+                    android:id="@+id/spellLabel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33sp"
+                    android:layout_marginTop="15sp"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="1 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_toRightOf="@id/spellLabel1"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="2 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_toRightOf="@id/spellLabel2"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="3 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_toRightOf="@id/spellLabel3"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="4 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_toRightOf="@id/spellLabel4"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="5 Lvl:"/>
+
+                <Button
+                    android:id="@+id/spellButton1"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel1"
+                    android:layout_alignLeft="@+id/spellLabel1"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton2"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel1"
+                    android:layout_alignLeft="@+id/spellLabel2"
+                    android:text="0"/>
+                <Button
+                    android:id="@+id/spellButton3"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel1"
+                    android:layout_alignLeft="@+id/spellLabel3"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton4"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel1"
+                    android:layout_alignLeft="@+id/spellLabel4"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton5"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel1"
+                    android:layout_alignLeft="@+id/spellLabel5"
+                    android:text="0"/>
+
+
+                <TextView
+                    android:id="@+id/spellLabel6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/spellButton1"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="6 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/spellButton1"
+                    android:layout_toRightOf="@+id/spellLabel6"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="7 Lvl:"/>
+
+                <TextView
+                    android:id="@+id/spellLabel8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/spellButton1"
+                    android:layout_toRightOf="@+id/spellLabel7"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="8 Lvl:" />
+
+                <TextView
+                    android:id="@+id/spellLabel9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="36sp"
+                    android:layout_marginTop="15sp"
+                    android:layout_below="@+id/spellButton1"
+                    android:layout_toRightOf="@+id/spellLabel8"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="9 Lvl:"/>
+
+                <Button
+                    android:id="@+id/spellButton6"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel6"
+                    android:layout_alignLeft="@+id/spellLabel6"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton7"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel6"
+                    android:layout_alignLeft="@+id/spellLabel7"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton8"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel6"
+                    android:layout_alignLeft="@+id/spellLabel8"
+                    android:text="0"/>
+
+                <Button
+                    android:id="@+id/spellButton9"
+                    android:layout_width="40sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spellLabel6"
+                    android:layout_alignLeft="@+id/spellLabel9"
+                    android:text="0"/>
+
+            </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

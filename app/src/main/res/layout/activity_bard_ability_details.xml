@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.BardAbilityDetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <LinearLayout
+            android:id="@+id/menuLayout"
+            android:background="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="60sp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_media_rew"
+                android:layout_gravity="center_vertical"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:text="Abilities Details"
+                android:layout_marginLeft="6sp"
+                android:layout_marginRight="3sp"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@android:color/holo_purple"
+                android:gravity="center_vertical"/>
+
+            <ImageView
+                android:layout_width="40sp"
+                android:layout_height="60sp"
+                android:layout_weight="1"
+                app:srcCompat="@android:drawable/ic_media_ff"
+                android:layout_gravity="center_vertical"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1sp"
+            android:background="@android:color/black">
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/scrollId"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/menuLayout">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/menuLayout"
+                android:background="@drawable/background">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="Basic Abilities"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/rage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:layout_below="@+id/title"
+                    android:layout_marginTop="13dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Bardic Inspiration"
+                    android:onClick="onBardicInspiration"/>
+
+                <TextView
+                    android:id="@+id/lvl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="2nd level abilities"
+                    android:layout_below="@+id/rage"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/recklessAttack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl1"
+                    android:layout_marginTop="25dp"
+                    android:text="Jack of All Trades"
+                    android:onClick="onJackOfAllTrades"/>
+
+                <Button
+                    android:id="@+id/dangerSense"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/recklessAttack"
+                    android:layout_marginTop="25dp"
+                    android:text="Song of rest"
+                    android:onClick="onSongOfRest"/>
+
+
+                <TextView
+                    android:id="@+id/lvl3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="3rd level abilities"
+                    android:layout_below="@+id/dangerSense"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/Expertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl3"
+                    android:layout_marginTop="25dp"
+                    android:text="Expertise"
+                    android:onClick="onExperise"/>
+
+
+                <TextView
+                    android:id="@+id/primalPathDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:text="@string/BardBardCollege"
+                    android:layout_below="@+id/Expertise"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/pathBerserker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/primalPathDescription"
+                    android:layout_marginTop="25dp"
+                    android:text="College Of Lore"
+                    android:onClick="onCollegeOfLore"/>
+
+                <Button
+                    android:id="@+id/pathTotemWarrior"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/pathBerserker"
+                    android:layout_marginTop="25dp"
+                    android:text="College Of Valor"
+                    android:onClick="onCollegeOfValor"/>
+
+                <TextView
+                    android:id="@+id/lvl5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="5th level abilities"
+                    android:layout_below="@+id/pathTotemWarrior"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/feralInstinct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl5"
+                    android:layout_marginTop="25dp"
+                    android:text="Font of inspiration"
+                    android:onClick="onFontOfInspiration"/>
+
+                <TextView
+                    android:id="@+id/lvl6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="6th level abilities"
+                    android:layout_below="@+id/feralInstinct"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/brutalCritical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl6"
+                    android:layout_marginTop="25dp"
+                    android:text="Countercharm"
+                    android:onClick="onCounterCharm"/>
+
+                <TextView
+                    android:id="@+id/lvl10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="10th level abilities"
+                    android:layout_below="@+id/brutalCritical"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/RelentlessRage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl10"
+                    android:layout_marginTop="25dp"
+                    android:text="Magical Secrets"
+                    android:onClick="onMagicalSecrets"/>
+
+                <TextView
+                    android:id="@+id/lvl20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="25sp"
+                    android:text="20th level abilities"
+                    android:layout_below="@+id/RelentlessRage"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/PersistentRage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lvl20"
+                    android:layout_marginTop="25dp"
+                    android:text="Superior Inspiration"
+                    android:onClick="onSuperiorInspiration"
+                    android:layout_marginBottom="70sp"/>
+
+
+                <Button
+                    android:id="@+id/chooseButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/previousButton"
+                    android:onClick="onChooseButtonclick"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:layout_marginLeft="40sp"
+                    android:text="select" />
+
+                <Button
+                    android:id="@+id/nextButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:onClick="onNextButton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="next class" />
+
+                <Button
+                    android:id="@+id/previousButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:onClick="onPreviousButton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="previous class" />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

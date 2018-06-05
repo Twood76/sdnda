@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.apress.gerber.dnd.AcolyteActivity">
+
+    <RelativeLayout
+        android:id="@+id/myLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="Acolyte"
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text=""
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/armors"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Charlatan"
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text=""
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/spells"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Criminal"
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text=""
+            android:textSize="15sp" />
+        <Button
+            android:id="@+id/traits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="Entertainer"
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="1sp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:text=""
+            android:textSize="15sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/darker_gray"
+            android:text="..."
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollId"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/menuLayout">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/menuLayout"
+            android:background="@android:color/holo_red_dark">
+
+            <TextView
+                android:id="@+id/titleLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20sp"
+                android:text="ACOLYTE:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/BgDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/titleLabel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10sp"
+                android:text="@string/acolyte_string"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/PersonalityTraitLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/BgDescription"
+                android:layout_marginTop="10sp"
+                android:text="Personality Trait:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/persTrait1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/PersonalityTraitLabel"
+                android:layout_marginTop="10sp"
+                android:text=" I idolize a particular hero of my faith, and constantly refer to that person’s deeds and example." />
+
+            <RadioButton
+                android:id="@+id/persTrait2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait1"
+                android:layout_marginTop="10sp"
+                android:text="I can find common ground between the fiercest enemies, empathizing with them and always working towards peace." />
+
+            <RadioButton
+                android:id="@+id/persTrait3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait2"
+                android:layout_marginTop="10sp"
+                android:text=" I see omens in every event and action. The gods try to speak to us, we just need to listen" />
+
+            <RadioButton
+                android:id="@+id/persTrait4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait3"
+                android:layout_marginTop="10sp"
+                android:text=" Nothing can shake my optimistic attitude." />
+
+            <RadioButton
+                android:id="@+id/persTrait5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait4"
+                android:layout_marginTop="10sp"
+                android:text=" I quote (or misquote) sacred texts and proverbs in almost every situation." />
+
+
+            <RadioButton
+                android:id="@+id/persTrait6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait5"
+                android:layout_marginTop="10sp"
+                android:text=" I am tolerant (or intolerant) of other faiths and respect (or condemn) the worship of other gods." />
+
+            <RadioButton
+                android:id="@+id/persTrait7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait6"
+                android:layout_marginTop="10sp"
+                android:text=" I’ve spent so long in the temple that I have little practical experience dealing with people in the outside world." />
+
+            <RadioButton
+                android:id="@+id/persTrait8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/persTrait7"
+                android:layout_marginTop="10sp"
+                android:text=" I've enjoyed fine food, drink, and high society among my temple’s elite. Rough living grates on me." />
+
+            <TextView
+                android:id="@+id/bondLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:text="Bond:"
+                android:layout_below="@+id/persTrait8"
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+            <RadioButton
+                android:id="@+id/bond1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bondLabel"
+                android:layout_marginTop="10sp"
+                android:text=" I would die to recover an ancient relic of my faith that was lost long ago. "/>
+
+            <RadioButton
+                android:id="@+id/bond2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bond1"
+                android:layout_marginTop="10sp"
+                android:text=" I will someday get revenge on the corrupt temple hierarchy who branded me a heretic. "/>
+
+            <RadioButton
+                android:id="@+id/bond3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bond2"
+                android:layout_marginTop="10sp"
+                android:text=" I owe my life to the priest who took me in when my parents died. "/>
+
+            <RadioButton
+                android:id="@+id/bond4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bond3"
+                android:layout_marginTop="10sp"
+                android:text=" Everything I do is for the common people. "/>
+
+            <RadioButton
+                android:id="@+id/bond5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bond4"
+                android:layout_marginTop="10sp"
+                android:text=" I will do anything to protect the temple where I served."/>
+
+
+            <RadioButton
+                android:id="@+id/bond6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bond5"
+                android:layout_marginTop="10sp"
+                android:text=" I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."/>
+
+
+
+            <TextView
+                android:id="@+id/IdealsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bond6"
+                android:layout_marginTop="20sp"
+                android:text="Ideal:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/ideal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/IdealsLabel"
+                android:layout_marginTop="10sp"
+                android:text="The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful) " />
+
+            <RadioButton
+                android:id="@+id/ideal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ideal1"
+                android:layout_marginTop="10sp"
+                android:text=" I always try to help those in need, no matter what the personal cost. (Good) " />
+
+            <RadioButton
+                android:id="@+id/ideal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ideal2"
+                android:layout_marginTop="10sp"
+                android:text="We must help bring about the changes the gods are constantly working in the world. (Chaotic) " />
+
+            <RadioButton
+                android:id="@+id/ideal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ideal3"
+                android:layout_marginTop="10sp"
+                android:text=" I hope to one day rise to the top of my faith’s religious hierarchy. (Lawful) " />
+
+            <RadioButton
+                android:id="@+id/ideal5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ideal4"
+                android:layout_marginTop="10sp"
+                android:text=" I trust that my deity will guide my actions, I have faith that if I work hard, things will go well. (Lawful)" />
+
+
+            <RadioButton
+                android:id="@+id/ideal6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ideal5"
+                android:layout_marginTop="10sp"
+                android:text=" I seek to prove myself worthy of my god’s favor by matching my actions against his or her teachings. (Any)" />
+
+            <TextView
+                android:id="@+id/FlawsLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ideal6"
+                android:layout_marginTop="20sp"
+                android:text="Flaw:"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/flaw1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_below="@id/FlawsLabel"
+                android:text=" I judge others harshly, and myself even more severely. " />
+
+            <RadioButton
+                android:id="@+id/flaw2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flaw1"
+                android:layout_marginTop="10sp"
+                android:text=" I put too much trust in those who wield power within my temple’s hierarchy. " />
+
+            <RadioButton
+                android:id="@+id/flaw3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flaw2"
+                android:layout_marginTop="10sp"
+                android:text=" My piety sometimes leads me to blindly trust those that profess faith in my god. " />
+
+            <RadioButton
+                android:id="@+id/flaw4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flaw3"
+                android:layout_marginTop="10sp"
+                android:text=" I am inflexible in my thinking. " />
+
+            <RadioButton
+                android:id="@+id/flaw5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flaw4"
+                android:layout_marginTop="10sp"
+                android:text=" I am suspicious of strangers and expect the worst of them. " />
+
+
+            <RadioButton
+                android:id="@+id/flaw6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/flaw5"
+                android:layout_marginTop="10sp"
+                android:text="Once I pick a goal, I become obsessed with it to the detriment of everything else in my life." />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select"
+                android:layout_below="@id/flaw6"
+                android:layout_marginTop="25sp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
