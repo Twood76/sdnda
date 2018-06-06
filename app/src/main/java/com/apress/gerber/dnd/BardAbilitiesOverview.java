@@ -38,7 +38,7 @@ public class BardAbilitiesOverview extends AppCompatActivity {
                 //previous
                 if (((x2 - x1) > 0) && beeingUsed == false && (Math.abs(x2 - x1) > 200)) {
 
-                    Intent newIntent = new Intent(getApplicationContext(), BardActivity.class);
+                    Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
                     newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                     startActivity(newIntent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
@@ -62,7 +62,7 @@ public class BardAbilitiesOverview extends AppCompatActivity {
         });
     }
     public void onNextButton(View view) {
-        Intent newIntent = new Intent(getApplicationContext(), ClericActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
         newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(newIntent);
     }

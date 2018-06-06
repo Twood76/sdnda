@@ -7,8 +7,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ScrollView;
 
-public class WarlockActivity extends AppCompatActivity {
-
+public class ClassAbiltiesOverview extends AppCompatActivity {
 
     //Variables for Sweeper
     private ScrollView myLayout = null;
@@ -17,18 +16,19 @@ public class WarlockActivity extends AppCompatActivity {
     private boolean beeingUsed = true;
     //end of SweepVariables
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_warlock);
-//Sweep Screen - got to setOnTouchListener to existin label (layout) deciding which area should be listen for touch events
+        setContentView(R.layout.activity_class_abilties_overview);
+
+        //Sweep Screen - got to setOnTouchListener to existin label (layout) deciding which area should be listen for touch events
         myLayout = (ScrollView) findViewById(R.id.scrollId);
         myLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 if ((motionEvent.getAction() == MotionEvent.ACTION_DOWN)) {
                     x1 = motionEvent.getX();
+                    beeingUsed = true;
                 }
                 if ((motionEvent.getAction() == MotionEvent.ACTION_UP)) {
                     x2 = motionEvent.getX();
@@ -36,7 +36,7 @@ public class WarlockActivity extends AppCompatActivity {
                 }
                 //previous
                 if (((x2 - x1) > 0) && beeingUsed == false && (Math.abs(x2 - x1) > 200)) {
-                    Intent newIntent = new Intent(getApplicationContext(), WizardActivity.class);
+                    Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
                     newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                     startActivity(newIntent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
@@ -47,10 +47,11 @@ public class WarlockActivity extends AppCompatActivity {
                 }
                 //next
                 if (((x2 - x1) < 0) && (beeingUsed == false) && (Math.abs(x2 - x1) > 200)) {
-                    //Intent newIntent = new Intent(getApplicationContext(), MonkActivity.class);
-                    //startActivity(newIntent);
-                    //overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
-                    //beeingUsed = true;
+                    Intent newIntent = new Intent(getApplicationContext(), BarbarianClassFeatures.class);
+                    newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+                    startActivity(newIntent);
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                    beeingUsed = true;
                     return true;
                 }
                 return false;
@@ -59,12 +60,17 @@ public class WarlockActivity extends AppCompatActivity {
         });
     }
 
-    public void warlockButton(View view) {
+    public void onChooseButtonclick(View view) {
         Intent i = new Intent(this, RollStatsActivity.class);
-        String klasa = "Warlock";
-        String mainStats = "Cha/Con";
+        String klasa = "Barbarian";
+        String mainStats = "Strength/Constitution";
         i.putExtra("klasa", klasa);
         i.putExtra("mainStats", mainStats);
         startActivity(i);
+    }
+
+    public void onNextButton(View view) {
+        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
+        startActivity(newIntent);
     }
 }

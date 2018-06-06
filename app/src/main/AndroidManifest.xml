@@ -24,17 +24,6 @@
         <activity android:name=".SpellsActivity" />
         <activity android:name=".TraitsActivity" />
         <activity android:name=".EQctivity" />
-        <activity android:name=".MonkActivity" />
-        <activity android:name=".BardActivity" />
-        <activity android:name=".ClericActivity" />
-        <activity android:name=".DruidActivity" />
-        <activity android:name=".FighterActivity" />
-        <activity android:name=".PaladinActivity" />
-        <activity android:name=".RangerActivity" />
-        <activity android:name=".RogueActivity" />
-        <activity android:name=".SorcererActivity" />
-        <activity android:name=".WizardActivity" />
-        <activity android:name=".WarlockActivity" />
         <activity android:name=".DwarfActivity" />
         <activity android:name=".ElfActivity" />
         <activity android:name=".HalflingActivity" />
@@ -58,7 +47,6 @@
         <activity android:name=".OutlanderActivity" />
         <activity android:name=".SageActivity" />
         <activity android:name=".SailorActivity" />
-        <activity android:name=".SoldierActivity" />
         <activity android:name=".SelectLanguagesActivity" />
         <activity android:name=".AddWeaponActivity" />
         <activity android:name=".RollStatsActivity" />
@@ -163,7 +151,8 @@
         <activity android:name=".ClericGuidedStrike" />
         <activity android:name=".ClericWarGodsBlessing" />
         <activity android:name=".ClericAvatarOfBattle" />
-        <activity android:name=".ClassOverviewUniversalActivity"></activity>
+        <activity android:name=".ClassOverviewUniversalActivity" />
+        <activity android:name=".ClassAbiltiesOverview"></activity>
     </application>
 
 </manifest>

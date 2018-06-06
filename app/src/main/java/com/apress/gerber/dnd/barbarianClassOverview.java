@@ -70,7 +70,7 @@ public class barbarianClassOverview extends AppCompatActivity {
     }
 
     public void onNextButton(View view) {
-        Intent newIntent = new Intent(getApplicationContext(), BardActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
         startActivity(newIntent);
     }
 }

@@ -105,13 +105,13 @@ public class ClericAbilityDetail extends AppCompatActivity {
     }
 
     public void onNextButton(View view) {
-        Intent newIntent = new Intent(getApplicationContext(), ClericActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
         newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(newIntent);
     }
 
     public void onPreviousButton(View view) {
-        Intent newIntent = new Intent(getApplicationContext(), BardActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
         newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(newIntent);
     }
