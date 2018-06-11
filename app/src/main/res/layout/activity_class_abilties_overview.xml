@@ -19,6 +19,7 @@
             android:layout_height="40sp">
 
             <ImageView
+                android:contentDescription="@string/decorativeImage"
                 android:layout_width="50sp"
                 android:layout_height="60sp"
                 android:layout_weight="1"
@@ -26,10 +27,13 @@
                 android:layout_gravity="center_vertical"/>
 
             <TextView
+                android:id="@+id/ActivityTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="40sp"
-                android:text="Abilities Overview"
+                android:text="@string/ClassAbilitiesOverviewTitle"
+                android:layout_marginStart="6sp"
                 android:layout_marginLeft="6sp"
+                android:layout_marginEnd="3sp"
                 android:layout_marginRight="3sp"
                 android:textStyle="bold"
                 android:textSize="25sp"
@@ -37,6 +41,7 @@
                 android:gravity="center_vertical"/>
 
             <ImageView
+                android:contentDescription="@string/decorativeImage"
                 android:layout_width="40sp"
                 android:layout_height="60sp"
                 android:layout_weight="1"
@@ -46,11 +51,6 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="1sp"
-            android:background="@android:color/black">
-        </LinearLayout>
 
         <ScrollView
             android:id="@+id/scrollId"
@@ -61,8 +61,7 @@
             <RelativeLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="fill_parent"
-                android:layout_below="@id/menuLayout"
+                android:layout_height="wrap_content"
                 android:background="@drawable/background">
 
                 <TextView
@@ -73,7 +72,7 @@
                     android:textStyle="bold"
                     android:textSize="35sp"
                     android:layout_marginTop="25sp"
-                    android:text="Abilities Overview"/>
+                    android:text="@string/ClassAbilitiesOverviewTitle"/>
 
                 <TextView
                     android:id="@+id/featuresTitle"
@@ -84,7 +83,7 @@
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:layout_marginTop="10sp"
-                    android:text="Proficiency Bonus and Features"/>
+                    android:text="@string/ClassAbilitiesOverviewTitle2"/>
 
 
 
@@ -107,7 +106,7 @@
                             android:id="@+id/lvl"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Level"
+                            android:text="@string/ClassAbilitiesOverviewTable1Label1"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:textStyle="bold"/>
@@ -116,7 +115,7 @@
                             android:id="@+id/prof"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Profitiency Bonus"
+                            android:text="@string/ClassAbilitiesOverviewTable1Label2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:textStyle="bold"
@@ -126,7 +125,7 @@
                             android:id="@+id/features"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Features"
+                            android:text="@string/ClassAbilitiesOverviewTable1Label3"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:textStyle="bold"
@@ -142,7 +141,7 @@
                             android:id="@+id/lvl1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1st"
+                            android:text="@string/lvl1"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
@@ -152,16 +151,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="+2"
+                            android:text="@string/profitienty1to4"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
-                            android:id="@+id/feturesLvl1"
+                            android:id="@+id/featuresLvl1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rage, \nUnarmored Defense"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
@@ -177,7 +175,7 @@
                             android:id="@+id/lvl2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2nd"
+                            android:text="@string/lvl2"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
@@ -187,16 +185,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="+2"
+                            android:text="@string/profitienty1to4"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
-                            android:id="@+id/feturesLvl2"
+                            android:id="@+id/featuresLvl2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Reckless Attack,\nDanger Sense"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
@@ -211,7 +208,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="3rd"
+                            android:text="@string/lvl3"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
@@ -220,16 +217,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="+2"
+                            android:text="@string/profitienty1to4"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
-                            android:id="@+id/feturesLvl3"
+                            android:id="@+id/featuresLvl3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Primal Path"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
@@ -243,7 +239,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="4th"
+                            android:text="@string/lvl4"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
@@ -252,16 +248,15 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="+2"
+                            android:text="@string/profitienty1to4"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
-                            android:id="@+id/feturesLvl4"
+                            android:id="@+id/featuresLvl4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Ability Score Improvement"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
@@ -278,7 +273,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="5th"/>
+                            android:text="@string/lvl5"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -286,15 +281,15 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3" />
+                            android:text="@string/profitienty5to8" />
 
                         <TextView
-                            android:id="@+id/feturesLvl5"
+                            android:id="@+id/featuresLvl5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Extra Attack, \nFast Movement" />
+                            android:layout_marginRight="15sp"/>
+
                     </TableRow>
 
                     <TableRow
@@ -308,7 +303,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="6th"/>
+                            android:text="@string/lvl6"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -316,15 +311,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3" />
+                            android:text="@string/profitienty5to8" />
 
                         <TextView
-                            android:id="@+id/feturesLvl6"
+                            android:id="@+id/featuresLvl6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Path Feature" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -338,7 +332,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="7th"/>
+                            android:text="@string/lvl7"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -346,15 +340,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3" />
+                            android:text="@string/profitienty5to8" />
 
                         <TextView
-                            android:id="@+id/feturesLvl7"
+                            android:id="@+id/featuresLvl7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Feral Instinct" />
+                            android:layout_marginRight="15sp" />
                     </TableRow>
 
                     <TableRow
@@ -368,7 +361,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="8th"/>
+                            android:text="@string/lvl8"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -376,15 +369,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3" />
+                            android:text="@string/profitienty5to8" />
 
                         <TextView
-                            android:id="@+id/feturesLvl8"
+                            android:id="@+id/featuresLvl8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Ability Score Improvement" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -398,7 +390,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="9th"/>
+                            android:text="@string/lvl9"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -406,15 +398,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3" />
+                            android:text="@string/profitienty9to12" />
 
                         <TextView
-                            android:id="@+id/feturesLvl9"
+                            android:id="@+id/featuresLvl9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Brutal Critical (1 dice)" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -428,7 +419,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="10th"/>
+                            android:text="@string/lvl10"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -436,15 +427,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4" />
+                            android:text="@string/profitienty9to12" />
 
                         <TextView
-                            android:id="@+id/feturesLvl10"
+                            android:id="@+id/featuresLvl10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Path Feature" />
+                            android:layout_marginRight="15sp" />
                     </TableRow>
 
                     <TableRow
@@ -458,7 +448,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="11th"/>
+                            android:text="@string/lvl11"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -466,15 +456,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4" />
+                            android:text="@string/profitienty9to12" />
 
                         <TextView
-                            android:id="@+id/feturesLvl11"
+                            android:id="@+id/featuresLvl11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Relentless Rage" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -488,7 +477,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="12th"/>
+                            android:text="@string/lvl12"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -496,15 +485,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4" />
+                            android:text="@string/profitienty9to12" />
 
                         <TextView
-                            android:id="@+id/feturesLvl12"
+                            android:id="@+id/featuresLvl12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Ability Score Improvement" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -518,7 +506,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="13th"/>
+                            android:text="@string/lvl13"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -526,15 +514,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+5" />
+                            android:text="@string/profitienty13to16" />
 
                         <TextView
-                            android:id="@+id/feturesLvl13"
+                            android:id="@+id/featuresLvl13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Brutal Critical (2 Dice)" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -548,7 +535,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="14th"/>
+                            android:text="@string/lvl14"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -556,15 +543,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+5" />
+                            android:text="@string/profitienty13to16" />
 
                         <TextView
-                            android:id="@+id/feturesLvl14"
+                            android:id="@+id/featuresLvl14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Path Feature" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -578,7 +564,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="15th"/>
+                            android:text="@string/lvl15"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -586,15 +572,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+5" />
+                            android:text="@string/profitienty13to16" />
 
                         <TextView
-                            android:id="@+id/feturesLvl15"
+                            android:id="@+id/featuresLvl15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Persistent Rage" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -608,7 +593,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="16th"/>
+                            android:text="@string/lvl6"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -616,15 +601,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+5" />
+                            android:text="@string/profitienty13to16" />
 
                         <TextView
-                            android:id="@+id/feturesLvl16"
+                            android:id="@+id/featuresLvl16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Ability Score Improvement" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -638,7 +622,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="17th"/>
+                            android:text="@string/lvl17"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -646,15 +630,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+6" />
+                            android:text="@string/profitienty17to20" />
 
                         <TextView
-                            android:id="@+id/feturesLvl17"
+                            android:id="@+id/featuresLvl17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Brutal Critical (3dice)" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -668,7 +651,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="18th"/>
+                            android:text="@string/lvl18"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -676,15 +659,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+6" />
+                            android:text="@string/profitienty17to20" />
 
                         <TextView
-                            android:id="@+id/feturesLvl18"
+                            android:id="@+id/featuresLvl18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Indomitable Might" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -698,7 +680,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="19th"/>
+                            android:text="@string/lvl19"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -706,15 +688,14 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+6" />
+                            android:text="@string/profitienty17to20" />
 
                         <TextView
-                            android:id="@+id/feturesLvl19"
+                            android:id="@+id/featuresLvl19"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Ability Score Improvement" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                     <TableRow
@@ -728,7 +709,7 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="20th"/>
+                            android:text="@string/lvl20"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -736,35 +717,34 @@
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+6" />
+                            android:text="@string/profitienty17to20" />
 
                         <TextView
-                            android:id="@+id/feturesLvl20"
+                            android:id="@+id/featuresLvl20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Primal Champion" />
+                            android:layout_marginRight="15sp"/>
                     </TableRow>
 
                 </TableLayout>
 
                 <TextView
-                    android:id="@+id/ragesTitle"
+                    android:id="@+id/table2_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_below="@+id/table1"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:layout_marginTop="15sp"
-                    android:text="Rages Table"/>
+                    android:layout_marginTop="15sp"/>
 
                 <TableLayout
-                    android:id="@+id/ragestable"
+                    android:id="@+id/table2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/ragesTitle"
+                    android:layout_marginBottom="75sp"
+                    android:layout_below="@+id/table2_title"
                     android:layout_marginEnd="25dp"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="5sp">
@@ -775,26 +755,29 @@
                         android:layout_height="match_parent" >
 
                         <TextView
+                            android:id="@+id/lvl_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Level"
+                            android:text=""
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:textStyle="bold"/>
 
                         <TextView
+                            android:id="@+id/table2_title2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rages"
+                            android:text=""
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:textStyle="bold"
                             />
 
                         <TextView
+                            android:id="@+id/table2_value3_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Rages Damage"
+                            android:text=""
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
@@ -808,26 +791,27 @@
                         android:layout_height="wrap_content" >
 
                         <TextView
+                            android:id="@+id/lvl1_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="1st"
+                            android:text="@string/lvl1"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
+                            android:id="@+id/table2_value3_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
@@ -841,26 +825,27 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl2_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2nd"
+                            android:text="@string/lvl2"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
+                            android:id="@+id/table2_value3_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
@@ -874,26 +859,27 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl3_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="3rd"
+                            android:text="@string/lvl3"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="3"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
+                            android:id="@+id/table2_value3_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
@@ -906,26 +892,27 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl4_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="4th"
+                            android:text="@string/lvl4"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:text="3"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             />
 
                         <TextView
+                            android:id="@+id/table2_value3_4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="+2"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
@@ -938,27 +925,29 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl5_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="5th"/>
+                            android:text="@string/lvl5"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="3" />
+                            android:layout_marginRight="15sp"/>
+
 
                         <TextView
+                            android:id="@+id/table2_value3_5"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+2"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -968,27 +957,29 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl6_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="6th"/>
+                            android:text="@string/lvl6"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp">
 
+                        </TextView>
                         <TextView
+                            android:id="@+id/table2_value3_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+2"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -998,27 +989,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl7_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="7th"/>
+                            android:text="@string/lvl7"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_7"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+2"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1028,27 +1020,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl8_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="8th"/>
+                            android:text="@string/lvl8"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp" />
 
                         <TextView
+                            android:id="@+id/table2_value3_8"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+2"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1058,27 +1051,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl9_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="9th"/>
+                            android:text="@string/lvl9"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_9"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1088,27 +1082,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl10_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="10th"/>
+                            android:text="@string/lvl10"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_10"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1118,27 +1113,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl11_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="11th"/>
+                            android:text="@string/lvl11"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="4" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_11"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1148,27 +1144,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl12_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="12th"/>
+                            android:text="@string/lvl12"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="5" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_12"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1178,27 +1175,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl13_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="13th"/>
+                            android:text="@string/lvl13"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="5" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_13"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1208,27 +1206,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl14_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="14th"/>
+                            android:text="@string/lvl14"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="5" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_14"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1238,27 +1237,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl15_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="15th"/>
+                            android:text="@string/lvl15"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="5" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_15"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+3"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1268,27 +1268,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl16_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="16th"/>
+                            android:text="@string/lvl16"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="5" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_16"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1298,27 +1299,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl17_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="17th"/>
+                            android:text="@string/lvl17"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="6" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_17"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1328,27 +1330,28 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl18_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="18th"/>
+                            android:text="@string/lvl18"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="6" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1358,57 +1361,60 @@
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl19_label"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
-                            android:text="19th" />
+                            android:text="@string/lvl19" />
 
                         <TextView
+                            android:id="@+id/table2_value2_19"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="6" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_19"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
                     <TableRow
+                        android:id="@+id/testId"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5sp">
 
                         <TextView
+                            android:id="@+id/lvl20_label"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="20th"/>
+                            android:text="@string/lvl20"/>
 
                         <TextView
+                            android:id="@+id/table2_value2_20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
                             android:layout_marginLeft="15sp"
-                            android:layout_marginRight="15sp"
-                            android:text="Unlimited" />
+                            android:layout_marginRight="15sp"/>
 
                         <TextView
+                            android:id="@+id/table2_value3_20"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
-                            android:text="+4"
                             android:gravity="center_horizontal"/>
                     </TableRow>
 
@@ -1419,26 +1425,36 @@
                     android:id="@+id/chooseButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/ragestable"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
-                    android:onClick="onChooseButtonclick"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:text="select" />
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="@string/selectButton"
+                    android:onClick="onChooseButtonclick"/>
 
                 <Button
                     android:id="@+id/nextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignBaseline="@+id/chooseButton"
-                    android:layout_alignBottom="@+id/chooseButton"
-                    android:layout_alignParentEnd="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginEnd="14dp"
-                    android:layout_marginRight="14dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignRight="@+id/creatingClassDescription"
+                    android:layout_alignEnd="@+id/creatingClassDescription"
                     android:onClick="onNextButton"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:text="next class" />
+                    android:text="@string/nextClassButton"/>
+
+                <Button
+                    android:id="@+id/previousButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:onClick="onPreviousButton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="@string/previousClassButton"/>
 
 
             </RelativeLayout>

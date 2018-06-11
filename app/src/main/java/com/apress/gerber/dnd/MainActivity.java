@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onCharacterSheetClick(View view) {
-        dupa x = new dupa();
-        x.setDupsko(100);
-        int a = 0;
         Intent i = new Intent(this, SummaryActivity.class);
         startActivity(i);
         overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);

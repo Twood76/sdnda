@@ -688,40 +688,159 @@ copper-colored . Their eyes are green, brown, or hazel.
 
     </string>
 
-    <string name="character_creation_guide">
-     If you are willing to start your adventure, you will need your avatar.
-     \n\nThis application will do its best to navigate you through whole process of creating a DnD character. Try to read carefully all information about classes and races available in 5th edition of Dungeons and Dragons.
-     \n\nBefore you dive into step 1, think about the
-    kind of adventurer you want to play. You might be a
-    courageous fighter, a skulking rogue, a fervent cleric, or
-    a flamboyant wizard. Or you might be more interested
-    in an unconventional character, such as a brawny rogue
-    who likes hand-to-hand combat, or a sharpshooter who
-    picks off en emies from afar. Do you like fantasy fiction
-    featuring dwarves or elves? Try building a character of
-    one of those races. Do you want your character to be the
-    toughest adventurer at the table? Consider a class like
-    barbarian or paladin. If you don’t know where else to
-    begin, take a look at the illustrations to see
-    what catch es your interest.
- </string>
 
-    <string name="choose_your_class_string">
-        Class is the primary definition of what your character
-        can do. It’s more than a profession; it’s your character’s
-        calling. Class shapes the way you think about the
-        world and interact with it and your relationship with
-        other people and powers in the multiverse.
-        \n\nA fighter,
-        for example, might view the world in pragmatic terms
-        of strategy and maneuvering, and see herself as just a
-        pawn in a much larger game. A cleric, by contrast, might
-        see himself as a willing servant in a god’s unfolding plan
-        or a conflict brewing among various deities. While the
-        fighter has contacts in a mercenary company or army,
-        the cleric might know a num ber of priests, paladins, and
-        devotees who share his faith.
+
+
+    <string name="decorativeImage">
+        decorative image
     </string>
+
+    <string name="selectButton">
+        select
+    </string>
+
+    <string name="nextClassButton">
+        next class
+    </string>
+
+    <string name="previousClassButton">
+        previous
+    </string>
+
+    <string name="barbarian">
+        BARBARIAN
+    </string>
+
+    <string name="bard">
+        BARD
+    </string>
+
+    <string name="cleric">
+        CLERIC
+    </string>
+
+    <string name="druid">
+        DRUID
+    </string>
+
+    <string name="fighter">
+        FIGHTER
+    </string>
+
+    <string name="monk">
+        MONK
+    </string>
+
+    <string name="paladin">
+        PALADIN
+    </string>
+
+    <string name="ranger">
+        RANGER
+    </string>
+
+    <string name="rogue">
+        ROGUE
+    </string>
+
+    <string name="sorcerer">
+        SORCERER
+    </string>
+
+    <string name="warlock">
+        WARLOCK
+    </string>
+
+    <string name="wizard">
+        WIZARD
+    </string>
+
+    <string name="lvl">
+        Level
+    </string>
+
+    <string name="lvl1">
+        1st
+    </string>
+
+    <string name="lvl2">
+        2nd
+    </string>
+
+    <string name="lvl3">
+        3rd
+    </string>
+
+    <string name="lvl4">
+        4th
+    </string>
+
+    <string name="lvl5">
+        5th
+    </string>
+
+    <string name="lvl6">
+        6th
+    </string>
+
+    <string name="lvl7">
+        7th
+    </string>
+
+    <string name="lvl8">
+        8th
+    </string>
+
+    <string name="lvl9">
+        9th
+    </string>
+
+    <string name="lvl10">
+        10th
+    </string>
+
+    <string name="lvl11">
+        11th
+    </string>
+
+    <string name="lvl12">
+        12th
+    </string>
+
+    <string name="lvl13">
+        13th
+    </string>
+
+    <string name="lvl14">
+        14th
+    </string>
+
+    <string name="lvl15">
+        15th
+    </string>
+
+    <string name="lvl16">
+        16th
+    </string>
+
+    <string name="lvl17">
+        17th
+    </string>
+
+    <string name="lvl18">
+        18th
+    </string>
+
+    <string name="lvl19">
+        19th
+    </string>
+
+    <string name="lvl20">
+        20th
+    </string>
+
+
+
 
 
 </resources>

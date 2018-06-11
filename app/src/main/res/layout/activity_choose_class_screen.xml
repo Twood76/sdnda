@@ -6,15 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.apress.gerber.dnd.chooseClassScreen">
 
-
-    <RelativeLayout
-        android:id="@+id/myLayout"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="112dp">
-
-
         <ScrollView
             android:layout_width="fill_parent"
             android:layout_height="fill_parent">
@@ -22,8 +13,7 @@
             <RelativeLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="fill_parent"
-                android:layout_below="@id/menuLayout"
+                android:layout_height="wrap_content"
                 android:background="@drawable/background">
 
                 <TextView
@@ -33,12 +23,13 @@
                     android:layout_alignParentTop="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="34dp"
-                    android:text="Choose Your Class"
+                    android:text="@string/ChooseClassScreenTitle"
                     android:textSize="35sp"
                     android:textStyle="bold" />
 
 
                 <ImageView
+                    android:contentDescription="@string/decorativeImage"
                     android:id="@+id/ChooseClassImageView"
                     android:layout_width="fill_parent"
                     android:layout_height="200sp"
@@ -57,7 +48,7 @@
                     android:layout_below="@+id/ChooseClassImageView"
                     android:layout_marginTop="19dp"
                     android:textSize="20sp"
-                    android:text="@string/choose_your_class_string"
+                    android:text="@string/ChooseClassDescription"
                     android:layout_marginLeft="10sp"
                     android:layout_marginRight="10sp"/>
 
@@ -69,12 +60,11 @@
                     android:layout_centerHorizontal="true"
                     android:onClick="onNextButoton"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:text="Continue"
+                    android:text="@string/ChooseClassScreenButtonValue"
                     android:layout_below="@id/chooseClassTextView"
                     android:layout_marginTop="20sp"/>
 
             </RelativeLayout>
         </ScrollView>
-    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

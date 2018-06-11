@@ -34,6 +34,122 @@
         you striving to prove yourself worthy of a great quest?
     </string>
 
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="cleric_1st_lvl_abilities">
+        Spellcasting,
+        \nDivine Domain
+    </string>
+
+    <string name="cleric_2nd_lvl_abilities">
+        Channel Divinity (1/rest)
+        \nDivine Domain Feature
+    </string>
+
+    <string name="cleric_3rd_lvl_abilities">
+        -
+    </string>
+
+    <string name="cleric_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="cleric_5th_lvl_abilities">
+        Destroy Undead (CR 1/2)
+    </string>
+
+    <string name="cleric_6th_lvl_abilities">
+        Channel Divinity (2/rest)
+        Divine Domain Feature
+    </string>
+
+    <string name="cleric_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="cleric_8th_lvl_abilities">
+        Ability Score Improvement,
+        \nDestroy Undead (CR 1),
+        \nDivine Domain Feature
+    </string>
+
+    <string name="cleric_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="cleric_10th_lvl_abilities">
+        Divine Intervention
+    </string>
+
+    <string name="cleric_11th_lvl_abilities">
+        Destroy Undead(CR 2)
+    </string>
+
+    <string name="cleric_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="cleric_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="cleric_14th_lvl_abilities">
+        Destroy Undead (CR 3)
+    </string>
+
+    <string name="cleric_15th_lvl_abilities">
+        -
+    </string>
+
+    <string name="cleric_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="cleric_17th_lvl_abilities">
+        Destroy Undead (CR 4),
+        \nDivine Domain Feature
+    </string>
+
+    <string name="cleric_18th_lvl_abilities">
+        Channel Divinity (3/rest)
+    </string>
+
+    <string name="cleric_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="cleric_20th_lvl_abilities">
+        Divine Intervention Improvement
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="cleric_table2_label">
+        Spells Table
+    </string>
+
+    <string name="cleric_table2_value2_label">
+        Cantrips Known
+    </string>
+
+
+    <string name="cleric_table2_value2_1to3_values">
+        3
+    </string>
+
+    <string name="cleric_table2_value2_4to9_values">
+        4
+    </string>
+
+    <string name="cleric_table2_value2_10to20_values">
+        5
+    </string>
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
     <string name="clericEquipment">
         You start with the following equipment in addition to the equipment granted by your background
         \n- (a) a mace or (b) a warhammer (if proficient)

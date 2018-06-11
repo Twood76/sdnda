@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ClassAbilitiesOverviewTitle">
+        Abilities Overview
+    </string>
+
+    <string name="ClassAbilitiesOverviewTitle2">
+        Proficiency Bonus and Features
+    </string>
+    
+    <string name="ClassAbilitiesOverviewTable1Label1">
+        Level
+    </string>
+
+    <string name="ClassAbilitiesOverviewTable1Label2">
+        Profitiency Bonus
+    </string>
+
+    <string name="ClassAbilitiesOverviewTable1Label3">
+        Features
+    </string>
+    
+    <string name="profitienty1to4">
+        +2
+    </string>
+
+    <string name="profitienty5to8">
+        +3
+    </string>
+
+    <string name="profitienty9to12">
+        +4
+    </string>
+
+    <string name="profitienty13to16">
+        +5
+    </string>
+
+    <string name="profitienty17to20">
+        +6
+    </string>
+    
+    
+</resources>

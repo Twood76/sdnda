@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+
+
      <string name="bardOverview">
         Humming as she traces her fingers over an ancient
         monument in a long-forgotten ruin, a half-elf in rugged
@@ -43,6 +45,193 @@
         clutches of a hag, making a bargain for a musical gift in
         addition to your life and freedom, but at what cost?
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="bard_1st_lvl_abilities">
+        Spellcasting,
+        \nBardic Inspiration (d6)
+    </string>
+
+    <string name="bard_2nd_lvl_abilities">
+        Jack of All Trades,
+        \nSong of Rest (d6)
+    </string>
+
+    <string name="bard_3rd_lvl_abilities">
+        Bard College,
+        \nExpertise
+    </string>
+
+    <string name="bard_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="bard_5th_lvl_abilities">
+        Bardic Inspiration (d8),
+        Font of Inspiration
+    </string>
+
+    <string name="bard_6th_lvl_abilities">
+        Countercharm,
+        \nBard College Feature
+    </string>
+
+    <string name="bard_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="bard_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="bard_9th_lvl_abilities">
+        Song of Rest (d8)
+    </string>
+
+    <string name="bard_10th_lvl_abilities">
+        Bardic Inspiration(d10),
+        \nExpertise,
+        \nMagical Secrets
+    </string>
+
+    <string name="bard_11th_lvl_abilities">
+        -
+    </string>
+
+    <string name="bard_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="bard_13th_lvl_abilities">
+        Song of Rest (d10)
+    </string>
+
+    <string name="bard_14th_lvl_abilities">
+        Magical Secrets,
+        \nBard College Feature
+    </string>
+
+    <string name="bard_15th_lvl_abilities">
+        Bardic Inspiration (d12)
+    </string>
+
+    <string name="bard_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="bard_17th_lvl_abilities">
+        Song of Rest (d12)
+    </string>
+
+    <string name="bard_18th_lvl_abilities">
+        Magical Secrets
+    </string>
+
+    <string name="bard_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="bard_20th_lvl_abilities">
+        Superior Inspiration
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="bard_table2_label">
+        Spells Table
+    </string>
+
+    <string name="bard_table2_value2_label">
+        Cantrips Known
+    </string>
+
+    <string name="bard_table2_value3_label">
+        Spells Known
+    </string>
+
+    <string name="bard_table2_value2_1to3_values">
+        2
+    </string>
+
+    <string name="bard_table2_value2_4to9_values">
+        3
+    </string>
+
+    <string name="bard_table2_value2_10to20_values">
+        4
+    </string>
+
+
+    <string name="bard_table2_value3_1values">
+        4
+    </string>
+
+    <string name="bard_table2_value3_2values">
+        5
+    </string>
+
+    <string name="bard_table2_value3_3values">
+        6
+    </string>
+
+    <string name="bard_table2_value3_4values">
+        7
+    </string>
+
+    <string name="bard_table2_value3_5values">
+        8
+    </string>
+
+    <string name="bard_table2_value3_6values">
+        9
+    </string>
+
+    <string name="bard_table2_value3_7values">
+        10
+    </string>
+
+    <string name="bard_table2_value3_8values">
+        11
+    </string>
+
+    <string name="bard_table2_value3_9values">
+        12
+    </string>
+
+    <string name="bard_table2_value3_10values">
+        14
+    </string>
+
+    <string name="bard_table2_value3_11to12values">
+        15
+    </string>
+
+    <string name="bard_table2_value3_13values">
+        16
+    </string>
+
+    <string name="bard_table2_value3_14values">
+        18
+    </string>
+
+    <string name="bard_table2_value3_15to16values">
+        19
+    </string>
+
+    <string name="bard_table2_value3_17values">
+        20
+    </string>
+
+    <string name="bard_table2_value3_18to20values">
+        22
+    </string>
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
 
     <string name="bardEquipment">
         You start with the following equipment in addition to the equipment granted by your background

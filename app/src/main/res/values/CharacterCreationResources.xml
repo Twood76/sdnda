@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CharacterCreationTitle">
+        CHARACTER CREATION
+    </string>
+
+    <string name="CharacterCreationDescription">
+        If you are willing to start your adventure, you will need your avatar.
+        \n\nThis application will do its best to navigate you through whole process of creating a DnD character. Try to read carefully all information about classes and races available in 5th edition of Dungeons and Dragons.
+        \n\nBefore you dive into step 1, think about the
+        kind of adventurer you want to play. You might be a
+        courageous fighter, a skulking rogue, a fervent cleric, or
+        a flamboyant wizard. Or you might be more interested
+        in an unconventional character, such as a brawny rogue
+        who likes hand-to-hand combat, or a sharpshooter who
+        picks off en emies from afar. Do you like fantasy fiction
+        featuring dwarves or elves? Try building a character of
+        one of those races. Do you want your character to be the
+        toughest adventurer at the table? Consider a class like
+        barbarian or paladin. If you don’t know where else to
+        begin, take a look at the illustrations to see
+        what catch es your interest.
+    </string>
+
+    <string name="buttonValue">
+        continue
+    </string>
+</resources>
