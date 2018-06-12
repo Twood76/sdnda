@@ -70,4 +70,95 @@
         behavior that you have not yet attained.
 
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="paladin_1st_lvl_abilities">
+        Divine Sense
+        \nLay on Hands
+    </string>
+
+    <string name="paladin_2nd_lvl_abilities">
+        Fighting Style,
+        \nSpellcasting,
+        \nDivine Smite
+    </string>
+
+    <string name="paladin_3rd_lvl_abilities">
+        Divine Health,
+        \nSacred Oath
+    </string>
+
+    <string name="paladin_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="paladin_5th_lvl_abilities">
+        Extra Attack
+    </string>
+
+    <string name="paladin_6th_lvl_abilities">
+        Aura of Protection
+    </string>
+
+    <string name="paladin_7th_lvl_abilities">
+        Sacred Oath Feature
+    </string>
+
+    <string name="paladin_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="paladin_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="paladin_10th_lvl_abilities">
+        Aura of Courage
+    </string>
+
+    <string name="paladin_11th_lvl_abilities">
+        Improved Divine Smite
+    </string>
+
+    <string name="paladin_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="paladin_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="paladin_14th_lvl_abilities">
+        Cleansing Touch
+    </string>
+
+    <string name="paladin_15th_lvl_abilities">
+        Sacred Oath Feature
+    </string>
+
+    <string name="paladin_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="paladin_17th_lvl_abilities">
+        -
+    </string>
+
+    <string name="paladin_18th_lvl_abilities">
+        Aura Improvements
+    </string>
+
+    <string name="paladin_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="paladin_20th_lvl_abilities">
+        Sacred Oath Feature
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
 </resources>

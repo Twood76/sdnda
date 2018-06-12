@@ -43,5 +43,118 @@
         hopes of finding a new home or purpose.
     </string>
 
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="druid_1st_lvl_abilities">
+        Druidic,
+        \nSpellcasting
+    </string>
+
+    <string name="druid_2nd_lvl_abilities">
+        Wild Shape,
+        \nDruid Circle
+    </string>
+
+    <string name="druid_3rd_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_4th_lvl_abilities">
+        Wild Shape Improvement
+        \nAbility Score Improvement
+    </string>
+
+    <string name="druid_5th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_6th_lvl_abilities">
+        Druid Circle Feature
+    </string>
+
+    <string name="druid_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_8th_lvl_abilities">
+        Wild Shape Improvement,
+        \nAbility Score Improvement
+    </string>
+
+    <string name="druid_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_10th_lvl_abilities">
+        Druid Circle Feature
+    </string>
+
+    <string name="druid_11th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="druid_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_14th_lvl_abilities">
+        Druid Circle Improvement
+    </string>
+
+    <string name="druid_15th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="druid_17th_lvl_abilities">
+        -
+    </string>
+
+    <string name="druid_18th_lvl_abilities">
+        Timeless Body,
+        \nBeast Spells
+    </string>
+
+    <string name="druid_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="druid_20th_lvl_abilities">
+        Archdruid
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="druid_table2_label">
+        Spells Table
+    </string>
+
+    <string name="druid_table2_value2_label">
+        Cantrips Known
+    </string>
+
+
+    <string name="druid_table2_value2_1to3_values">
+        2
+    </string>
+
+    <string name="druid_table2_value2_4to9_values">
+        3
+    </string>
+
+    <string name="druid_table2_value2_10to20_values">
+        4
+    </string>
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 
 </resources>

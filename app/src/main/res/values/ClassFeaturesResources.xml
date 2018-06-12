@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ClassFeaturesTitle">
+        Class Features
+    </string>
+
+    <string name="ClassFeaturesHPtitle">
+        Hit Points
+    </string>
+
+    <string name="ClassFeaturesProfitiencyTitle">
+        Profitiencies
+    </string>
+
+    <string name="ClassFeaturesStartingEquipmentTitle">
+        Starting Equipment
+    </string>
+</resources>

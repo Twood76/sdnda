@@ -31,6 +31,7 @@
                 android:layout_gravity="center_vertical"/>
 
             <TextView
+                android:id="@+id/ActivityTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="40sp"
                 android:text="Class Features"
@@ -78,10 +79,10 @@
                     android:textStyle="bold"
                     android:textSize="35sp"
                     android:layout_marginTop="25sp"
-                    android:text="Class Features"/>
+                    android:text= "@string/ClassFeaturesTitle"/>
 
                 <TextView
-                    android:id="@+id/classDescription"
+                    android:id="@+id/titleDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -91,7 +92,7 @@
                     android:layout_marginLeft="25sp"
                     android:textSize="20sp"
                     android:textAlignment="center"
-                    android:text="As a barbarian, you gain the following class features."/>
+                    android:text=""/>
 
 
                 <TextView
@@ -99,13 +100,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/classDescription"
+                    android:layout_below="@+id/titleDescription"
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:textStyle="bold"
-                    android:text="Hit Points"/>
+                    android:text="@string/ClassFeaturesHPtitle"/>
 
 
                 <TextView
@@ -117,11 +118,11 @@
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="15sp"
-                    android:text="@string/barbarianHp"/>
+                    android:textSize="17sp"
+                    android:text=""/>
 
                 <TextView
-                    android:id="@+id/ProficienciesTitle"
+                    android:id="@+id/ProfitienciesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
@@ -129,35 +130,35 @@
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:textStyle="bold"
-                    android:text="Proficiencies"/>
+                    android:text="@string/ClassFeaturesProfitiencyTitle"/>
 
 
                 <TextView
-                    android:id="@+id/proficienciesDescription"
+                    android:id="@+id/profitienciesDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/ProficienciesTitle"
+                    android:layout_below="@+id/ProfitienciesTitle"
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="15sp"
-                    android:text="@string/BarbarianProficiencys"/>
+                    android:textSize="17sp"
+                    android:text=""/>
 
                 <TextView
                     android:id="@+id/eqTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:layout_below="@+id/proficienciesDescription"
+                    android:layout_below="@+id/profitienciesDescription"
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="20sp"
+                    android:textSize="25sp"
                     android:textStyle="bold"
-                    android:text="Starting Equipment"/>
+                    android:text="@string/ClassFeaturesStartingEquipmentTitle"/>
 
 
                 <TextView
@@ -169,34 +170,47 @@
                     android:layout_marginRight="25sp"
                     android:layout_marginLeft="25sp"
                     android:layout_marginTop="20sp"
-                    android:textSize="15sp"
-                    android:text="@string/barbarianEquipment"/>
+                    android:textSize="17sp"
+                    android:layout_marginBottom="70sp"
+                    android:text=""/>
 
                 <Button
                     android:id="@+id/chooseButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/eqDescription"
+                    android:layout_alignParentBottom="true"
                     android:src="@android:drawable/ic_menu_edit"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="20sp"
-                    android:text="select"
+                    android:text="@string/selectButton"
                     android:onClick="onChooseButtonclick"/>
 
                 <Button
                     android:id="@+id/nextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignEnd="@+id/proficienciesDescription"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_alignRight="@+id/proficienciesDescription"
+                    android:layout_alignRight="@+id/creatingClassDescription"
+                    android:layout_alignEnd="@+id/creatingClassDescription"
                     android:onClick="onNextButton"
                     android:src="@android:drawable/ic_menu_edit"
-/>
+                    android:text="@string/nextClassButton"/>
+
+                <Button
+                    android:id="@+id/previousButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:onClick="onPreviousButton"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="@string/previousClassButton"/>
 
             </RelativeLayout>
         </ScrollView>
 
     </RelativeLayout>
-
 </android.support.constraint.ConstraintLayout>

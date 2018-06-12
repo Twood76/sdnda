@@ -54,4 +54,112 @@
         magical skills to the test in the face of danger.
 
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="wizard_1st_lvl_abilities">
+        Spellcasting,
+        \nArcane Recovery
+    </string>
+
+    <string name="wizard_2nd_lvl_abilities">
+        Arcane Tradition
+    </string>
+
+    <string name="wizard_3rd_lvl_abilities">
+       -
+    </string>
+
+    <string name="wizard_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="wizard_5th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_6th_lvl_abilities">
+        Arcane Tradition Feature
+    </string>
+
+    <string name="wizard_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_8th_lvl_abilities">
+        Ability Score Improvement,
+    </string>
+
+    <string name="wizard_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_10th_lvl_abilities">
+        Arcane Tradition Feature
+    </string>
+
+    <string name="wizard_11th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="wizard_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_14th_lvl_abilities">
+        Arcane Tradition Feature
+    </string>
+
+    <string name="wizard_15th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="wizard_17th_lvl_abilities">
+        -
+    </string>
+
+    <string name="wizard_18th_lvl_abilities">
+        Spell Mastery
+    </string>
+
+    <string name="wizard_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="wizard_20th_lvl_abilities">
+        Signature Spell
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="wizard_table2_label">
+        Spells Table
+    </string>
+
+    <string name="wizard_table2_value2_label">
+        Cantrips Known
+    </string>
+
+
+    <string name="wizard_table2_value2_1to3_values">
+        3
+    </string>
+
+    <string name="wizard_table2_value2_4to9_values">
+        4
+    </string>
+
+    <string name="wizard_table2_value2_10to20_values">
+        5
+    </string>
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>

@@ -61,4 +61,155 @@
         of the wild, or do you welcome the relief from solitude
         that they offer?
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="ranger_1st_lvl_abilities">
+        Favored Enemy,
+        \nNatural Explorer
+    </string>
+
+    <string name="ranger_2nd_lvl_abilities">
+        Fighting Style,
+        \nSpellcasting
+    </string>
+
+    <string name="ranger_3rd_lvl_abilities">
+        Ranger Archetype,
+        \nPrimal Awareness
+    </string>
+
+    <string name="ranger_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="ranger_5th_lvl_abilities">
+        Extra Attack
+    </string>
+
+    <string name="ranger_6th_lvl_abilities">
+        Favored Enemy Improvement,
+        \nNatural Explorer Improvement
+    </string>
+
+    <string name="ranger_7th_lvl_abilities">
+        Ranger Archetype Feature
+    </string>
+
+    <string name="ranger_8th_lvl_abilities">
+        Ability Score Improvement,
+        \nHide in Plain Sight
+    </string>
+
+    <string name="ranger_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="ranger_10th_lvl_abilities">
+        Natural Explorer Improvement
+    </string>
+
+    <string name="ranger_11th_lvl_abilities">
+        Ranger Archetype Feature
+    </string>
+
+    <string name="ranger_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="ranger_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="ranger_14th_lvl_abilities">
+        Favored Enemy Improvement,
+        \nVanish
+    </string>
+
+    <string name="ranger_15th_lvl_abilities">
+        Ranger Archetype Feature
+    </string>
+
+    <string name="ranger_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="ranger_17th_lvl_abilities">
+        -
+    </string>
+
+    <string name="ranger_18th_lvl_abilities">
+        Feral Senses
+    </string>
+
+    <string name="ranger_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="ranger_20th_lvl_abilities">
+        Foe Slayer
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="ranger_table2_label">
+        Spells Table
+    </string>
+
+    <string name="ranger_table2_value2_label">
+        Spells Known
+    </string>
+
+
+    <string name="ranger_table2_value2_1_values">
+        -
+    </string>
+
+    <string name="ranger_table2_value2_2_values">
+        2
+    </string>
+
+    <string name="ranger_table2_value2_3to4_values">
+        3
+    </string>
+
+    <string name="ranger_table2_value2_5to6_values">
+        4
+    </string>
+
+    <string name="ranger_table2_value2_7to8_values">
+        5
+    </string>
+
+    <string name="ranger_table2_value2_9to10_values">
+       6
+    </string>
+
+
+    <string name="ranger_table2_value2_11to12_values">
+        7
+    </string>
+
+
+    <string name="ranger_table2_value2_13to14_values">
+        8
+    </string>
+
+
+    <string name="ranger_table2_value2_15to16_values">
+        9
+    </string>
+
+    <string name="ranger_table2_value2_17to18_values">
+       10
+    </string>
+
+    <string name="ranger_table2_value2_19to20_values">
+        11
+    </string>
+
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>

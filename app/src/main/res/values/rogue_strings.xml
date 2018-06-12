@@ -53,4 +53,146 @@
         your particular talents.
 
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="rogue_1st_lvl_abilities">
+        Experise,
+        \nSneak Attack,
+        \Thieves' Cant
+    </string>
+
+    <string name="rogue_2nd_lvl_abilities">
+        Cunning Action
+    </string>
+
+    <string name="rogue_3rd_lvl_abilities">
+        Roguish Archetype
+    </string>
+
+    <string name="rogue_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_5th_lvl_abilities">
+        Uncanny Dodge
+    </string>
+
+    <string name="rogue_6th_lvl_abilities">
+        Expertise
+    </string>
+
+    <string name="rogue_7th_lvl_abilities">
+        Evasion
+    </string>
+
+    <string name="rogue_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_9th_lvl_abilities">
+        Roguish Archetype Feature
+    </string>
+
+    <string name="rogue_10th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_11th_lvl_abilities">
+        Reliable Talent
+    </string>
+
+    <string name="rogue_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_13th_lvl_abilities">
+        Roguish Archetype Feature
+    </string>
+
+    <string name="rogue_14th_lvl_abilities">
+        Blindsense
+    </string>
+
+    <string name="rogue_15th_lvl_abilities">
+        Slippery Mind
+    </string>
+
+    <string name="rogue_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_17th_lvl_abilities">
+        Roguish Archetype Feature
+    </string>
+
+    <string name="rogue_18th_lvl_abilities">
+        Elusive
+    </string>
+
+    <string name="rogue_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="rogue_20th_lvl_abilities">
+        Stroke of Luck
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="rogue_table2_label">
+        Rogue Table
+    </string>
+
+
+
+    <string name="rogue_table2_value2_1to2_values">
+        1d6
+    </string>
+
+
+    <string name="rogue_table2_value2_3to4_values">
+        2d6
+    </string>
+
+    <string name="rogue_table2_value2_5to6_values">
+        3d6
+    </string>
+
+    <string name="rogue_table2_value2_7to8_values">
+        4d6
+    </string>
+
+    <string name="rogue_table2_value2_9to10_values">
+       5d6
+    </string>
+
+
+    <string name="rogue_table2_value2_11to12_values">
+        6d6
+    </string>
+
+
+    <string name="rogue_table2_value2_13to14_values">
+        7d6
+    </string>
+
+
+    <string name="rogue_table2_value2_15to16_values">
+        8d6
+    </string>
+
+    <string name="rogue_table2_value2_17to18_values">
+       9d6
+    </string>
+
+    <string name="rogue_table2_value2_19to20_values">
+        10d6
+    </string>
+
+    <string name="rogue_table2_value2_label">
+        Sneak Attack
+    </string>
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>

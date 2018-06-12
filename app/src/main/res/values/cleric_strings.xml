@@ -61,7 +61,7 @@
 
     <string name="cleric_6th_lvl_abilities">
         Channel Divinity (2/rest)
-        Divine Domain Feature
+        \nDivine Domain Feature
     </string>
 
     <string name="cleric_7th_lvl_abilities">
@@ -120,7 +120,7 @@
     </string>
 
     <string name="cleric_20th_lvl_abilities">
-        Divine Intervention Improvement
+        Divine Intervention \nimprovement
     </string>
 
     //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//

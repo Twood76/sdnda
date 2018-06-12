@@ -57,4 +57,264 @@
 
     </string>
 
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="sorcerer_1st_lvl_abilities">
+        Spellcasting,
+        \nSorcerous Origin
+    </string>
+
+    <string name="sorcerer_2nd_lvl_abilities">
+        Font of Magic
+    </string>
+
+    <string name="sorcerer_3rd_lvl_abilities">
+        Metamagic
+    </string>
+
+    <string name="sorcerer_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="sorcerer_5th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_6th_lvl_abilities">
+        Sorcerous Origin Feature
+    </string>
+
+    <string name="sorcerer_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="sorcerer_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_10th_lvl_abilities">
+        Metamagic
+    </string>
+
+    <string name="sorcerer_11th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="sorcerer_13th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_14th_lvl_abilities">
+        Sorcerous Origin Feature
+    </string>
+
+    <string name="sorcerer_15th_lvl_abilities">
+        -
+    </string>
+
+    <string name="sorcerer_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="sorcerer_17th_lvl_abilities">
+        Metamagic
+    </string>
+
+    <string name="sorcerer_18th_lvl_abilities">
+        Sorcerous Origin Feature
+    </string>
+
+    <string name="sorcerer_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="sorcerer_20th_lvl_abilities">
+        Sorcerous Restoration
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="sorcerer_table2_label">
+        Spells Table
+    </string>
+
+    <string name="sorcerer_table2_value2_label">
+        Sorcerery \nPoints
+    </string>
+
+    <string name="sorcerer_table2_value3_label">
+        Cantrip \nKnown
+    </string>
+
+    <string name="sorcerer_table2_value4_label">
+        Spells Known
+    </string>
+
+    <string name="sorcerer_table2_value2_1">
+        -
+    </string>
+
+    <string name="sorcerer_table2_value2_2">
+       2
+    </string>
+
+    <string name="sorcerer_table2_value2_3">
+        3
+    </string>
+
+    <string name="sorcerer_table2_value2_4">
+        4
+    </string>
+
+    <string name="sorcerer_table2_value2_5">
+        5
+    </string>
+
+    <string name="sorcerer_table2_value2_6">
+        6
+    </string>
+
+    <string name="sorcerer_table2_value2_7">
+       7
+    </string>
+
+    <string name="sorcerer_table2_value2_8">
+       8
+    </string>
+
+    <string name="sorcerer_table2_value2_9">
+        9
+    </string>
+
+    <string name="sorcerer_table2_value2_10">
+        10
+    </string>
+
+    <string name="sorcerer_table2_value2_11">
+        11
+    </string>
+
+    <string name="sorcerer_table2_value2_12">
+        12
+    </string>
+
+    <string name="sorcerer_table2_value2_13">
+        13
+    </string>
+
+    <string name="sorcerer_table2_value2_14">
+        14
+    </string>
+    <string name="sorcerer_table2_value2_15">
+        15
+    </string>
+
+    <string name="sorcerer_table2_value2_16">
+        16
+    </string>
+
+    <string name="sorcerer_table2_value2_17">
+        17
+    </string>
+
+    <string name="sorcerer_table2_value2_18">
+        18
+    </string>
+
+    <string name="sorcerer_table2_value2_19">
+        19
+    </string>
+
+    <string name="sorcerer_table2_value2_20">
+        20
+    </string>
+
+
+
+
+
+
+    <string name="sorcerer_table2_value3_1to3_values">
+        4
+    </string>
+
+    <string name="sorcerer_table2_value3_4to9_values">
+        5
+    </string>
+
+    <string name="sorcerer_table2_value3_10to20_values">
+        6
+    </string>
+
+
+
+
+    <string name="sorcerer_table2_value4_1values">
+        2
+    </string>
+
+    <string name="sorcerer_table2_value4_2values">
+        3
+    </string>
+
+    <string name="sorcerer_table2_value4_3values">
+        4
+    </string>
+
+    <string name="sorcerer_table2_value4_4values">
+        5
+    </string>
+
+    <string name="sorcerer_table2_value4_5values">
+        6
+    </string>
+
+    <string name="sorcerer_table2_value4_6values">
+        7
+    </string>
+
+    <string name="sorcerer_table2_value4_7values">
+        8
+    </string>
+
+    <string name="sorcerer_table2_value4_8values">
+        9
+    </string>
+
+    <string name="sorcerer_table2_value4_9values">
+        10
+    </string>
+
+    <string name="sorcerer_table2_value4_10values">
+        11
+    </string>
+
+    <string name="sorcerer_table2_value4_11to12values">
+        12
+    </string>
+
+    <string name="sorcerer_table2_value4_13to14values">
+        13
+    </string>
+
+    <string name="sorcerer_table2_value4_15to16values">
+        14
+    </string>
+
+    <string name="sorcerer_table2_value4_17to20values">
+        15
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
 </resources>

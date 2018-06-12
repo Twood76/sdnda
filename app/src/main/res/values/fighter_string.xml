@@ -59,4 +59,92 @@
         between you and death’s embrace.
     </string>
 
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="fighter_1st_lvl_abilities">
+        Fighting style,
+        \nSecond Wind
+    </string>
+
+    <string name="fighter_2nd_lvl_abilities">
+        Action Surge (one use)
+    </string>
+
+    <string name="fighter_3rd_lvl_abilities">
+        Martial Archetype
+    </string>
+
+    <string name="fighter_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_5th_lvl_abilities">
+        Extra Attack
+    </string>
+
+    <string name="fighter_6th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_7th_lvl_abilities">
+        Martial Archetype feature
+    </string>
+
+    <string name="fighter_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_9th_lvl_abilities">
+        Indomitable (one use)
+    </string>
+
+    <string name="fighter_10th_lvl_abilities">
+        Martial Archetype Feature
+    </string>
+
+    <string name="fighter_11th_lvl_abilities">
+        Extra Attack (2)
+    </string>
+
+    <string name="fighter_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_13th_lvl_abilities">
+        Indomitable (two uses)
+    </string>
+
+    <string name="fighter_14th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_15th_lvl_abilities">
+        Martial Archetype Feature
+    </string>
+
+    <string name="fighter_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_17th_lvl_abilities">
+        Action Surge (two uses),
+        \nIndomitable (three uses)
+    </string>
+
+    <string name="fighter_18th_lvl_abilities">
+        Martial Archetype Feature
+    </string>
+
+    <string name="fighter_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="fighter_20th_lvl_abilities">
+        Extra Attack (3)
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
 </resources>

@@ -113,6 +113,7 @@
 
                         <TextView
                             android:id="@+id/prof"
+                            android:gravity="center_horizontal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/ClassAbilitiesOverviewTable1Label2"
@@ -123,6 +124,7 @@
 
                         <TextView
                             android:id="@+id/features"
+                            android:gravity="center_horizontal"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/ClassAbilitiesOverviewTable1Label3"
@@ -784,6 +786,17 @@
                             android:textStyle="bold"
                             />
 
+                        <TextView
+                            android:id="@+id/table2_value4_label"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:gravity="center_horizontal"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:textStyle="bold"
+                            />
+
                     </TableRow>
 
                     <TableRow
@@ -810,6 +823,15 @@
 
                         <TextView
                             android:id="@+id/table2_value3_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/table2_value4_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
@@ -851,6 +873,15 @@
                             android:gravity="center_horizontal"
                             />
 
+                        <TextView
+                            android:id="@+id/table2_value4_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
+
                     </TableRow>
 
                     <TableRow
@@ -878,6 +909,15 @@
 
                         <TextView
                             android:id="@+id/table2_value3_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
+
+                        <TextView
+                            android:id="@+id/table2_value4_3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="15sp"
@@ -917,6 +957,15 @@
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"
                             />
+
+                        <TextView
+                            android:id="@+id/table2_value4_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -949,6 +998,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -981,6 +1039,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1012,6 +1079,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1043,6 +1119,16 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
+
                     </TableRow>
 
                     <TableRow
@@ -1074,6 +1160,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1105,6 +1200,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1136,6 +1240,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1167,6 +1280,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1198,6 +1320,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1229,6 +1360,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1260,6 +1400,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_15"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1291,6 +1440,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_16"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1322,6 +1480,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1353,6 +1520,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_18"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1384,6 +1560,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_19"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                     <TableRow
@@ -1416,6 +1601,15 @@
                             android:layout_marginLeft="15sp"
                             android:layout_marginRight="15sp"
                             android:gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/table2_value4_20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15sp"
+                            android:layout_marginRight="15sp"
+                            android:gravity="center_horizontal"
+                            />
                     </TableRow>
 
                 </TableLayout>

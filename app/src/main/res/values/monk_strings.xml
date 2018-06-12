@@ -50,4 +50,208 @@
 
     </string>
 
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="monk_1st_lvl_abilities">
+        Unarmored Defense,
+        \nMartial Arts
+    </string>
+
+    <string name="monk_2nd_lvl_abilities">
+        Ki,
+        \nUnarmored Movement
+    </string>
+
+    <string name="monk_3rd_lvl_abilities">
+        Monastic Tradition,
+        \nDeflect Missiles
+    </string>
+
+    <string name="monk_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="monk_5th_lvl_abilities">
+        Extra Attack,
+        \nStunning Strike
+    </string>
+
+    <string name="monk_6th_lvl_abilities">
+        Ki-empowered Strikes,
+        \nMonastic Tradition Feature
+    </string>
+
+    <string name="monk_7th_lvl_abilities">
+        Evasion,
+        \nStillness of Mind
+    </string>
+
+    <string name="monk_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="monk_9th_lvl_abilities">
+        Unarmored Movement Improvement
+    </string>
+
+    <string name="monk_10th_lvl_abilities">
+        Purity of Body,
+    </string>
+
+    <string name="monk_11th_lvl_abilities">
+        Monastic Tradition Feature
+    </string>
+
+    <string name="monk_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="monk_13th_lvl_abilities">
+        Tongue of the Sun and Moon
+    </string>
+
+    <string name="monk_14th_lvl_abilities">
+       Diamond Soul
+    </string>
+
+    <string name="monk_15th_lvl_abilities">
+        Timeless Body
+    </string>
+
+    <string name="monk_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="monk_17th_lvl_abilities">
+        Monastic Tradition Feature
+    </string>
+
+    <string name="monk_18th_lvl_abilities">
+        Empty Body
+    </string>
+
+    <string name="monk_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="monk_20th_lvl_abilities">
+        Perfect Self
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="monk_table2_label">
+        Monk Table
+    </string>
+
+    <string name="monk_table2_value2_label">
+        Martial Arts
+    </string>
+
+    <string name="monk_table2_value3_label">
+        Ki Points
+    </string>
+
+    <string name="monk_table2_value2_1to4_values">
+        1d4
+    </string>
+
+    <string name="monk_table2_value2_5to10_values">
+        1d6
+    </string>
+
+    <string name="monk_table2_value2_11to16_values">
+        1d8
+    </string>
+
+    <string name="monk_table2_value2_17to20_values">
+        1d10
+    </string>
+
+
+
+    <string name="monk_table2_value3_1values">
+        -
+    </string>
+
+    <string name="monk_table2_value3_2values">
+        2
+    </string>
+
+    <string name="monk_table2_value3_3values">
+        3
+    </string>
+
+    <string name="monk_table2_value3_4values">
+        4
+    </string>
+
+    <string name="monk_table2_value3_5values">
+        5
+    </string>
+
+    <string name="monk_table2_value3_6values">
+        6
+    </string>
+
+    <string name="monk_table2_value3_7values">
+        7
+    </string>
+
+    <string name="monk_table2_value3_8values">
+        8
+    </string>
+
+    <string name="monk_table2_value3_9values">
+        9
+    </string>
+
+    <string name="monk_table2_value3_10values">
+        10
+    </string>
+
+    <string name="monk_table2_value3_11values">
+        11
+    </string>
+
+    <string name="monk_table2_value3_12values">
+        12
+    </string>
+
+    <string name="monk_table2_value3_13values">
+        13
+    </string>
+
+    <string name="monk_table2_value3_14values">
+        14
+    </string>
+
+    <string name="monk_table2_value3_15values">
+        15
+    </string>
+
+    <string name="monk_table2_value3_16values">
+        16
+    </string>
+
+    <string name="monk_table2_value3_17values">
+        17
+    </string>
+
+    <string name="monk_table2_value3_18values">
+        18
+    </string>
+
+    <string name="monk_table2_value3_19values">
+        19
+    </string>
+
+    <string name="monk_table2_value3_20values">
+        20
+    </string>
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
 </resources>

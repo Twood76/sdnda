@@ -62,4 +62,215 @@
         intermediaries.
 
     </string>
+
+    //-----------------------------------------------------------Abilities per Lvl-------------------------------------------------------------------------------------//
+
+
+    <string name="warlock_1st_lvl_abilities">
+        Otherworldly Patron,
+        \nPact Magic
+    </string>
+
+    <string name="warlock_2nd_lvl_abilities">
+        Eldricht Invocation
+    </string>
+
+    <string name="warlock_3rd_lvl_abilities">
+        Pact Boon
+    </string>
+
+    <string name="warlock_4th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="warlock_5th_lvl_abilities">
+        -
+    </string>
+
+    <string name="warlock_6th_lvl_abilities">
+        Otherworldly Patron Feature
+    </string>
+
+    <string name="warlock_7th_lvl_abilities">
+        -
+    </string>
+
+    <string name="warlock_8th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="warlock_9th_lvl_abilities">
+        -
+    </string>
+
+    <string name="warlock_10th_lvl_abilities">
+        Otherworldly Patron Feature
+    </string>
+
+    <string name="warlock_11th_lvl_abilities">
+        Mystic Arcanum (6th lvl)
+    </string>
+
+    <string name="warlock_12th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="warlock_13th_lvl_abilities">
+        Mystic Arcanum (7th lvl)
+    </string>
+
+    <string name="warlock_14th_lvl_abilities">
+        Otherworldly Patron Feature
+    </string>
+
+    <string name="warlock_15th_lvl_abilities">
+        Mystic Arcanum (8th lvl)
+    </string>
+
+    <string name="warlock_16th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="warlock_17th_lvl_abilities">
+        Mystic Arcanum (9th lvl)
+    </string>
+
+    <string name="warlock_18th_lvl_abilities">
+        -
+    </string>
+
+    <string name="warlock_19th_lvl_abilities">
+        Ability Score Improvement
+    </string>
+
+    <string name="warlock_20th_lvl_abilities">
+        Eldricht Master
+    </string>
+
+    //---------------------------------------------------------Spell Table---------------------------------------------------------------------------------------//
+    <string name="warlock_table2_label">
+        Spells Table
+    </string>
+
+    <string name="warlock_table2_value2_label">
+        Invocations \nKnown
+    </string>
+
+    <string name="warlock_table2_value3_label">
+        Cantrip \nKnown
+    </string>
+
+    <string name="warlock_table2_value4_label">
+        Spells Known
+    </string>
+
+    <string name="warlock_table2_value2_1">
+        -
+    </string>
+
+    <string name="warlock_table2_value2_2to4">
+       2
+    </string>
+
+    <string name="warlock_table2_value2_5to6">
+        3
+    </string>
+
+    <string name="warlock_table2_value2_7to8">
+        4
+    </string>
+
+    <string name="warlock_table2_value2_9to11">
+        5
+    </string>
+
+    <string name="warlock_table2_value2_12to14">
+        6
+    </string>
+
+    <string name="warlock_table2_value2_15to17">
+       7
+    </string>
+
+    <string name="warlock_table2_value2_18to20">
+       8
+    </string>
+
+
+
+
+
+    <string name="warlock_table2_value3_1to3_values">
+        2
+    </string>
+
+    <string name="warlock_table2_value3_4to9_values">
+        3
+    </string>
+
+    <string name="warlock_table2_value3_10to20_values">
+        4
+    </string>
+
+
+
+
+    <string name="warlock_table2_value4_1values">
+        2
+    </string>
+
+    <string name="warlock_table2_value4_2values">
+        3
+    </string>
+
+    <string name="warlock_table2_value4_3values">
+        4
+    </string>
+
+    <string name="warlock_table2_value4_4values">
+        5
+    </string>
+
+    <string name="warlock_table2_value4_5values">
+        6
+    </string>
+
+    <string name="warlock_table2_value4_6values">
+        7
+    </string>
+
+    <string name="warlock_table2_value4_7values">
+        8
+    </string>
+
+    <string name="warlock_table2_value4_8values">
+        9
+    </string>
+
+    <string name="warlock_table2_value4_9to10_values">
+        10
+    </string>
+
+    <string name="warlock_table2_value4_11to12values">
+        11
+    </string>
+
+    <string name="warlock_table2_value4_13to14values">
+        12
+    </string>
+
+    <string name="warlock_table2_value4_15to16values">
+        13
+    </string>
+
+    <string name="warlock_table2_value4_17to18values">
+        14
+    </string>
+
+    <string name="warlock_table2_value4_19to20values">
+        15
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>
