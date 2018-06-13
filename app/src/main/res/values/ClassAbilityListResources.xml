@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ClassAbilityListTitle">
+        Abilities and Features
+    </string>
+
+    <string name="ClassSchoolsTitle">
+        Class Variants
+    </string>
+</resources>

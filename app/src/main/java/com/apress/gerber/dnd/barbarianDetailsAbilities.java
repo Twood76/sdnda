@@ -10,7 +10,7 @@ import android.widget.ScrollView;
 public class barbarianDetailsAbilities extends AppCompatActivity {
 
     //Variables for Sweeper
-    private ScrollView myLayout = null;
+    ScrollView myLayout = null;
     private float x1;
     private float x2;
     private boolean beeingUsed = true;
@@ -23,7 +23,7 @@ public class barbarianDetailsAbilities extends AppCompatActivity {
 
 
         //Sweep Screen - got to setOnTouchListener to existin label (layout) deciding which area should be listen for touch events
-        myLayout = (ScrollView) findViewById(R.id.scrollId);
+        myLayout = findViewById(R.id.scrollId);
         myLayout.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {

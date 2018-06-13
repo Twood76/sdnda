@@ -194,5 +194,35 @@
         Sneak Attack
     </string>
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
-</resources>
+    //------------------------------------------------CLASS FEATURES------------------------------------------------------------------------------------------------//
+
+    <string name="rogueFeaturesTitleDescription">
+        As a rogue, you gain the following class features.
+    </string>
+
+    <string name="rogueHp">
+        <b>Hit Dice:</b> 1d8 per rogue lvl
+        \n<b>HP at 1st lvl:</b> 8 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d8(or 5) + Constitution Modifier per rogue level after 1st
+    </string>
+
+    <string name="rogueProfitiencysDescription">
+        <b>Armor:</b> Light armor
+        \n<b>Weapons:</b> Simple weapons, hand crossbows, longswords, rapiers, shortswords
+        \n<b>Tools:</b> Thieves tools
+        \n
+        \n<b>Saving Throws:</b> Dexterity, Intelligence
+        \n<b>Skills: </b> Choose four from Acrobatics, Athletics, Deception, Insight, Intimidation, Investigation, Perception, Performance, Persuation, Sleight of Hand, Stealth
+    </string>
+
+    <string name="rogueEquipment">
+         You start with the following equipment in addition to the equipment granted by your background:
+        \n\n- (a) a rapier (b) a shortsword
+        \n- (a) a shortbow with 20 arrows or (b) a shortsword
+        \n- (a) a burglars pack, (b) a dungeoners pack or (c) an explorers pack
+        \n- Leather Armor, two daggers and thieves tools
+    </string>
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//</resources>

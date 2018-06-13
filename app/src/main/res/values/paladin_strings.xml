@@ -159,6 +159,36 @@
     </string>
 
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
+    //------------------------------------------------CLASS FEATURES------------------------------------------------------------------------------------------------//
 
+    <string name="paladinFeaturesTitleDescription">
+        As a paladin, you gain the following class features.
+    </string>
+
+    <string name="paladinHp">
+        <b>Hit Dice:</b> 1d10 per paladin lvl
+        \n<b>HP at 1st lvl:</b> 10 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d10(or 6) + Constitution Modifier per paladin level after 1st
+    </string>
+
+    <string name="paladinProfitiencysDescription">
+        <b>Armor:</b> All armors, Shields
+        \n<b>Weapons:</b> Simple Weapons, Martial Weapons
+        \n<b>Tools:</b> None
+        \n
+        \n<b>Saving Throws:</b> Wisdom, Charisma
+        \n<b>Skills: </b> Choose two from Athletics, Insight, Intimidation, Medicine, Persuation, Religion
+    </string>
+
+    <string name="paladinEquipment">
+         You start with the following equipment in addition to the equipment granted by your background:
+        \n\n- (a) a martial weapon and shield or (b) two martial weapons
+        \n- (a) five javelins or (b) any simple melee weapon
+        \n- (s) a priests pack or (b) an explorers pack
+        \n- chain mail and a holy symbol
+    </string>
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>

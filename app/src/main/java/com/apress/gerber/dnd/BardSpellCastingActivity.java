@@ -38,7 +38,7 @@ public class BardSpellCastingActivity extends AppCompatActivity {
                 //previous
                 if (((x2 - x1) > 0) && beeingUsed == false && (Math.abs(x2 - x1) > 200)) {
 
-                    Intent newIntent = new Intent(getApplicationContext(), BardClassFeatures.class);
+                    Intent newIntent = new Intent(getApplicationContext(), ClassFeatures.class);
                     newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                     startActivity(newIntent);
                     overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);

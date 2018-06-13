@@ -87,7 +87,6 @@
         <activity android:name=".BarbarianPersistentRage" />
         <activity android:name=".BarbarianIndomitableMight" />
         <activity android:name=".PrimalChampion" />
-        <activity android:name=".BardClassFeatures" />
         <activity android:name=".BardSpellCastingActivity" />
         <activity android:name=".BardAbilityDetailsActivity" />
         <activity android:name=".BardBardicInspiration" />
@@ -109,7 +108,6 @@
         <activity android:name=".BardExtraAttack" />
         <activity android:name=".BardBattleMagic" />
         <activity android:name=".ClericSpellcasting" />
-        <activity android:name=".ClericFeatures" />
         <activity android:name=".ClericAbilityDetail" />
         <activity android:name=".ClericKnowledgeDomain" />
         <activity android:name=".ClericBlessingOfKnowledge" />
@@ -149,7 +147,8 @@
         <activity android:name=".ClericAvatarOfBattle" />
         <activity android:name=".ClassOverviewUniversalActivity" />
         <activity android:name=".ClassAbiltiesOverview" />
-        <activity android:name=".ClassFeatures"></activity>
+        <activity android:name=".ClassFeatures" />
+        <activity android:name=".ClassAbilitiesListActivity"></activity>
     </application>
 
 </manifest>

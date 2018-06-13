@@ -227,18 +227,11 @@
         22
     </string>
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
 
+    //------------------------------------------------CLASS FEATURES------------------------------------------------------------------------------------------------//
 
-
-
-
-    <string name="bardEquipment">
-        You start with the following equipment in addition to the equipment granted by your background
-        \n- (a) a Rapier or (b) a longsword or (c) any simple weapon
-        \n- (a) a diplomat`s pack or (b) an entertainer`s pack
-        \n- (a) a lute or (b) any other musical instrument
-        \n- Leather armor and a dagger
+    <string name="bardFeaturesTitleDescription">
+        As a bard, you gain the following class features.
     </string>
 
     <string name="bardHp">
@@ -247,7 +240,7 @@
         \n<b>HP on higher levels:</b> 1d8(or 5) + Constitution Modifier per bard level after 1st
     </string>
 
-    <string name="BardProficiencys">
+    <string name="bardProfitiencysDescription">
         <b>Armor:</b> Light Armor
         \n<b>Weapons:</b> Simple Weapons, hand crossbows, longswords, rapiers, shortswords
         \n<b>Tools:</b> Three musical instruments of your choice
@@ -255,6 +248,25 @@
         \n<b>Saving Throws:</b> Dexterity, Charisma
         \n<b>Skills: </b> Choose any three
     </string>
+
+    <string name="bardEquipment">
+         You start with the following equipment in addition to the equipment granted by your background
+        \n\n- (a) a rapier or (b) a longsword or (c) any simple weapon
+        \n- (a) a diplomats pack or (b) an entertainers pack
+        \n- (a) a lute or (b) any other musical instrument
+        \n- Leather armor and a dagger
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
+
 
 
     <string name="bardSpellSlots">

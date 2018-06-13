@@ -147,25 +147,19 @@
 
 
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
+    //------------------------------------------------CLASS FEATURES------------------------------------------------------------------------------------------------//
 
-
-    <string name="clericEquipment">
-        You start with the following equipment in addition to the equipment granted by your background
-        \n- (a) a mace or (b) a warhammer (if proficient)
-        \n- (a) scale mail or (b) leather armor or (c) chain mail (if proficient)
-        \n- (a) a light crossbow and 20 bolts or (b) any simple weapon
-        \n- (a) a priests pack or (b) an explorers pack
-        \n- (a) a shield and holy symbol
+    <string name="clericFeaturesTitleDescription">
+        As a cleric, you gain the following class features.
     </string>
 
     <string name="clericHp">
-        <b>Hit Dice:</b> 1d8 per cleric lvl
+         <b>Hit Dice:</b> 1d8 per cleric lvl
         \n<b>HP at 1st lvl:</b> 8 + Constitution Modifier
         \n<b>HP on higher levels:</b> 1d8(or 5) + Constitution Modifier per cleric level after 1st
     </string>
 
-    <string name="clericProficiencys">
+    <string name="clericProfitiencysDescription">
         <b>Armor:</b> Light Armor, medium armor, shields
         \n<b>Weapons:</b> All simple weapons
         \n<b>Tools:</b> None
@@ -173,6 +167,22 @@
         \n<b>Saving Throws:</b> Wisdom, Charisma
         \n<b>Skills: </b> Choose two from History, Insight, Medicine, Persuation and Religion
     </string>
+
+    <string name="clericEquipment">
+        You start with the following equipment in addition to the equipment granted by your background
+        \n\n- (a) a mace or (b) a warhammer (if proficient)
+        \n- (a) scale mail or (b) leather armor or (c) chain mail (if proficient)
+        \n- (a) a light crossbow and 20 bolts or (b) any simple weapon
+        \n- (a) a priests pack or (b) an explorers pack
+        \n- (a) a shield and holy symbol
+    </string>
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
+
+
+
+
 
     <string name="clericCantrips">
         At 1st level, you know three cantrips of your choice from

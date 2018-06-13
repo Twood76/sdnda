@@ -145,6 +145,36 @@
     </string>
 
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
+    //------------------------------------------------CLASS FEATURES------------------------------------------------------------------------------------------------//
 
+    <string name="fighterFeaturesTitleDescription">
+        As a fighter, you gain the following class features.
+    </string>
+
+    <string name="fighterHp">
+        <b>Hit Dice:</b> 1d10 per fighter lvl
+        \n<b>HP at 1st lvl:</b> 10 + Constitution Modifier
+        \n<b>HP on higher levels:</b> 1d10(or 6) + Constitution Modifier per fighter level after 1st
+    </string>
+
+    <string name="fighterProfitiencysDescription">
+        <b>Armor:</b> All Armors, Shields
+        \n<b>Weapons:</b> Simple Weapons, Martial Weapons
+        \n<b>Tools:</b> None
+        \n
+        \n<b>Saving Throws:</b> Strength, Constitution
+        \n<b>Skills: </b> Choose two from Acrobatics, Animal Handling, Athletics, History, Insight, Intimidation, Perception, Survival
+    </string>
+
+    <string name="fighterEquipment">
+         You start with the following equipment in addition to the equipment granted by your background:
+        \n\n- (a) Chain Mail or (b) Leather, Longbow with 20 arrows
+        \n- (a) a Martial Weapon and Shield or (b) two Martial Weapons
+        \n- (a) a Light Crossbow and 20 Bolts or (b) two Handaxes
+        \n- (a) a Dungeoners Pack or (b) an Explorers Pack
+    </string>
+
+
+
+    //------------------------------------------------------------------------------------------------------------------------------------------------//
 </resources>

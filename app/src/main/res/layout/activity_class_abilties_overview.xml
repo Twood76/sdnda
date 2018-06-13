@@ -1624,7 +1624,8 @@
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="20sp"
                     android:text="@string/selectButton"
-                    android:onClick="onChooseButtonclick"/>
+                    android:onClick="onChooseButtonclick"
+                    />
 
                 <Button
                     android:id="@+id/nextButton"
@@ -1633,8 +1634,6 @@
                     android:layout_alignParentRight="true"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:layout_alignRight="@+id/creatingClassDescription"
-                    android:layout_alignEnd="@+id/creatingClassDescription"
                     android:onClick="onNextButton"
                     android:src="@android:drawable/ic_menu_edit"
                     android:text="@string/nextClassButton"/>

@@ -54,46 +54,135 @@ public class ClassFeatures extends AppCompatActivity {
                 break;
 
             case("bard"):
-
+                //title
+                activityTitle.setText(R.string.bard);
+                titleDescription.setText(R.string.bardFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.bardProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.bardEquipment);
                 break;
 
             case("cleric"):
-
+                //title
+                activityTitle.setText(R.string.cleric);
+                titleDescription.setText(R.string.clericFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.clericProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.clericEquipment);
                 break;
 
             case("druid"):
-
+                //title
+                activityTitle.setText(R.string.druid);
+                titleDescription.setText(R.string.druidFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.druidProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.druidEquipment);
                 break;
 
             case("fighter"):
-
+                //title
+                activityTitle.setText(R.string.fighter);
+                titleDescription.setText(R.string.fighterFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.fighterProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.fighterEquipment);
                 break;
 
             case("monk"):
-
+                //title
+                activityTitle.setText(R.string.monk);
+                titleDescription.setText(R.string.monkFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.monkProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.monkEquipment);
                 break;
-            case("paladin"):
 
+            case("paladin"):
+                //title
+                activityTitle.setText(R.string.paladin);
+                titleDescription.setText(R.string.paladinFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.paladinProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.paladinEquipment);
                 break;
 
             case("ranger"):
-
+                //title
+                activityTitle.setText(R.string.ranger);
+                titleDescription.setText(R.string.rangerFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.rangerProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.rangerEquipment);
                 break;
 
             case("rogue"):
-
+                //title
+                activityTitle.setText(R.string.rogue);
+                titleDescription.setText(R.string.rogueFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.rogueProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.rogueEquipment);
                 break;
 
             case("sorcerer"):
-
+                //title
+                activityTitle.setText(R.string.sorcerer);
+                titleDescription.setText(R.string.sorcererFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.sorcererProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.sorcererEquipment);
                 break;
 
             case("warlock"):
-
+                //title
+                activityTitle.setText(R.string.warlock);
+                titleDescription.setText(R.string.warlockFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.warlockProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.warlockEquipment);
                 break;
 
             case("wizard"):
-
+                //title
+                activityTitle.setText(R.string.wizard);
+                titleDescription.setText(R.string.wizardFeaturesTitleDescription);
+                //Hp
+                Hp.setText(R.string.barbarianHp);
+                //Profitiency
+                profitiency.setText(R.string.wizardProfitiencysDescription);
+                //Eq
+                eq.setText(R.string.wizardEquipment);
                 break;
         }
 
@@ -116,11 +205,59 @@ public class ClassFeatures extends AppCompatActivity {
                 }
                 //previous
                 if (((x2 - x1) > 0) && !beeingUsed && (Math.abs(x2 - x1) > 300) && (Math.abs(y2 - y1) < 300)) {
-                    //Intent newIntent = new Intent(getApplicationContext(), weaponsActivity.class);
-                    //startActivity(newIntent);
-                    //overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
-                    beeingUsed = true;
-                    return true;
+                    Intent newIntent = new Intent(getApplicationContext(), ClassAbiltiesOverview.class);
+                    newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
+                    switch(whichClass){
+                        case("barbarian"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("bard"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("cleric"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("druid"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("fighter"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("monk"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("paladin"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("ranger"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("rogue"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("sorcerer"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("warlock"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+
+                        case("wizard"):
+                            newIntent.putExtra("whichClass", whichClass);
+                            break;
+                    }
+                    startActivity(newIntent);
+                    overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 }
                 //next
                 if (((x2 - x1) < 0) && !beeingUsed  && (Math.abs(x2 - x1) > 300) && (Math.abs(y2 - y1) < 300)) {
@@ -196,7 +333,7 @@ public class ClassFeatures extends AppCompatActivity {
     }
 
     public void onNextButton(View view) {
-        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassFeatures.class);
 
         switch(whichClass){
             case("barbarian"):
@@ -260,7 +397,7 @@ public class ClassFeatures extends AppCompatActivity {
 
     public void onPreviousButton(View view) {
 
-        Intent newIntent = new Intent(getApplicationContext(), ClassOverviewUniversalActivity.class);
+        Intent newIntent = new Intent(getApplicationContext(), ClassFeatures.class);
         switch (whichClass) {
             case ("bard"):
                 whichClass = "barbarian";
