@@ -178,7 +178,861 @@
     </string>
 
 
-    //------------------------------------------------------------------------------------------------------------------------------------------------//
+    //----------------------------------------------------ABILITIES--------------------------------------------------------------------------------------------//
+
+    <string name="clericChannelDivinityTiutle">
+        Channel Divinity
+    </string>
+    <string name="clericChannelDivinity">
+        At 2nd level, you gain the ability to channel divine
+        energy directly from your deity, using that energy to fuel
+        magical effects. You start with two such effects: Turn
+        Undead and an effect determined by your domain. Some
+        domains grant you additional effects as you advance in
+        levels, as noted in the domain description.
+        \n\nWhen you use your Channel Divinity, you choose
+        which effect to create. You must then finish a short or
+        long rest to use your Channel Divinity again.
+        \n\nSome Channel Divinity effects require saving throws.
+        When you use such an effect from this class, the DC
+        equals your cleric spell save DC.
+        \n\nBeginning at 6th level, you can use your Channel
+        Divinity twice between rests, and beginning at 18th level.
+        you can use it three times between rests. When you finish
+        a short or long rest, you regain your expended uses.
+    </string>
+    
+    
+    <string name="clericChannelDivinityTurnUndeadTitle">
+        Channel Divinity: Turn Undead
+    </string>
+    <string name="clericChannelDivinityTurnUndead">
+        As an action, you present your holy symbol and speak a
+        prayer censuring the undead. Each undead that can see
+        or hear you within 30 feet of you must make a Wisdom
+        saving throw. If the creature fails its saving throw, it is
+        turned for 1 minute or until it takes any damage.
+        \n\nA turned creature must spend its turns trying to move
+        as far away from you as it can, and it can’t willingly
+        move to a space within 30 feet of you. It also can’t take
+        reactions. For its action, it can use only the Dash action
+        or try to escape from an effect that prevents it from
+        moving. If there’s nowhere to move, the creature can use
+        the Dodge action.
+   </string>
+    
+    <string name="clericDestroyUndeadTitle">
+        Destroy Undead
+    </string>
+    <string name="clericDestroyUndead">
+        Starting at 5th level, when an undead fails its saving
+        throw against your Turn Undead feature, the creature is
+        instantly destroyed if its challenge rating is at or below a
+        certain threshold, as shown in the table below.
+        \n\n
+        <b>\t\tLvl \t\t\t\tDestroy Undead of Cr</b>
+        \n\t\t5th\t\t\t\t1/2 or lower
+        \n\t\t8th\t\t\t\t1 or lower
+        \n\t\t11th\t\t\t\t2 or lower
+        \n\t\t14th\t\t\t\t3 or lower
+        \n\t\t17th\t\t\t\t4 or lower
+    </string>
+    
+    
+    <string name="clericDivineInterventionTitle">
+        Divine Intervention
+    </string>
+    <string name="clericDivineIntervention">
+        Beginning at 10th level, you can call on your deity to
+        intervene on your behalf when your need is great.
+        \n\nImploring your deity’s aid requires you to use your
+        action. Describe the assistance you seek, and roll
+        percentile dice. If you roll a number equal to or lower
+        than your cleric level, your deity intervenes. The DM
+        chooses the nature of the intervention; the effect of any
+        cleric spell or cleric domain spell would be appropriate.
+        \n\nIf your deity intervenes, you can’t use this feature
+        again for 7 days. Otherwise, you can use it again after
+        you finish a long rest.
+        \n\nAt 20th level, your call for intervention succeeds
+        automatically, no roll required.
+    </string>
+
+
+
+    //----------------------------------------------------CLASS SCHOOLS--------------------------------------------------------------------------------------------//
+
+    <string name="clericDivineDomainsTitle">
+        Divine Domains
+    </string>
+    <string name="clericDivineDomain">
+        In a pantheon, every deity has influence over different
+        aspects of mortal life and civilization, called a deity’s
+        domain. All the domains over which a deity has
+        influence are called the deity’s portfolio. For example,
+        the portfolio of the Greek god Apollo includes the
+        domains of Know ledge, Life, and Light. As a cleric, you
+        choose one aspect of your deity’s portfolio to emphasize,
+        and you are granted powers related to that domain.
+
+        \n\nYour choice might correspond to a particular sect
+        dedicated to your deity. Apollo, for example, could be
+        worshiped in one region as Phoebus (“radiant”). Apollo,
+        emphasizing his influence over the Light domain,
+        and in a different place as Apollo Acesius (“healing”),
+        emphasizing his association with the Life domain.
+        Alternatively, your choice of domain could simply be a
+        matter of personal preference, the aspect of the deity
+        that appeals to you most.
+
+        \n\nEach domain’s description gives examples of deities
+        who have influence over that domain. Gods are included
+        from the worlds of the Forgotten Realms, Greyhawk,
+        Dragon lance, and Eberron campaign settings, as well as
+        from the Celtic, Greek, Norse, and Egyptian pantheons
+        of antiquity.
+
+        \n\nChoose one domain related to your deity: Knowledge,
+        Life, Light, Nature, Tempest, Trickery, or War. Each
+        domain is detailed at the end of the class description,
+        and each one provides examples of gods associated
+        with it. Your choice grants you domain spells and other
+        features when you choose it at 1st level. It also grants
+        you additional ways to use Channel Divinity when you
+        gain that feature at 2nd level, and additional benefits at
+        6th, 8th, and 17th levels.
+
+        \n\n<b>Domain Spells</b>
+        \n\n
+        Each domain has a list of spells—its domain spells—
+        that you gain at the cleric levels noted in the domain
+        description. Once you gain a domain spell, you always
+        have it prepared, and it doesn’t count against the
+        number of spells you can prepare each day.
+        If you have a domain spell that doesn’t appear on the
+        cleric spell list, the spell is nonetheless a cleric spell for you.
+    </string>
+
+    
+    
+    <string name="clericKnowledgeDomainTitle">
+        Knowledge Domain
+    </string>
+    <string name="clericKnowledgeDomain">
+        The gods of knowledge—including Oghma, Boccob ,
+        Gilean, Aureon, and Thoth —value learning and
+        understanding above all. Some teach that knowledge is
+        to be gathered and shared in libraries and universities,
+        or promote the practical knowledge of craft and
+        invention. Some deities hoard knowledge and keep its
+        secrets to themselves. And some promise their followers
+        that they will gain tremendous power if they unlock the
+        secrets of the multiverse. Followers of these gods study
+        esoteric lore, collect old tomes, delve into the secret
+        places of the earth, and learn all they can. Some gods
+        of knowledge promote the practical knowledge of craft
+        and invention, including smith deities like Gond, Reorx,
+        Onatar, Moradin, Hephaestus, and Goibhniu.
+
+        \n\n<b>Knowledge Domain Spells</b>
+        \n\n\t\t1st \t\t\t\tcommand,identify
+        \n\t\t3rd \t\t\t\taugury, suggestion
+        \n\t\t5th \t\t\t\tnondetection, speak with dead
+        \n\t\t7th \t\t\t\tarcane eye, confusion
+        \n\t\t9th \t\t\t\tlegend lore, scrying
+    </string>
+    
+    
+    <string name="clericKnowledgeDomainBlessingOfKnowledgeTitle">
+        Blessing of Knowledge
+    </string>
+    <string name="clericKnowledgeDomainBlessingofKnowledge">
+        At 1st level, you learn two languages of your choice.
+        You also become proficient in your choice of two of the
+        follow in gskills: Arcana, History, Nature, or Religion.
+        \n\nYour proficiency bonus is doubled for any ability check
+        you make that uses either of those skills.
+    </string>
+    
+    
+    <string name="clericKnowledgeDomainChannelDivinityKnowledgeOfTheAgesTitle">
+        Channel Divinity: Knowledge of the Ages
+    </string>
+    <string name="clericKnowledgeDomainChannelDivinityKnowledgeOfTheAges">
+        Starting at 2nd level, you can use your Channel Divinity
+        to tap into a divine well of knowledge. As an action,
+        you choose one skill or tool. For 10 minutes, you have
+        proficiency with the chosen skill or tool.
+    </string>
+
+
+    <string name="clericKnowledgeDomainChannelDivinityReadThoughtsTitle">
+        Channel Divinity: Read Thoughts
+    </string>
+    <string name="clericKnowledgeDomainChannelDivinityReadThoughs">
+        At 6th level, you can use your Channel Divinity to read a
+        creature’s thoughts. You can then use your access to the
+        creature’s mind to command it.
+        \n\nAs an action, choose one creature that you can see
+        within 60 feet of you. That creature must make a
+        Wisdom saving throw. If the creature succeeds on the
+        saving throw, you can’t use this feature on it again until
+        you finish a long rest.
+        \n\nIf the creature fails its save, you can read its surface
+        thoughts (those foremost in its mind, reflecting its
+        current emotions and what it is actively thinking
+        about) when it is within 60 feet of you. This effect lasts
+        for 1 minute.
+        \n\nDuring that time, you can use your action to end this
+        effect and cast the suggestion spell on the creature
+        without expending a spell slot. The target automatically
+        fails its saving throw against the spell.
+    </string>
+
+    <string name="clericKnowledgeDomainPotentSpellcastingTitle">
+        Potent Spellcasting
+    </string>
+    <string name="clericKnowledgeDomainPotentSpellcasting">
+        Starting at 8th level, you add your Wisdom modifier to
+        the damage you deal with any cleric cantrip.
+    </string>
+
+
+    <string name="clericKnowledgeDomainVisionOfThePastTitle">
+        Visions of the Past
+    </string>
+    <string name="clericKnowledgeDomainVisionOfThePast">
+        Starting at 17th level, you can call up visions of the
+        past that relate to an object you hold or your immediate
+        surroundings. You spend at least 1 minute in meditation
+        and prayer, then receive dream like, shadowy glimpses
+        of recent events. You can meditate in this way for a
+        number of minutes equal to your Wisdom score and
+        must maintain concentration during that time, as if you
+        were casting a spell.
+        \n\nOnce you use this feature, you can’t use it again until
+        you finish a short or long rest.
+        \n\n<b>Object Reading.</b> Holding an object as you meditate,
+        you can see visions of the object’s previous owner.
+        After meditating for 1 minute, you learn how the owner
+        acquired and lost the object, as well as the most recent
+        significant event involving the object and that owner.
+        If the object was owned by another creature in the
+        recent past (within a number of days equal to your
+        Wisdom score), you can spend 1 additional minute
+        for each owner to learn the same information about
+        that creature.
+        \n\n<b>Area Reading.</b> As you meditate, you see visions
+        of recent events in your immediate vicinity (a room ,
+        street, tunnel, clearing, or the like, up to a 50-foot cube),
+        going back a number of days equal to your Wisdom
+        score. For each minute you meditate, you learn about
+        one significant event, beginning with the most recent.
+        Significant events typically involve powerful emotions,
+        such as battles and betrayals, marriages and murders,
+        births and funerals. However, they might also include
+        more mundane events that are nevertheless important
+        in your current situation.
+    </string>
+
+
+
+
+
+    <string name="clericLifeDomainTitle">
+        Life Domain
+    </string>
+    <string name="clericLifeDomain">
+        The Life domain focuses on the vibrant positive
+        energy—one of the fundamental forces of the universe—
+        that sustains all life. The gods of life promote vitality
+        and health through healing the sick and wounded,
+        caring for those in need, and driving away the forces of
+        death and undeath. Almost any non-evil deity can claim
+        influence over this domain, particularly agricultural
+        deities (such as Chauntea, Arawai, and Demeter), sun
+        gods (such as Lathander, Pelor, and Re-Horakhty), gods
+        of healing or endurance (such as Ilmater, Mishakal,
+        Apollo, and Diancecht), and gods of home and
+        community (such as Hestia, Hathor, and Boldrei).
+
+        \n\n<b>Life Domain Spells</b>
+        \n\n\t\tCleric Level \t\t\t\tSpells
+        \n\t\t1st \t\t\t\tbless, cure wounds
+        \n\t\t3rd \t\t\t\tlesser restoration, spiritual weapon
+        \n\t\t5th \t\t\t\tbeacon of hope, revivify
+        \n\t\t7th \t\t\t\tdeath ward, guardian of faith
+        \n\t\t9th \t\t\t\tmass cure wounds, raise dead
+    </string>
+    
+    
+    <string name="clericLifeDomainBonusProfitioencyTitle">
+        Bonus Profitiency
+    </string>
+    <string name="clericLifeDomainBonusProfitiency">
+        When you choose this domain at 1st level, you gain proficiency with heavy armor.
+    </string>
+    
+    
+    <string name="clericLifeDomainDiscipleOfLifeTitle">
+        Disciple of Life
+    </string>
+    <string name="clericLifeDomainDiscipleOfLight">
+        Also starting at 1st level, your healing spells are more
+        effective. Whenever you use a spell of 1st level or higher
+        to restore hit points to a creature, the creature regains
+        additional hit points equal to 2+ the spell’s level.
+    </string>
+    
+    
+    <string name="clericLifeDomainChannelDivinityPreserveLifeTitle">
+        Channel Divinity: Preserve Life
+    </string>
+    <string name="clericLifeDomainPreserveLife">
+        Starting at 2nd level, you can use your Channel Divinity
+        to heal the badly injured.
+        \n\nAs an action, you present your holy symbol and
+        evoke healing energy that can restore a number of hit
+        points equal to five times your cleric level. Choose any
+        creatures within 30 feet of you, and divide those hit
+        points among them. This feature can restore a creature
+        to no more than half of its hit point maximum . You can’t
+        use this feature on an undead or a construct.
+    </string>
+    
+
+    <string name="clericLifeDomainBlessedHealerTitle">
+        Blessed Healer
+    </string>
+    <string name="clericLifeDomainBlessedHealer">
+        Beginning at 6th level, the healing spells you cast on
+        others heal you as well. When you cast a spell of 1st
+        level or higher that restores hit points to a creature
+        other than you, you regain hit points equal to 2+ the
+        spell’s level.
+    </string>
+    
+    
+    <string name="clericLifeDomainDivineStrikeTitle">
+        Divine Strike
+    </string>
+    <string name="clericLifeDomainDivineStrike">
+        At 8th level, you gain the ability to infuse your weapon
+        strikes with divine energy. Once on each of your turns
+        when you hit a creature with a weapon attack, you can
+        cause the attack to deal an extra 1d8 radiant damage to
+        the target. When you reach 14th level, the extra damage
+        in creases to 2d8.
+    </string>
+    
+    <string name="clericLifeDomainSupremeHealingTitle">
+        Supreme Healing
+    </string>
+    <string name="clericLifeDomainSupremeHealing">
+        Starting at 17th level, when you would normally roll
+        one or more dice to restore hit points with a spell, you
+        instead use the highest number possible for each die.
+        For example, instead of restoring 2d6 hit points to a
+        creature, you restore 12.
+    </string>
+    
+    
+    <string name="clericLightDomainTitle">
+        Light Domain
+    </string>
+    <string name="clericLightDomain">
+        Gods of light—including Helm, Lathander, Pholtus,
+        Branchala, the Silver Flame, Belenus, Apollo, and
+        Re-Horakhty — promote the ideals of rebirth and
+        renewal, truth, vigilance, and beauty, often using the
+        symbol of the sun. Some of these gods are portrayed
+        as the sun itself or as a charioteer who guides the sun
+        across the sky. Others are tireless sentinels whose eyes
+        pierce every shadow and see through every deception.
+        Some are deities of beauty and artistry, who teach that
+        art is a vehicle for the soul's improvement. Clerics of a
+        god of light are enlightened souls infused with radiance
+        and the power of their gods’ discerning vision, charged
+        with chasing away lies and burning away darkness.
+        
+        \n\n<b>Light Domain Spells</b>
+        \n\n\t\tCleric Level \t\t\t\tSpells
+        \n\t\t1st \t\t\t\tburning hands, faerie fire
+        \n\t\t3rd \t\t\t\tflaming sphere, scorching ray
+        \n\t\t5th \t\t\t\tdaylight, fireball
+        \n\t\t7th \t\t\t\tguardian of faith, wall of fire
+        \n\t\t9th \t\t\t\tflame strike, scrying
+    </string>
+    
+    <string name="clericLightDomainBonusCantripTitle">
+        Bonus Cantrip
+    </string>
+    <string name="clericLightDomainBonusCantrip">
+        When you choose this domain at 1st level, you gain the
+        light cantrip if you don’t already know it.
+    </string>
+    
+    <string name="clericLightDomainWardingFlareTitle">
+        Warding Flare
+    </string>
+    <string name="clericLightDomainWardingFlare">
+        Also at 1st level, you can interpose divine light between
+        yourself and an attacking enemy. When you are attacked
+        by a creature within 30 feet of you that you can see,
+        you can use your reaction to impose disadvantage on
+        the attack roll, causing light to flare before the attacker
+        before it hits or misses. An attacker that can’t be blinded
+        is immune to this feature.
+        \n\nYou can use this feature a number of times equal to
+        your Wisdom modifier (a minim um of once). You regain
+        all expended uses when you finish a long rest.
+    </string>
+    
+    
+    <string name="clericLightDomainChannelDivinityRadianceOfTheDawnTitle">
+        Channel Divinity: Radiance of the Dawn
+    </string>
+    <string name="clericLightDomainChannelDivinityRadianceOfTheDawn">
+        Starting at 2nd level, you can use your Channel Divinity
+        to harness sunlight, banishing darkness and dealing
+        radiant damage to your foes.
+        \n\nAs an action, you present your holy symbol, and any
+        magical darkness within 30 feet of you is dispelled.
+        Additionally, each hostile creature within 30 feet of
+        you must make a Constitution saving throw. A creature
+        takes radiant damage equal to 2d10 + your cleric level
+        on a failed saving throw, and half as much damage on a
+        successful one. A creature that has total cover from you
+        is not affected.
+    </string>
+    
+    
+    <string name="clericLightDomainImprovedFlareTitle">
+        Improved Flare
+    </string>
+    <string name="clericImprovedFlare">
+        Starting at 6th level, you can also use your Warding
+        Flare feature when a creature that you can see within
+        30 feet of you attacks a creature other than you.
+    </string>
+    
+    
+    <string name="clericLightDomainPotentSpellcastingTitle">
+        Potent Spellcasting
+    </string>
+    <string name="clericLightDomainPotentSpellcasting">
+        Starting at 8th level, you add your Wisdom modifier to
+        the damage you deal with any cleric cantrip.
+    </string>
+   
+    
+    <string name="clericLightDomainCoronaOfLightTitle">
+        Corona of Light
+    </string>
+    <string name="clericCoronaOfLight">
+        Starting at 17th level, you can use your action to activate
+        an aura of sunlight that lasts for 1 minute or until you
+        dismiss it using another action. You emit bright light in
+        a 60-foot radius and dim light 30 feet beyond that. Your
+        enemies in the bright light have disadvantage on saving
+        throws against any spell that deals fire or radiant damage.
+    </string>
+    
+    
+    
+    <string name="clericNatureDomainTitle">
+        Nature Domain
+    </string>
+    <string name="clericNatureDomain">
+        Gods of nature are as varied as the natural world
+        itself, from inscrutable gods of the deep forests (such
+        as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to
+        friendly deities associated with particular springs and
+        groves (such as Eldath). Druids revere nature as a
+        whole and might serve one of these deities, practicing
+        mysterious rites and reciting all-but-forgotten prayers in
+        their own secret tongue. But many of these gods have
+        clerics as well, champions  who take a more active role
+        in advancing the interests of a particular nature god.
+        These clerics might hunt the evil monstrosities that
+        despoil the woodlands, bless the harvest of the faithful,
+        or wither the crops of those who anger their gods.
+
+        \n\n<b>Nature Domain Spells</b>
+        \n\n\t\tCleric Level \t\t\t\tSpells
+        \n\t\t1st \t\t\t\tanimal friendship, speak with animals
+        \n\t\t3rd \t\t\t\tbarskin, spikegrow
+        \n\t\t5th \t\t\t\tplant growth, wind wall
+        \n\t\t7th \t\t\t\tdominate beast, grasping vine
+        \n\t\t9th \t\t\t\tinspect plague, tree stride
+    </string>
+    
+    
+    <string name="clericNatureDomainAcolyteOfNatureTitle">
+        Acolyte of Nature
+    </string>
+    <string name="clericNatureDomainAcolyteOfNature">
+        At 1st level, you learn one druid cantrip of your choice.
+        You also gain proficiency in one of the following skills of
+        your choice: Animal Handling, Nature, or Survival.
+    </string>
+    
+    
+    <string name="clericNatureDomainBonusProfitiencyTitle">
+        Bonus Profitiency
+    </string>
+    <string name="clericNatureDomainBonusProfitiency">
+        Also at  1st level, you gain proficiency with heavy armor.
+    </string>
+    
+    
+    <string name="clericNatureDomainChannelDivinityCharmAnimalsAndPlantsTitle">
+        Channel Divinity: Charm Animals and Plants
+    </string>
+    <string name="clericNatureDomainChannelDivinityCharmAnimalsAndPlants">
+        Starting at 2nd level, you can use your Channel Divinity
+        to charm animals and plants.
+        \n\nAs an action, you present your holy symbol and invoke
+        the name of your deity. Each beast or plant creature that
+        can see you within 30 feet of you must make a Wisdom
+        saving throw. If the creature fails its saving throw, it is
+        charmed by you for 1 minute or until it takes damage.
+        While it is charmed by you, it is friendly to you and other
+        creatures you designate.
+    </string>
+    
+    
+    <string name="clericNatureDomainDampenElementsTitle">
+        Dampen Elements
+    </string>
+    <string name="clericDampenElements">
+        Starting at 6th level, w hen you or a creature within 30
+        feet of you takes acid, cold, fire, lightning, or thunder
+        damage, you can use your reaction to grant resistance to
+        the creature against that instance of the damage.
+    </string>
+    
+    
+    <string name="clericNatureDomainDivineStrikeTitle">
+        Divine Strike
+    </string>
+    <string name="clericNatureDomainDivineStrike">
+        At 8th level, you gain the ability to infuse your weapon strikes with divine energy. 
+        Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra  
+        1d8 cold, fire, or lightning damage (your choice) to the target. 
+        W hen you reach  14th level, the extra damage increases to 2d8
+    </string>
+    
+    
+    <string name="clericNatureDomainMasterOfNatureTitle">
+        Master of Nature
+    </string>
+    <string name="clericMasterOfNature">
+        At 17th level, you gain the ability to command animals
+        and plant creatures. While creatures are charmed by
+        your Charm Animals and Plants feature, you can take
+        a bonus action on your turn to verbally command what
+        each of those creatures will do on its next turn.
+    </string>
+    
+    
+    
+    <string name="clericTempestDomainTitle">
+        Tempest Domain
+    </string>
+    <string name="clericTempestDomain">
+        Gods whose portfolios include the Tempest domain -
+        including Talos, Umberlee, Kord, Zeboim , the
+        Devourer, Zeus, and Thor—govern storms, sea, and
+        sky. They include gods of lightning and thunder, gods
+        of earthquakes, some fire gods, and certain gods of
+        violence, physical strength, and courage. In some
+        pantheons, a god of this domain rules over other deities
+        and is known for swift justice delivered by thunderbolts.
+        In the pantheons of seafaring people, gods of this
+        domain are ocean deities and the patrons of sailors.
+        Tempest gods send their clerics to inspire fear in the
+        common folk, either to keep those folk on the path of
+        righteousness or to encourage them to offers a crifices of
+        propitiation to ward off divine wrath.
+
+
+        \n\nTempest Domain Spells
+        \n\t\tCleric Level \t\t\t\tSpells
+        \n\t\t1st \t\t\t\tanimal friendship, speak with animals
+        \n\t\t3rd \t\t\t\tbarskin, spikegrow
+        \n\t\t5th \t\t\t\tplant growth, wind wall
+        \n\t\t7th \t\t\t\tdominate beast, grasping vine
+        \n\t\t9th \t\t\t\tinspect plague, tree stride
+    </string>
+
+    
+    <string name="clericTempestDomainBonusProfitiencyTitle">
+        Bonus Profitiency
+    </string>
+    <string name="clericTempestDomainBonusProfitiency">
+        At  1st level, you gain proficiency with martial weapons and heavy armor
+    </string>
+    
+    
+    <string name="clericTempestDomainWrathOfTheStormTitle">
+        Wrath opf the Storm
+    </string>
+    <string name="clericTempestDomainWrathOfTheStorm">
+        Also at 1st level, you can thunderously rebuke attackers.
+        When a creature within 5 feet of you that you can see
+        hits you with an attack, you can use your reaction to
+        cause the creature to make a Dexterity saving throw.
+        The creature takes 2d8 lightning or thunder damage
+        (your choice) on a failed saving throw, and half as much
+        damage on a successful one.
+        \n\nYou can use this feature a number of times equal to
+        your Wisdom modifier (a minimum of once). You regain
+        all expended uses when you finish a long rest.
+    </string>
+    
+    
+    <string name="clericTempestDomainChannelDivinityDestructiveWrathTitle">
+        Channel Divinity: Destructive Wraith
+    </string>
+    <string name="clericTempestDomainChannelDivinityDestructiveWrath">
+        Starting at 2nd level, you can use your Channel Divinity
+        to wield the power of the storm with unchecked ferocity.
+        \n\nWhen you roll lightning or thunder damage, you can
+        use your Channel Divinity to deal maximum damage,
+        instead of rolling.
+    </string>
+    
+    
+    <string name="clericTempestDomainThunderboltStrikeTitle">
+        Thunderbolt Strike
+    </string>
+    <string name="clericTempestDomainThunderboltStrike">
+        At 6th level, when you deal lightning damage to a Large
+        or smaller creature, you can also push it up to 10 feet
+        away from you.
+    </string>
+    
+    
+    <string name="clericTempestDomainDivineStrikeTitle">
+        Divine Strike
+    </string>
+    <string name="clericTempestDomainDivineStrike">
+        At 8th level, you gain the ability to infuse your weapon strikes with divine energy. 
+        Once on each of your turns when you hit a creature with a weapon attack, you can cause 
+        the attack to deal an extra  1d8 thunder damage to the target. When you reach  14th level, 
+        the extra damage increases to 2d8
+    </string>
+    
+    
+    <string name="clericTempestDomainStormbornTitle">
+        Stormborn
+    </string>
+    <string name="clericTempestDomainStormborn">
+        At 17th level, you have a flying speed equal to
+        your current walking speed whenever you are not
+        underground or indoors.
+    </string>
+    
+    
+    <string name="clericTrickeryDomainTitle">
+        Trickery Domain
+    </string>
+    <string name="clericTrickeryDomain">
+        Gods of trickery—such as Tymora, Beshaba,
+        Olidammara, the Traveler, Garl Glittergold, and
+        Loki — are mischief-makers and instigators who stand
+        as a constant challenge to the accepted order among
+        both gods and mortals. They’re patrons of thieves,
+        scoundrels, gamblers, rebels, and liberators. Their
+        clerics are a disruptive force in the world, puncturing
+        pride, mocking tyrants, stealing from the rich, freeing
+        captives, and flouting hollow traditions. They prefer
+        subterfuge, pranks, deception, and theft rather than
+        direct confrontation.
+
+
+        \n\n<b>Trickery Domain Spells</b>
+        \n\\n\\t\t1st \t\t\t\tcharm person, disguise self
+        \n\t\t3rd \t\t\t\tmirror image, pass without a trace
+        \n\t\t5th \t\t\t\tblink, dispel magic
+        \n\t\t7th \t\t\t\tdimension door, polymorph
+        \n\t\t9th \t\t\t\tdominate person, modify memory
+    </string>
+
+    <string name="clericTrickeryDomainBlessingOfTheTricksterTitle">
+        Blessing of the Trickster
+    </string>
+    <string name="clericTrickeryDomainBlessingOfTheTrickster">
+        Starting when you choose this domain at 1st level, you
+        can use your action to touch a willing creature other
+        than yourself to give it advantage on Dexterity (Stealth)
+        checks. This blessing lasts for 1 hour or until you use
+        this feature again.
+    </string>
+    
+    
+    <string name="clericTrickeryDomainChannelDivinityInvokeDuplicityTitle">
+        Channel Divinity: Invoke Duplicity
+    </string>
+    <string name="clericTrickeryDomainChannelDivinityInvokeDuplicity">
+        Starting at 2nd level, you can use your Channel Divinity
+        to create an illusory duplicate of yourself.
+        \n\nAs an action, you create a perfect illusion of
+        yourself that lasts for 1 minute, or until you lose your
+        concentration (as if you were concentrating on a spell).
+        The illusion appears in an unoccupied space that you
+        can see within 30 feet of you. As a bonus action on your
+        turn, you can move the illusion up to 30 feet to a space
+        you can see, but it must remain within 120 feet of you.
+        \n\nFor the duration, you can cast spells as though you
+        were in the illusion’s space, but you must use your own
+        senses. Additionally, when both you and your illusion
+        are within 5 feet of a creature that can see the illusion,
+        you have advantage on attack rolls against that creature,
+        given how distracting the illusion is to the target.
+    </string>
+    
+    
+    <string name="clericTrickeryDomainChannelDivinityCloakOfShadowsTitle">
+        Cloak of Shadows
+    </string>
+    <string name="clericTrickeryDomainChannelDivinityCloakOfShadow">
+        Starting at 6th level, you can u se your Channel
+        Divinity to vanish.
+        As an action, you become invisible until the end of your
+        next turn. You become visible if you attack or cast a spell.
+    </string>
+    
+    
+    <string name="clericTrickeryDomainDivineStrikeTitle">
+        Divine Strike
+    </string>
+    <string name="clericTrickeryDomainDivineStrike">
+        At 8th level, you gain the ability to infuse your weapon strikes with poison—a 
+        gift from your deity. Once on each of your turns when you hit a creature with a 
+        weapon attack, you can cause the attack to deal an extra  1d8 poison damage to the target. 
+        W hen you reach  14th level, the extra damage increases to 2d8.
+    </string>
+
+
+    <string name="clericTrickeryDomainImprovedDuplicityTitle">
+        Improved Duplicity
+    </string>
+    <string name="clericTrickeryDomainImproveDuplicity">
+        At 17th level, you can create up to four duplicates
+        of yourself, instead of one, w hen you use Invoke
+        Duplicity. As a bonus action on your turn, you can
+        move any number of them up to 30 feet, to a maximum
+        range of 120 feet.
+    </string>
+    
+    
+    <string name="clericWarDomainTitle">
+        War Domain
+    </string>
+    <string name="clericWarDomain">
+        War has many manifestations. It can make heroes of
+        ordinary people. It can be desperate and horrific, with
+        acts of cruelty and cowardice eclipsing instances of
+        excellence and courage. In either case, the gods of war
+        watch over warriors and reward them for their great
+        deeds. The clerics of such gods excel in battle, inspiring
+        others to fight the good fight or offering acts of violence
+        as prayers. Gods of war include champions of honor
+        and chivalry (such as Torm, Heironeous, and Kiri-
+        Jolith) as well as gods of destruction and pillage (such
+        as Erythnul, the Fury, Gruumsh, and Ares) and gods of
+        conquest and domination (such as Bane, Hextor, and
+        Maglubiyet). Other wargods (such as Tempus, Nike,
+        and Nuada) take a more neutral stance, promoting war
+        in all its manifestations and supporting warriors in any
+        circumstance.
+    
+        \n\n<b>War Domain Spells</b>
+        \n\n\t\t1st \t\t\t\tdivine favor, shield of faith
+        \n\t\t3rd \t\t\t\tmagic weapon, spiritual weapon
+        \n\t\t5th \t\t\t\tcrusaders mantle, spirit guardian
+        \n\t\t7th \t\t\t\tfreedom of movement, stoneskin
+        \n\t\t9th \t\t\t\tflame strike, hold monster
+    </string>
+    
+    
+    <string name="clericWarDomainBonusProfitiencysTitle">
+        Bonus Profitiency
+    </string>
+    <string name="clericWarDomainBonusProfitiency">
+        At 1st level, you gain proficiency with martial weapons and heavy armor.
+    </string>
+    
+    
+    <string name="clericWarDomainWarPriestTitle">
+        War Priest
+    </string>
+    <string name="clericWarDomainWarPriest">
+        From 1st level, your god delivers bolts of inspiration to
+        you while you are engaged in battle. When you use the
+        Attack action, you can make one weapon attack as a
+        bonus action.
+        \n\nYou can use this feature a number of times equal to
+        your Wisdom modifier (a minimum of once). You regain
+        all expended uses when you finish a long rest.
+    </string>
+    
+    <string name="clericWarDomainChannelDivinityGuidedStrikeTitle">
+        Channel Divinity: Guided Strike
+    </string>
+    <string name="clericWarDomainChannelDivinityGuidedStrike">
+        Starting at 2nd level, you can use your Channel Divinity
+        to strike with supernatural accuracy. When you make
+        an attack roll, you can use your Channel Divinity to gain
+        a +10 bonus to the roll. You make this choice after you
+        see the roll, but before the DM says whether the attack
+        hits or misses.
+    </string>
+    
+    
+    <string name="clericWarDomainChannelDivinityWarGodsBlessingTitle">
+        Channel Divinity: War Gods Blessing
+    </string>
+    <string name="clericWarDomainChannelDivinityWarGodsBlessing">
+        At 6th level, when a creature within 30 feet of you
+        makes an attack roll, you can use your reaction to grant
+        that creature a +10 bonus to the roll, using your Channel
+        Divinity. You make this choice after you see the roll, but
+        before the DM says whether the attack hits or misses.
+    </string>
+    
+    
+    <string name="clkericWarDomainDivineStrikeTitle">
+        Divine Strike
+    </string>
+    <string name="clericWarDomainDivineStrike">
+        At 8th level, you gain the ability to infuse your weapon strikes with divine energy.
+        Once on each of your turns when you hit a creature with a weapon attack, you can cause the
+        attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target.
+        When you reach 14th level, the extra damage increases to 2d8.
+    </string>
+
+    <string name="clericWarDomainAvatarOfBattleTitle">
+        Avatar of Battle
+    </string>
+    <string name="clericWarDomainAvatarOfBattle">
+        At 17th level, you gain resistance to bludgeoning, piercing,
+        and slashing damage from non magical weapons.
+    </string>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -243,608 +1097,5 @@
         spellcasting focus for your cleric spells.
     </string>
 
-    <string name="clericDivineDomain">
-        Choose one domain related to your deity: Knowledge,
-        Life, Light, Nature, Tempest, Trickery, or War. Each
-        domain is detailed at the end of the class description,
-        and each one provides examples of gods associated
-        with it. Your choice grants you domain spells and other
-        features when you choose it at 1st level. It also grants
-        you additional ways to use Channel Divinity when you
-        gain that feature at 2nd level, and additional benefits at
-        6th, 8th, and 17th levels.
-    </string>
-
-    <string name="clericDomainSpells">
-        Each domain has a list of spells—its domain spells—
-        that you gain at the cleric levels noted in the domain
-        description. Once you gain a domain spell, you always
-        have it prepared, and it doesn’t count against the
-        number of spells you can prepare each day.
-        If you have a domain spell that doesn’t appear on the
-        cleric spell list, the spell is nonetheless a cleric spell for you.
-    </string>
-
-    <string name="clericChannelDivinity">
-        At 2nd level, you gain the ability to channel divine
-        energy directly from your deity, using that energy to fuel
-        magical effects. You start with two such effects: Turn
-        Undead and an effect determined by your domain. Some
-        domains grant you additional effects as you advance in
-        levels, as noted in the domain description.
-        \n\nWhen you use your Channel Divinity, you choose
-        which effect to create. You must then finish a short or
-        long rest to use your Channel Divinity again.
-        \n\nSome Channel Divinity effects require saving throws.
-        When you use such an effect from this class, the DC
-        equals your cleric spell save DC.
-        \n\nBeginning at 6th level, you can use your Channel
-        Divinity twice between rests, and beginning at 18th level.
-        you can use it three times between rests. When you finish
-        a short or long rest, you regain your expended uses.
-    </string>
-
-    <string name="clericTurnUndead">
-        As an action, you present your holy symbol and speak a
-        prayer censuring the undead. Each undead that can see
-        or hear you within 30 feet of you must make a Wisdom
-        saving throw. If the creature fails its saving throw, it is
-        turned for 1 minute or until it takes any damage.
-        \n\nA turned creature must spend its turns trying to move
-        as far away from you as it can, and it can’t willingly
-        move to a space within 30 feet of you. It also can’t take
-        reactions. For its action, it can use only the Dash action
-        or try to escape from an effect that prevents it from
-        moving. If there’s nowhere to move, the creature can use
-        the Dodge action.
-   </string>
-
-    <string name="clericDestroyUndead">
-        Starting at 5th level, when an undead fails its saving
-        throw against your Turn Undead feature, the creature is
-        instantly destroyed if its challenge rating is at or below a
-        certain threshold, as shown in the table below.
-        \n\n
-        <b>\t\tLvl \t\t\t\tDestroy Undead of Cr</b>
-        \n\t\t5th\t\t\t\t1/2 or lower
-        \n\t\t8th\t\t\t\t1 or lower
-        \n\t\t11th\t\t\t\t2 or lower
-        \n\t\t14th\t\t\t\t3 or lower
-        \n\t\t17th\t\t\t\t4 or lower
-    </string>
-
-    <string name="clericDivineIntervention">
-        Beginning at 10th level, you can call on your deity to
-        intervene on your behalf when your need is great.
-        \n\nImploring your deity’s aid requires you to use your
-        action. Describe the assistance you seek, and roll
-        percentile dice. If you roll a number equal to or lower
-        than your cleric level, your deity intervenes. The DM
-        chooses the nature of the intervention; the effect of any
-        cleric spell or cleric domain spell would be appropriate.
-        \n\nIf your deity intervenes, you can’t use this feature
-        again for 7 days. Otherwise, you can use it again after
-        you finish a long rest.
-        \n\nAt 20th level, your call for intervention succeeds
-        automatically, no roll required.
-    </string>
-
-    <string name="clericDivineDomains">
-        In a pantheon, every deity has influence over different
-        aspects of mortal life and civilization, called a deity’s
-        domain. All the domains over which a deity has
-        influence are called the deity’s portfolio. For example,
-        the portfolio of the Greek god Apollo includes the
-        domains of Know ledge, Life, and Light. As a cleric, you
-        choose one aspect of your deity’s portfolio to emphasize,
-        and you are granted p ow ers related to that dom ain.
-        \n\nYour choice might correspond to a particular sect
-        dedicated to your deity. Apollo, for example, could be
-        worshiped in one region as Phoebus(“radiant”) Apollo,
-        emphasizing his influence over the Light domain,
-        and in a different place as Apollo Acesius(“healing”),
-        emphasizing his association with the Life domain.
-        Alternatively, your choice of domain could simply be a
-        matter of personal preference, the aspect of the deity
-        that appeals to you most.
-        \n\nEach domain’s description gives examples of deities
-        who have influence over that domain. Gods are included
-        from the worlds of the Forgotten Realms, Greyhawk,
-        Dragon lance, and Eberron campaign settings, as well as
-        from the Celtic, Greek, Norse, and Egyptian pantheons
-        of antiquity.
-    </string>
-
-
-    <string name="clericKnowledgeDomain">
-        The gods of knowledge—including Oghma, Boccob ,
-        Gilean, Aureon, and Thoth —value learning and
-        understanding above all. Some teach that knowledge is
-        to be gathered and shared in libraries and universities,
-        or promote the practical knowledge of craft and
-        invention. Some deities hoard knowledge and keep its
-        secrets to themselves. And some promise their followers
-        that they will gain tremendous power if they unlock the
-        secrets of the multiverse. Followers of these gods study
-        esoteric lore, collect old tomes, delve into the secret
-        places of the earth, and learn all they can. Some gods
-        of knowledge promote the practical knowledge of craft
-        and invention, including smith deities like Gond, Reorx,
-        Onatar, Moradin, Hephaestus, and Goibhniu.
-    </string>
-
-    <string name="clericKnowledgeDomainSpells">
-        <b>\t\tLvl \t\t\t\tSpells</b>
-        \n\t\t1st \t\t\t\tcommand,identify
-        \n\t\t3rd \t\t\t\taugury, suggestion
-        \n\t\t5th \t\t\t\tnondetection, speak with dead
-        \n\t\t7th \t\t\t\tarcane eye, confusion
-        \n\t\t9th \t\t\t\tlegend lore, scrying
-    </string>
-
-    <string name="clericBlessingofKnowledge">
-        At 1st level, you learn two languages of your choice.
-        You also become proficient in your choice of two of the
-        follow in gskills: Arcana, History, Nature, or Religion.
-        \n\nYour proficiency bonus is doubled for any ability check
-        you make that uses either of those skills.
-    </string>
-
-    <string name="clericKnowledgeOfTheAges">
-        Starting at 2nd level, you can use your Channel Divinity
-        to tap into a divine well of knowledge. As an action,
-        you choose one skill or tool. For 10 minutes, you have
-        proficiency with the chosen skill or tool.
-    </string>
-
-    <string name="clericReadThoughs">
-        At 6th level, you can use your Channel Divinity to read a
-        creature’s thoughts. You can then use your access to the
-        creature’s mind to command it.
-        \n\nAs an action, choose one creature that you can see
-        within 60 feet of you. That creature must make a
-        Wisdom saving throw. If the creature succeeds on the
-        saving throw, you can’t use this feature on it again until
-        you finish a long rest.
-        \n\nIf the creature fails its save, you can read its surface
-        thoughts (those foremost in its mind, reflecting its
-        current emotions and what it is actively thinking
-        about) when it is within 60 feet of you. This effect lasts
-        for 1 minute.
-        \n\nDuring that time, you can use your action to end this
-        effect and cast the suggestion spell on the creature
-        without expending a spell slot. The target automatically
-        fails its saving throw against the spell.
-    </string>
-
-    <string name="clericPotentSpellcasting">
-        Starting at 8th level, you add your Wisdom modifier to
-        the damage you deal with any cleric cantrip.
-    </string>
-
-    <string name="clericVisionOfThePast">
-        Starting at 17th level, you can call up visions of the
-        past that relate to an object you hold or your immediate
-        surroundings. You spend at least 1 minute in meditation
-        and prayer, then receive dream like, shadowy glimpses
-        of recent events. You can meditate in this way for a
-        number of minutes equal to your Wisdom score and
-        must maintain concentration during that time, as if you
-        were casting a spell.
-        \n\nOnce you use this feature, you can’t use it again until
-        you finish a short or long rest.
-        \n\n<b>Object Reading.</b> Holding an object as you meditate,
-        you can see visions of the object’s previous owner.
-        After meditating for 1 minute, you learn how the owner
-        acquired and lost the object, as well as the most recent
-        significant event involving the object and that owner.
-        If the object was owned by another creature in the
-        recent past (within a number of days equal to your
-        Wisdom score), you can spend 1 additional minute
-        for each owner to learn the same information about
-        that creature.
-        \n\n<b>Area Reading.</b> As you meditate, you see visions
-        of recent events in your immediate vicinity (a room ,
-        street, tunnel, clearing, or the like, up to a 50-foot cube),
-        going back a number of days equal to your Wisdom
-        score. For each minute you meditate, you learn about
-        one significant event, beginning with the most recent.
-        Significant events typically involve powerful emotions,
-        such as battles and betrayals, marriages and murders,
-        births and funerals. However, they might also include
-        more mundane events that are nevertheless important
-        in your current situation.
-    </string>
-
-    <string name="clericLifeDomain">
-        The Life domain focuses on the vibrant positive
-        energy—one of the fundamental forces of the universe—
-        that sustains all life. The gods of life promote vitality
-        and health through healing the sick and wounded,
-        caring for those in need, and driving away the forces of
-        death and undeath. Almost any non-evil deity can claim
-        influence over this domain, particularly agricultural
-        deities (such as Chauntea, Arawai, and Demeter), sun
-        gods (such as Lathander, Pelor, and Re-Horakhty), gods
-        of healing or endurance (such as Ilmater, Mishakal,
-        Apollo, and Diancecht), and gods of home and
-        community (such as Hestia, Hathor, and Boldrei).
-    </string>
-
-    <string name="clericLifeDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tbless, cure wounds
-        \t\t3rd \t\t\t\tlesser restoration, spiritual weapon
-        \t\t5th \t\t\t\tbeacon of hope, revivify
-        \t\t7th \t\t\t\tdeath ward, guardian of faith
-        \t\t9th \t\t\t\tmass cure wounds, raise dead
-    </string>
-
-    <string name="lericBonusProficiency">
-        When you choose this domain at 1st level, you gain
-        proficiency with heavy armor.
-    </string>
-
-    <string name="clericDiscipleOfLight">
-        Also starting at 1st level, your healing spells are more
-        effective. Whenever you use a spell of 1st level or higher
-        to restore hit points to a creature, the creature regains
-        additional hit points equal to 2+ the spell’s level.
-    </string>
-
-    <string name="clericPreserveLife">
-        Starting at 2nd level, you can use your Channel Divinity
-        to heal the badly injured.
-        \n\nAs an action, you present your holy symbol and
-        evoke healing energy that can restore a number of hit
-        points equal to five times your cleric level. Choose any
-        creatures within 30 feet of you, and divide those hit
-        points among them. This feature can restore a creature
-        to no more than half of its hit point maximum . You can’t
-        use this feature on an undead or a construct.
-    </string>
-
-    <string name="clericBlessedHealer">
-        Beginning at 6th level, the healing spells you cast on
-        others heal you as well. When you cast a spell of 1st
-        level or higher that restores hit points to a creature
-        other than you, you regain hit points equal to 2+ the
-        spell’s level.
-    </string>
-
-    <string name="clericDivineStrike">
-        At 8th level, you gain the ability to infuse your weapon
-        strikes with divine energy. Once on each of your turns
-        when you hit a creature with a weapon attack, you can
-        cause the attack to deal an extra 1d8 radiant damage to
-        the target. When you reach 14th level, the extra damage
-        in creases to 2d8.
-    </string>
-
-    <string name="clericSupremeHealing">
-        Starting at 17th level, when you would normally roll
-        one or more dice to restore hit points with a spell, you
-        instead use the highest number possible for each die.
-        For example, instead of restoring 2d6 hit points to a
-        creature, you restore 12.
-    </string>
-
-    <string name="clericLightDomain">
-        Gods of light—including Helm, Lathander, Pholtus,
-        Branchala, the Silver Flame, Belenus, Apollo, and
-        Re-Horakhty — promote the ideals of rebirth and
-        renewal, truth, vigilance, and beauty, often using the
-        symbol of the sun. Some of these gods are portrayed
-        as the sun itself or as a charioteer who guides the sun
-        across the sky. Others are tireless sentinels whose eyes
-        pierce every shadow and see through every deception.
-        Some are deities of beauty and artistry, who teach that
-        art is a vehicle for the soul's improvement. Clerics of a
-        god of light are enlightened souls infused with radiance
-        and the power of their gods’ discerning vision, charged
-        with chasing away lies and burning away darkness.
-    </string>
-
-    <string name="clericLightDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tburning hands, faerie fire
-        \t\t3rd \t\t\t\tflaming sphere, scorching ray
-        \t\t5th \t\t\t\tdaylight, fireball
-        \t\t7th \t\t\t\tguardian of faith, wall of fire
-        \t\t9th \t\t\t\tflame strike, scrying
-    </string>
-
-    <string name="clericBonusCantrip">
-        When you choose this domain at 1st level, you gain the
-        light cantrip if you don’t already know it.
-    </string>
-
-    <string name="clericWardingFlare">
-        Also at 1st level, you can interpose divine light between
-        yourself and an attacking enemy. When you are attacked
-        by a creature within 30 feet of you that you can see,
-        you can use your reaction to impose disadvantage on
-        the attack roll, causing light to flare before the attacker
-        before it hits or misses. An attacker that can’t be blinded
-        is immune to this feature.
-        \n\nYou can use this feature a number of times equal to
-        your Wisdom modifier (a minim um of once). You regain
-        all expended uses when you finish a long rest.
-    </string>
-
-    <string name="clericRadiantOfTheDawn">
-        Starting at 2nd level, you can use your Channel Divinity
-        to harness sunlight, banishing darkness and dealing
-        radiant damage to your foes.
-        \n\nAs an action, you present your holy symbol, and any
-        magical darkness within 30 feet of you is dispelled.
-        Additionally, each hostile creature within 30 feet of
-        you must make a Constitution saving throw. A creature
-        takes radiant damage equal to 2d10 + your cleric level
-        on a failed saving throw, and half as much damage on a
-        successful one. A creature that has total cover from you
-        is not affected.
-    </string>
-
-    <string name="clericImprovedFlare">
-        Starting at 6th level, you can also use your Warding
-        Flare feature when a creature that you can see within
-        30 feet of you attacks a creature other than you.
-    </string>
-
-    <string name="clericCoronaOfLight">
-        Starting at 17th level, you can use your action to activate
-        an aura of sunlight that lasts for 1 minute or until you
-        dismiss it using another action. You emit bright light in
-        a 60-foot radius and dim light 30 feet beyond that. Your
-        enemies in the bright light have disadvantage on saving
-        throws against any spell that deals fire or radiant damage.
-    </string>
-
-    <string name="clericNatureDomain">
-        Gods of nature are as varied as the natural world
-        itself, from inscrutable gods of the deep forests (such
-        as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to
-        friendly deities associated with particular springs and
-        groves (such as Eldath). Druids revere nature as a
-        whole and might serve one of these deities, practicing
-        mysterious rites and reciting all-but-forgotten prayers in
-        their own secret tongue. But many of these gods have
-        clerics as well, champions  who take a more active role
-        in advancing the interests of a particular nature god.
-        These clerics might hunt the evil monstrosities that
-        despoil the woodlands, bless the harvest of the faithful,
-        or wither the crops of those who anger their gods.
-    </string>
-
-    <string name="clericNatureDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tanimal friendship, speak with animals
-        \t\t3rd \t\t\t\tbarskin, spikegrow
-        \t\t5th \t\t\t\tplant growth, wind wall
-        \t\t7th \t\t\t\tdominate beast, grasping vine
-        \t\t9th \t\t\t\tinspect plague, tree stride
-    </string>
-
-    <string name="clericAcolyteOfNature">
-        At 1st level, you learn one druid cantrip of your choice.
-        You also gain proficiency in one of the following skills of
-        your choice: Animal Handling, Nature, or Survival.
-    </string>
-
-    <string name="clericCharmAnimals">
-        Starting at 2nd level, you can use your Channel Divinity
-        to charm animals and plants.
-        \n\nAs an action, you present your holy symbol and invoke
-        the name of your deity. Each beast or plant creature that
-        can see you within 30 feet of you must make a Wisdom
-        saving throw. If the creature fails its saving throw, it is
-        charmed by you for 1 minute or until it takes damage.
-        While it is charmed by you, it is friendly to you and other
-        creatures you designate.
-    </string>
-
-    <string name="clericDampenElements">
-        Starting at 6th level, w hen you or a creature within 30
-        feet of you takes acid, cold, fire, lightning, or thunder
-        damage, you can use your reaction to grant resistance to
-        the creature against that instance of the damage.
-    </string>
-
-    <string name="clericMasterOfNature">
-        At 17th level, you gain the ability to command animals
-        and plant creatures. While creatures are charmed by
-        your Charm Animals and Plants feature, you can take
-        a bonus action on your turn to verbally command what
-        each of those creatures will do on its next turn.
-    </string>
-
-    <string name="clericTempestDomain">
-        Gods whose portfolios include the Tempest domain -
-        including Talos, Umberlee, Kord, Zeboim , the
-        Devourer, Zeus, and Thor—govern storms, sea, and
-        sky. They include gods of lightning and thunder, gods
-        of earthquakes, some fire gods, and certain gods of
-        violence, physical strength, and courage. In some
-        pantheons, a god of this domain rules over other deities
-        and is known for swift justice delivered by thunderbolts.
-        In the pantheons of seafaring people, gods of this
-        domain are ocean deities and the patrons of sailors.
-        Tempest gods send their clerics to inspire fear in the
-        common folk, either to keep those folk on the path of
-        righteousness or to encourage them to offers a crifices of
-        propitiation to ward off divine wrath.
-    </string>
-
-    <string name="clericTempestDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tanimal friendship, speak with animals
-        \t\t3rd \t\t\t\tbarskin, spikegrow
-        \t\t5th \t\t\t\tplant growth, wind wall
-        \t\t7th \t\t\t\tdominate beast, grasping vine
-        \t\t9th \t\t\t\tinspect plague, tree stride
-    </string>
-
-    <string name="clericTempestBonusProfitiency">
-        At 1st level, you gain proficiency with martial weapons
-        and heavy armor.
-    </string>
-
-    <string name="clericWrathOfTheStorm">
-        Also at 1st level, you can thunderously rebuke attackers.
-        When a creature within 5 feet of you that you can see
-        hits you with an attack, you can use your reaction to
-        cause the creature to make a Dexterity saving throw.
-        The creature takes 2d8 lightning or thunder damage
-        (your choice) on a failed saving throw, and half as much
-        damage on a successful one.
-        \n\nYou can use this feature a number of times equal to
-        your Wisdom modifier (a minimum of once). You regain
-        all expended uses when you finish a long rest.
-    </string>
-
-    <string name="clericDestructiveWrath">
-        Starting at 2nd level, you can use your Channel Divinity
-        to wield the power of the storm with unchecked ferocity.
-        \n\nWhen you roll lightning or thunder damage, you can
-        use your Channel Divinity to deal maximum damage,
-        instead of rolling.
-    </string>
-
-    <string name="clericThunderboltStrike">
-        At 6th level, when you deal lightning damage to a Large
-        or smaller creature, you can also push it up to 10 feet
-        away from you.
-    </string>
-
-    <string name="clericStormborn">
-        At 17th level, you have a flying speed equal to
-        your current walking speed whenever you are not
-        underground or indoors.
-    </string>
-
-    <string name="clericTrickerDomain">
-        Gods of trickery—such as Tymora, Beshaba,
-        Olidammara, the Traveler, Garl Glittergold, and
-        Loki — are mischief-makers and instigators who stand
-        as a constant challenge to the accepted order among
-        both gods and mortals. They’re patrons of thieves,
-        scoundrels, gamblers, rebels, and liberators. Their
-        clerics are a disruptive force in the world, puncturing
-        pride, mocking tyrants, stealing from the rich, freeing
-        captives, and flouting hollow traditions. They prefer
-        subterfuge, pranks, deception, and theft rather than
-        direct confrontation.
-    </string>
-
-    <string name="clericTricksterDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tcharm person, disguise self
-        \t\t3rd \t\t\t\tmirror image, pass without a trace
-        \t\t5th \t\t\t\tblink, dispel magic
-        \t\t7th \t\t\t\tdimension door, polymorph
-        \t\t9th \t\t\t\tdominate person, modify memory
-    </string>
-
-    <string name="clericBessingOfTrickster">
-        Starting when you choose this domain at 1st level, you
-        can use your action to touch a willing creature other
-        than yourself to give it advantage on Dexterity (Stealth)
-        checks. This blessing lasts for 1 hour or until you use
-        this feature again.
-    </string>
-
-    <string name="clericInvokeDuplicity">
-        Starting at 2nd level, you can use your Channel Divinity
-        to create an illusory duplicate of yourself.
-        \n\nAs an action, you create a perfect illusion of
-        yourself that lasts for 1 minute, or until you lose your
-        concentration (as if you were concentrating on a spell).
-        The illusion appears in an unoccupied space that you
-        can see within 30 feet of you. As a bonus action on your
-        turn, you can move the illusion up to 30 feet to a space
-        you can see, but it must remain within 120 feet of you.
-        \n\nFor the duration, you can cast spells as though you
-        were in the illusion’s space, but you must use your own
-        senses. Additionally, when both you and your illusion
-        are within 5 feet of a creature that can see the illusion,
-        you have advantage on attack rolls against that creature,
-        given how distracting the illusion is to the target.
-    </string>
-
-    <string name="clericCloakOfShadow">
-        Starting at 6th level, you can u se your Channel
-        Divinity to vanish.
-        As an action, you become invisible until the end of your
-        next turn. You become visible if you attack or cast a spell.
-    </string>
-
-    <string name="clericImproveDuplicity">
-        At 17th level, you can create up to four duplicates
-        of yourself, instead of one, w hen you use Invoke
-        Duplicity. As a bonus action on your turn, you can
-        move any number of them up to 30 feet, to a maximum
-        range of 120 feet.
-    </string>
-
-    <string name="clericWarDomain">
-        War has many manifestations. It can make heroes of
-        ordinary people. It can be desperate and horrific, with
-        acts of cruelty and cowardice eclipsing instances of
-        excellence and courage. In either case, the gods of war
-        watch over warriors and reward them for their great
-        deeds. The clerics of such gods excel in battle, inspiring
-        others to fight the good fight or offering acts of violence
-        as prayers. Gods of war include champions of honor
-        and chivalry (such as Torm, Heironeous, and Kiri-
-        Jolith) as well as gods of destruction and pillage (such
-        as Erythnul, the Fury, Gruumsh, and Ares) and gods of
-        conquest and domination (such as Bane, Hextor, and
-        Maglubiyet). Other wargods (such as Tempus, Nike,
-        and Nuada) take a more neutral stance, promoting war
-        in all its manifestations and supporting warriors in any
-        circumstance.
-    </string>
-
-    <string name="clericWarDomainSpells">
-        \t\tCleric Level \t\t\t\tSpells
-        \t\t1st \t\t\t\tdivine favor, shield of faith
-        \t\t3rd \t\t\t\tmagic weapon, spiritual weapon
-        \t\t5th \t\t\t\tcrusaders mantle, spirit guardian
-        \t\t7th \t\t\t\tfreedom of movement, stoneskin
-        \t\t9th \t\t\t\tflame strike, hold monster
-    </string>
-
-    <string name="clericWarPriest">
-        From 1st level, your god delivers bolts of inspiration to
-        you while you are engaged in battle. When you use the
-        Attack action, you can make one weapon attack as a
-        bonus action.
-        \n\nYou can use this feature a number of times equal to
-        your Wisdom modifier (a minimum of once). You regain
-        all expended uses when you finish a long rest.
-    </string>
-
-    <string name="clericGuidedStrike">
-        Starting at 2nd level, you can use your Channel Divinity
-        to strike with supernatural accuracy. When you make
-        an attack roll, you can use your Channel Divinity to gain
-        a +10 bonus to the roll. You make this choice after you
-        see the roll, but before the DM says whether the attack
-        hits or misses.
-    </string>
-
-    <string name="clericWarGodsBlessing">
-        At 6th level, when a creature within 30 feet of you
-        makes an attack roll, you can use your reaction to grant
-        that creature a +10 bonus to the roll, using your Channel
-        Divinity. You make this choice after you see the roll, but
-        before the DM says whether the attack hits or misses.
-    </string>
-
-    <string name="clericAvatarOfBattle">
-        At 17th level, you gain resistance to bludgeoning, piercing,
-        and slashing damage from non magical weapons.
-    </string>
 
 </resources>
