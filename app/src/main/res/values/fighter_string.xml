@@ -360,64 +360,9 @@
         Some of your maneuvers require your target to make a saving throw to resist the maneuver’s effects. The saving throw DC is calculated as follows:
         \n\n
         <b>Maneuver Save DC =</b> 8 + your profitiency bonus + your Strength or Dexterity mod. (your choice)
-        
-    </string>
-    
-    
-    <string name="fighterBattleMasterStudentOfWarTitle">
-        Student of War
-    </string>
-    <string name="fighterBattleMasterStudentOfWar">
-                At 3rd level, you gain proficiency with one type of artisan’s tools of your choice.
-    </string>
-    
-    
-    <string name="fighterBattleMasterKnowYourEnemyTitle">
-        Know Your Enemy
-    </string>
-    <string name="fighterBattleMasterKnowYourEnemy">
-        Starting at 7th level, if you spend at least  1  minute observing or interacting with another
-        creature outside combat, you can learn certain information about its capabilities compared to your own.
-        The DM tells you if the creature is your equal, superior, or inferior in regard to two of the
-        following characteristics of your choice:
-        \n
-        -Strength Score
-        \n
-        -Dexterity Score,
-        \n
-        -Constitution Score,
-        \n
-        -Armor Class,
-        \n
-        -Current hit points,
-        \n
-        -Total class level (if any),
-        \n
-        -Fighter class level (if any)
-    </string>
-    
-
-    <string name="fighterBattleMasterImprovedCombarSuperiorityTitle">
-        Improved Combat Superiority
-    </string>
-    <string name="fighterBattleMasterImprovedCombatSuperiority">
-        At 10th level, your superiority dice turn into d10s. At18th level, they turn into d12s.
-    </string>
-    
-    
-    <string name="fighterBattleMasterRelentlessTitle">
-        Relentless
-    </string>
-    <string name="fighterBattleMasterRelentless">
-        Starting at  15th level, when you roll initiative 
-        and have no superiority dice remaining, you regain 1 superiority die.
-    </string>
-    
-    
-    <string name="fighterBattleMasterManeuversTitle">
-        Maneuvers
-    </string>
-    <string name="fighterBattleMasterManeuvers">
+        \n\n\n\n
+        <b>..::MANEUVERS::.</b>
+        \n\n
         <b>Commanders Strike</b>
         \nWhen you take the Attack action on your turn, you can forgo one
         of your attacks and use a bonus action to direct one of your companions to strike.
@@ -519,7 +464,61 @@
         \nWhen you hit a creature with a weapon attack, you can expend one superiority die to attempt
         to knock the target down. You add the superiority die to the attack’s damage roll, and if the
         target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.
+        
     </string>
+    
+    
+    <string name="fighterBattleMasterStudentOfWarTitle">
+        Student of War
+    </string>
+    <string name="fighterBattleMasterStudentOfWar">
+                At 3rd level, you gain proficiency with one type of artisan’s tools of your choice.
+    </string>
+    
+    
+    <string name="fighterBattleMasterKnowYourEnemyTitle">
+        Know Your Enemy
+    </string>
+    <string name="fighterBattleMasterKnowYourEnemy">
+        Starting at 7th level, if you spend at least  1  minute observing or interacting with another
+        creature outside combat, you can learn certain information about its capabilities compared to your own.
+        The DM tells you if the creature is your equal, superior, or inferior in regard to two of the
+        following characteristics of your choice:
+        \n
+        -Strength Score
+        \n
+        -Dexterity Score,
+        \n
+        -Constitution Score,
+        \n
+        -Armor Class,
+        \n
+        -Current hit points,
+        \n
+        -Total class level (if any),
+        \n
+        -Fighter class level (if any)
+    </string>
+    
+
+    <string name="fighterBattleMasterImprovedCombarSuperiorityTitle">
+        Improved Combat Superiority
+    </string>
+    <string name="fighterBattleMasterImprovedCombatSuperiority">
+        At 10th level, your superiority dice turn into d10s. At18th level, they turn into d12s.
+    </string>
+    
+    
+    <string name="fighterBattleMasterRelentlessTitle">
+        Relentless
+    </string>
+    <string name="fighterBattleMasterRelentless">
+        Starting at  15th level, when you roll initiative 
+        and have no superiority dice remaining, you regain 1 superiority die.
+    </string>
+    
+    
+
 
 
     <string name="fighterEldritchKnightTitle">

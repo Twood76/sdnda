@@ -335,11 +335,13 @@
         Onatar, Moradin, Hephaestus, and Goibhniu.
 
         \n\n<b>Knowledge Domain Spells</b>
-        \n\n\t\t1st \t\t\t\tcommand,identify
-        \n\t\t3rd \t\t\t\taugury, suggestion
-        \n\t\t5th \t\t\t\tnondetection, speak with dead
-        \n\t\t7th \t\t\t\tarcane eye, confusion
-        \n\t\t9th \t\t\t\tlegend lore, scrying
+        <b>\n\n\t\tLvl \t\t\t\Spell Name </b>\n
+        \n\t\t1st \t\t\t\tcommand, identify\n
+        \n\t\t3rd \t\t\t\taugury, suggestion\n
+        \n\t\t5th \t\t\t\tnondetection, speak with dead\n
+        \n\t\t7th \t\t\t\tarcane eye, confusion\n
+        \n\t\t9th \t\t\t\tlegend lore, scrying\n
+        \n\n
     </string>
     
     
@@ -456,13 +458,14 @@
         Apollo, and Diancecht), and gods of home and
         community (such as Hestia, Hathor, and Boldrei).
 
-        \n\n<b>Life Domain Spells</b>
-        \n\n\t\tCleric Level \t\t\t\tSpells
-        \n\t\t1st \t\t\t\tbless, cure wounds
-        \n\t\t3rd \t\t\t\tlesser restoration, spiritual weapon
-        \n\t\t5th \t\t\t\tbeacon of hope, revivify
-        \n\t\t7th \t\t\t\tdeath ward, guardian of faith
-        \n\t\t9th \t\t\t\tmass cure wounds, raise dead
+        \n\n<b>Life Domain Spells
+        \n\n\t\tLvl \t\t\t\tSpells</b>\n
+        \n\t\t1st \t\t\t\tbless, cure wounds\n
+        \n\t\t3rd \t\t\t\tlesser restoration, \n\t\t\t\t\t\t\t\t\t\tspiritual weapon\n
+        \n\t\t5th \t\t\t\tbeacon of hope, revivify\n
+        \n\t\t7th \t\t\t\tdeath ward, guardian of faith\n
+        \n\t\t9th \t\t\t\tmass cure wounds, raise dead\n
+        \n\n
     </string>
     
     
@@ -477,7 +480,7 @@
     <string name="clericLifeDomainDiscipleOfLifeTitle">
         Disciple of Life
     </string>
-    <string name="clericLifeDomainDiscipleOfLight">
+    <string name="clericLifeDomainDiscipleOfLife">
         Also starting at 1st level, your healing spells are more
         effective. Whenever you use a spell of 1st level or higher
         to restore hit points to a creature, the creature regains
@@ -550,18 +553,19 @@
         across the sky. Others are tireless sentinels whose eyes
         pierce every shadow and see through every deception.
         Some are deities of beauty and artistry, who teach that
-        art is a vehicle for the soul's improvement. Clerics of a
+        art is a vehicle for the souls improvement. Clerics of a
         god of light are enlightened souls infused with radiance
         and the power of their gods’ discerning vision, charged
         with chasing away lies and burning away darkness.
         
-        \n\n<b>Light Domain Spells</b>
-        \n\n\t\tCleric Level \t\t\t\tSpells
-        \n\t\t1st \t\t\t\tburning hands, faerie fire
-        \n\t\t3rd \t\t\t\tflaming sphere, scorching ray
-        \n\t\t5th \t\t\t\tdaylight, fireball
-        \n\t\t7th \t\t\t\tguardian of faith, wall of fire
-        \n\t\t9th \t\t\t\tflame strike, scrying
+        \n\n<b>Light Domain Spells
+        \n\n\t\tLvl \t\t\t\tSpells</b>\n
+        \n\t\t1st \t\t\t\tburning hands, faerie fire\n
+        \n\t\t3rd \t\t\t\tflaming sphere, scorching ray\n
+        \n\t\t5th \t\t\t\tdaylight, fireball\n
+        \n\t\t7th \t\t\t\tguardian of faith, wall of fire\n
+        \n\t\t9th \t\t\t\tflame strike, scrying\n
+        \n\n
     </string>
     
     <string name="clericLightDomainBonusCantripTitle">
@@ -658,13 +662,14 @@
         despoil the woodlands, bless the harvest of the faithful,
         or wither the crops of those who anger their gods.
 
-        \n\n<b>Nature Domain Spells</b>
-        \n\n\t\tCleric Level \t\t\t\tSpells
-        \n\t\t1st \t\t\t\tanimal friendship, speak with animals
-        \n\t\t3rd \t\t\t\tbarskin, spikegrow
-        \n\t\t5th \t\t\t\tplant growth, wind wall
-        \n\t\t7th \t\t\t\tdominate beast, grasping vine
-        \n\t\t9th \t\t\t\tinspect plague, tree stride
+        \n\n<b>Nature Domain Spells
+        \n\n\t\tLvl \t\t\t\tSpells</b>\n
+        \n\t\t1st \t\t\t\tanimal friendship,
+        \n\t\t\t\t\t\t\t\t\t\tspeak with animals\n
+        \n\t\t3rd \t\t\t\tbarskin, spikegrow\n
+        \n\t\t5th \t\t\t\tplant growth, wind wall\n
+        \n\t\t7th \t\t\t\tdominate beast, grasping vine\n
+        \n\t\t9th \t\t\t\tinspect plague, tree stride\n\n
     </string>
     
     
@@ -757,13 +762,15 @@
         propitiation to ward off divine wrath.
 
 
-        \n\nTempest Domain Spells
-        \n\t\tCleric Level \t\t\t\tSpells
-        \n\t\t1st \t\t\t\tanimal friendship, speak with animals
-        \n\t\t3rd \t\t\t\tbarskin, spikegrow
-        \n\t\t5th \t\t\t\tplant growth, wind wall
-        \n\t\t7th \t\t\t\tdominate beast, grasping vine
-        \n\t\t9th \t\t\t\tinspect plague, tree stride
+        <b>\n\nTempest Domain Spells\n
+        \n\t\tLvl \t\t\t\tSpells</b>\n
+        \n\t\t1st \t\t\t\tanimal friendship, \n
+        \t\t\t\t\t\t\t\t\t\tspeak with animals\n
+        \n\t\t3rd \t\t\t\tbarskin, spikegrow\n
+        \n\t\t5th \t\t\t\tplant growth, wind wall\n
+        \n\t\t7th \t\t\t\tdominate beast, grasping vine\n
+        \n\t\t9th \t\t\t\tinspect plague, tree stride\n
+        \n\n
     </string>
 
     
@@ -852,12 +859,15 @@
         direct confrontation.
 
 
-        \n\n<b>Trickery Domain Spells</b>
-        \n\\n\\t\t1st \t\t\t\tcharm person, disguise self
-        \n\t\t3rd \t\t\t\tmirror image, pass without a trace
-        \n\t\t5th \t\t\t\tblink, dispel magic
-        \n\t\t7th \t\t\t\tdimension door, polymorph
-        \n\t\t9th \t\t\t\tdominate person, modify memory
+        \n\n<b>Trickery Domain Spells\n
+        \n\tLvl \t\t\tSpells</b>\n
+        \n\n\t\t1st \t\t\t\tcharm person, disguise self\n
+        \n\t\t3rd \t\t\t\tmirror image,
+        \n\t\t\t\t\t\t\t\t\t\tpass without a trace\n
+        \n\t\t5th \t\t\t\tblink, dispel magic\n
+        \n\t\t7th \t\t\t\tdimension door, polymorph\n
+        \n\t\t9th \t\t\t\tdominate person,
+        \n\t\t\t\t\t\t\t\t\t\tmodify memory\n
     </string>
 
     <string name="clericTrickeryDomainBlessingOfTheTricksterTitle">
@@ -949,12 +959,15 @@
         in all its manifestations and supporting warriors in any
         circumstance.
     
-        \n\n<b>War Domain Spells</b>
-        \n\n\t\t1st \t\t\t\tdivine favor, shield of faith
-        \n\t\t3rd \t\t\t\tmagic weapon, spiritual weapon
-        \n\t\t5th \t\t\t\tcrusaders mantle, spirit guardian
-        \n\t\t7th \t\t\t\tfreedom of movement, stoneskin
-        \n\t\t9th \t\t\t\tflame strike, hold monster
+        \n\n<b>War Domain Spells\n\n
+        \t\tLvl \t\t\tSpells</b>
+        \n\n\t\t1st \t\t\t\tdivine favor, shield of faith\n
+        \n\t\t3rd \t\t\t\tmagic weapon, spiritual weapon\n
+        \n\t\t5th \t\t\t\tcrusaders mantle,
+        \n\t\t\t\t\t\t\t\t\t\tspirit guardian\n
+        \n\t\t7th \t\t\t\tfreedom of movement,
+        \n\t\t\t\t\t\t\t\t\t\tstoneskin\n
+        \n\t\t9th \t\t\t\tflame strike, hold monster\n
     </string>
     
     

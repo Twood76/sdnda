@@ -262,7 +262,7 @@
     <string name="bardBardicInspirationTitle">
         Bardic Inspiration
     </string>
-    <string name="BardBardicInspiration">
+    <string name="bardBardicInspiration">
         You can inspire others through stirring words or music.
         To do so, you use a bonus action on your turn to choose
         one creature other than yourself within 60 feet of you
@@ -376,7 +376,7 @@
     
 
     //---------------------------------------------Class Shools---------------------------------------------------------------------------------------------------//
-    <string name="bardClassSchoolsTitle">
+    <string name="bardBardCollegeTitlle">
         Bard Colleges
     </string>
     <string name="bardBardCollege">
@@ -395,7 +395,7 @@
     <string name="bardCollegeOfLoreTitle">
         College of Lore
     </string>
-    <string name="BardCollageOfLore">
+    <string name="bardCollegeOfLore">
         Bards of the College of Lore know something about
         most things, collecting bits of knowledge from sources
         as diverse as scholarly tomes and peasant tales.
@@ -421,7 +421,7 @@
     
     
     <string name="bardCollegeOfLoreBonusProfitienciesTitle">
-        Bonus Profitiecies
+        Bonus Profitiencies
     </string>
     <string name="bardCollegeOfLoreBonusProfitiences">
         When you join the College of Lore at 3rd level, you gain

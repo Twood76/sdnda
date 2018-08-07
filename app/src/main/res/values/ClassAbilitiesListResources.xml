@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lvl1AbilitiesLabel">
+        1st Level Abilities
+    </string>
+    <string name="lvl2AbilitiesLabel">
+        2nd Level Abilities
+    </string>
+    <string name="lvl3AbilitiesLabel">
+        3rd Level Abilities
+    </string>
+    <string name="lvl4AbilitiesLabel">
+        4th Level Abilities
+    </string>
+    <string name="lvl5AbilitiesLabel">
+        5th Level Abilities
+    </string>
+    <string name="lvl6AbilitiesLabel">
+        6th Level Abilities
+    </string>
+    <string name="lvl7AbilitiesLabel">
+        7th Level Abilities
+    </string>
+    <string name="lvl8AbilitiesLabel">
+        8th Level Abilities
+    </string>
+    <string name="lvl9AbilitiesLabel">
+        9th Level Abilities
+    </string>
+    <string name="lvl10AbilitiesLabel">
+        10th Level Abilities
+    </string>
+    <string name="lvl11AbilitiesLabel">
+        11th Level Abilities
+    </string>
+    <string name="lvl12AbilitiesLabel">
+        12th Level Abilities
+    </string>
+    <string name="lvl13AbilitiesLabel">
+        13th Level Abilities
+    </string>
+    <string name="lvl14AbilitiesLabel">
+        14th Level Abilities
+    </string>
+    <string name="lvl15AbilitiesLabel">
+        15th Level Abilities
+    </string>
+    <string name="lvl16AbilitiesLabel">
+        16th Level Abilities
+    </string>
+    <string name="lvl17AbilitiesLabel">
+        17th Level Abilities
+    </string>
+    <string name="lvl18AbilitiesLabel">
+        18th Level Abilities
+    </string>
+    <string name="lvl19AbilitiesLabel">
+        19th Level Abilities
+    </string>
+    <string name="lvl20AbilitiesLabel">
+        20th Level Abilities
+    </string>
+
+
+
+
+
+
+</resources>

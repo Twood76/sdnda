@@ -428,7 +428,7 @@
         <b>Swamp</b>
         \n\n
         Level \t\t\t Circle Spells
-        \n 3rd \t\t\t darkness, Melf's acid arrow
+        \n 3rd \t\t\t darkness, Melfs acid arrow
         \n 5th \t\t\t water walk, stinking cloud
         \n 7th \t\t\t freedom of movement, locate creature
         \n 9th \t\t\t insect plague, scrying
@@ -484,6 +484,10 @@
         \n\nThe creature is aware of this effect before it makes its attack against you.
     </string>
 
+
+    <string name="druidCircleOfTheMoonTitle">
+        Circle of the Moon
+    </string>
     <string name="druidCircleOfTheMoon">
         Druids of the Circle of the M oon are fierce guardians of the wilds.
         Their order gathers under the full m oon to share news and trade warnings.

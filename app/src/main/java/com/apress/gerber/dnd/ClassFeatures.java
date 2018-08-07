@@ -261,7 +261,7 @@ public class ClassFeatures extends AppCompatActivity {
                 }
                 //next
                 if (((x2 - x1) < 0) && !beeingUsed  && (Math.abs(x2 - x1) > 300) && (Math.abs(y2 - y1) < 300)) {
-                    Intent newIntent = new Intent(getApplicationContext(), ClassAbiltiesOverview.class);
+                    Intent newIntent = new Intent(getApplicationContext(), ClassAbilitiesListActivity.class);
                     newIntent.setFlags(newIntent.getFlags() | Intent.FLAG_ACTIVITY_NO_HISTORY);
                     switch(whichClass){
                         case("barbarian"):

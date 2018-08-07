@@ -215,7 +215,7 @@
     </string>
 
 
-    <string name="barbarianReclessAttackTitle">
+    <string name="barbarianRecklessAttackTitle">
         Reckless Attack
     </string>
     <string name="barbarianRecklessAttack">
@@ -316,7 +316,7 @@
 
 
     //-------------------------------------------------CLASS SCOOOLS-----------------------------------------------------------------------------------------------//
-    <string name="barbarianClassSchoolsTitle">
+    <string name="barbarianPrimalPathTitle">
         Primal Paths
     </string>
 

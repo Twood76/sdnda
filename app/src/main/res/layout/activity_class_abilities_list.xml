@@ -69,271 +69,1773 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:textStyle="bold"
-                    android:textSize="35sp"
-                    android:layout_marginTop="25sp"
                     android:layout_marginBottom="25sp"
-                    android:text= "@string/ClassAbilityListTitle"/>
+                    android:layout_marginTop="25sp"
+                    android:text="@string/ClassAbilityListTitle"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/abilityButton1"
+
+                <Space
+                    android:id="@+id/spaceAbove1stLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/title"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl1Abilities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/title"
+                    android:layout_below="@+id/spaceAbove1stLvlLabel"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton1"/>
+                    android:text="@string/lvl1AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow1stLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl1Abilities"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
-                    android:id="@+id/abilityButton2"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/abilityButton1_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton1"
+                    android:layout_below="@id/spaceBelow1stLvlLabel"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton2"/>
+                    android:onClick="onAbilityButton1_1" />
 
+                <TextView
+                    android:id="@+id/abilityDescription1_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton1_1" />
+
+                <Space
+                    android:id="@+id/spaceBetweenButtonsLvl1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12sp"
+                    android:layout_below="@+id/abilityDescription1_1"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
-                    android:id="@+id/abilityButton3"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/abilityButton1_2"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton2"
+                    android:layout_below="@id/spaceBetweenButtonsLvl1"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton3"/>
+                    android:onClick="onAbilityButton1_2" />
+
+                <TextView
+                    android:id="@+id/abilityDescription1_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton1_2" />
+
+                <Space
+                    android:id="@+id/spaceBetweenButtonsLvl1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12sp"
+                    android:layout_below="@+id/abilityDescription1_2"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
-                    android:id="@+id/abilityButton4"
+                    android:id="@+id/abilityButton1_3"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetweenButtonsLvl1_2"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton1_3" />
+
+                <TextView
+                    android:id="@+id/abilityDescription1_3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton1_3" />
+
+                <Space
+                    android:id="@+id/spaceAbove2ndLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription1_3"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl2Abilities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton3"
+                    android:layout_below="@+id/spaceAbove2ndLvlLabel"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton4"/>
+                    android:text="@string/lvl2AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-                <Button
-                    android:id="@+id/abilityButton5"
+
+                <Space
+                    android:id="@+id/spaceBelow2ndLvlLabel"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton4"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton5"/>
-
-                <Button
-                    android:id="@+id/abilityButton6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton5"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton6"/>
-
-                <Button
-                    android:id="@+id/abilityButton7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton6"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton7"/>
-
-                <Button
-                    android:id="@+id/abilityButton8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton7"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton8"/>
-
-                <Button
-                    android:id="@+id/abilityButton9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton8"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton9"/>
-
-                <Button
-                    android:id="@+id/abilityButton10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton9"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton10"/>
-
-                <Button
-                    android:id="@+id/abilityButton11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton10"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton11"/>
-
-                <Button
-                    android:id="@+id/abilityButton12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton11"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton12"/>
-
-                <Button
-                    android:id="@+id/abilityButton13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton12"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton13"/>
-
-
-                <Button
-                    android:id="@+id/abilityButton14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton13"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton14"/>
-
-
-                <Button
-                    android:id="@+id/abilityButton15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton14"
-                    android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton15"/>
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl2Abilities"
+                    android:layout_centerHorizontal="true" />
 
 
                 <Button
-                    android:id="@+id/abilityButton16"
-                    android:layout_width="wrap_content"
+                    android:id="@+id/abilityButton2_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton15"
+                    android:layout_below="@id/spaceBelow2ndLvlLabel"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton16"/>
+                    android:onClick="onAbilityButton2_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription2_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton2_1" />
+
+                <Space
+                    android:id="@+id/spaceBetweenButtonsLvl2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="12sp"
+                    android:layout_below="@+id/abilityDescription2_1"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
-                    android:id="@+id/abilityButton17"
+                    android:id="@+id/abilityButton2_2"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetweenButtonsLvl2"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton2_2" />
+
+                <TextView
+                    android:id="@+id/abilityDescription2_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton2_2" />
+
+                <Space
+                    android:id="@+id/spaceAbove3rdLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription2_2"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl3Abilities"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityButton16"
+                    android:layout_below="@+id/spaceAbove3rdLvlLabel"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="15sp"
-                    android:onClick="onAbilityButton17"/>
+                    android:text="@string/lvl3AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+                <Space
+                    android:id="@+id/spaceBelow3rdLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl3Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton3_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow3rdLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton3_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription3_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton3_1" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove4thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription3_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl4Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove4thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl4AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow4thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl4Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton4_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow4thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton4_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription4_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton4_1" />
+
+
+
+                <Space
+                    android:id="@+id/spaceAbove5thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription4_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl5Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove5thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl5AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow5thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl5Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton5_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow5thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton5_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription5_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton5_1" />
+
+
+
+                <Space
+                    android:id="@+id/spaceAbove6thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription5_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl6Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove6thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl6AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow6thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl6Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton6_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow6thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton6_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription6_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton6_1" />
+
+                <Space
+                    android:id="@+id/spaceAbove7thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription6_1"
+                    android:layout_centerHorizontal="true" />
+
+
+                <TextView
+                    android:id="@+id/lvl7Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove7thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl7AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow7thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl7Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton7_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow7thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton7_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription7_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton7_1" />
+
+                <Space
+                    android:id="@+id/spaceBetweenButtonsLvl7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription7_1"
+                    android:layout_centerHorizontal="true" />
+
+
+                <Button
+                    android:id="@+id/abilityButton7_2"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetweenButtonsLvl7"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton7_2" />
+
+                <TextView
+                    android:id="@+id/abilityDescription7_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton7_2" />
+
+                <Space
+                    android:id="@+id/spaceAbove8thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription7_2"
+                    android:layout_centerHorizontal="true" />
+
+
+                <TextView
+                    android:id="@+id/lvl8Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove8thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl8AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow8thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl8Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton8_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow8thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton8_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription8_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton8_1" />
+
+                <Space
+                    android:id="@+id/spaceAbove9thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription8_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl9Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove9thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl9AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow9thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl9Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton9_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow9thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton9_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription9_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton9_1" />
+
+                <Space
+                    android:id="@+id/spaceAbove10thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription9_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl10Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove10thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl10AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow10thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl10Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton10_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow10thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton10_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription10_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton10_1" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove11thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription10_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl11Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove11thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl11AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow11thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl11Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton11_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow11thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton11_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription11_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton11_1" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove13thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription11_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl13Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove13thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl13AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow13thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl13Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton13_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow13thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton13_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription13_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton13_1" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove14thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription13_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl14Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove14thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl14AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+
+                <Space
+                    android:id="@+id/spaceBelow14thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl14Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton14_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow14thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton14_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription14_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton14_1" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove15thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription14_1"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl15Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove15thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl15AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow15thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl15Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton15_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow15thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton15_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription15_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton15_1" />
+
+
+
+                <Space
+                    android:id="@+id/spaceAbove18thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription15_1"
+                    android:layout_centerHorizontal="true" />
+
+
+                <TextView
+                    android:id="@+id/lvl18Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove18thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl18AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow18thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl18Abilities"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton18_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow18thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton18_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription18_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton18_1" />
+
+                <Space
+                    android:id="@+id/spaceBetweenButtonsLvl18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription18_1"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton18_2"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetweenButtonsLvl18"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton18_2" />
+
+                <TextView
+                    android:id="@+id/abilityDescription18_2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton18_2" />
+
+                <Space
+                    android:id="@+id/spaceAbove20thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription18_2"
+                    android:layout_centerHorizontal="true" />
+
+
+                <TextView
+                    android:id="@+id/lvl20Abilities"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove20thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl20AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow20thLvlLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl20Abilities"
+                    android:layout_centerHorizontal="true" />
+
+
+                <Button
+                    android:id="@+id/abilityButton20_1"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow20thLvlLabel"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton20_1" />
+
+                <TextView
+                    android:id="@+id/abilityDescription20_1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton20_1" />
 
 
                 <TextView
                     android:id="@+id/ClassSchoolsTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_below="@+id/abilityDescription20_1"
                     android:layout_centerHorizontal="true"
-                    android:textStyle="bold"
-                    android:textSize="35sp"
                     android:layout_marginTop="25sp"
-                    android:layout_below="@+id/abilityButton17"
-                    android:text= "@string/ClassSchoolsTitle"/>
+                    android:text="@string/ClassSchoolsTitle"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/ClassSchoolsDescription"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="20sp"
-                    android:layout_marginTop="10sp"
-                    android:layout_marginBottom="10sp"
                     android:layout_below="@+id/ClassSchoolsTitle"
-                    android:text= "@string/ClassSchoolsTitle"/>
-
-                <TextView
-                    android:id="@+id/ClassSchoolsDescription"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:textSize="20sp"
-                    android:layout_marginTop="10sp"
                     android:layout_marginBottom="10sp"
-                    android:layout_below="@+id/ClassSchoolsTitle"
-                    android:text= "@string/ClassSchoolsTitle"/>
-
-                <TextView
-                    android:id="@+id/ClassSchoolsDescription"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="20sp"
+                    android:layout_marginEnd="25sp"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_marginStart="25sp"
                     android:layout_marginTop="10sp"
-                    android:layout_marginBottom="10sp"
-                    android:layout_below="@+id/ClassSchoolsTitle"
-                    android:text= "@string/ClassSchoolsTitle"/>
-
-                <TextView
-                    android:id="@+id/ClassSchoolsDescription"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:textSize="20sp"
-                    android:layout_marginTop="10sp"
-                    android:layout_marginBottom="10sp"
-                    android:layout_below="@+id/ClassSchoolsTitle"
-                    android:text= "@string/ClassSchoolsTitle"/>
-
-
+                    android:text="@string/ClassSchoolsTitle"
+                    android:textSize="20sp" />
 
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton1"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/ClassSchoolsDescription"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityButton17"/>
+                    android:onClick="onAbilityClassSchoolButton1" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton1"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton2"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton1"
+                    android:layout_below="@id/spaceBelowClassSchool1"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityClassSchoolButton1"/>
+                    android:onClick="onAbilityClassSchoolButton2" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton2"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton3"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton2"
+                    android:layout_below="@id/spaceBelowClassSchool2"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityClassSchoolButton3"/>
+                    android:onClick="onAbilityClassSchoolButton3" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton3"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton4"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton3"
+                    android:layout_below="@id/spaceBelowClassSchool3"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityClassSchoolButton4"/>
+                    android:onClick="onAbilityClassSchoolButton4" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton4"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton5"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton4"
+                    android:layout_below="@id/spaceBelowClassSchool4"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityClassSchoolButton5"/>
+                    android:onClick="onAbilityClassSchoolButton5" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton5"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton6"
-                    android:layout_width="wrap_content"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton5"
+                    android:layout_below="@id/spaceBelowClassSchool5"
                     android:layout_centerHorizontal="true"
-                    android:onClick="onAbilityClassSchoolButton6"/>
+                    android:onClick="onAbilityClassSchoolButton6" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton6"
+                    android:layout_centerHorizontal="true" />
 
                 <Button
                     android:id="@+id/abilityCassSchoolButton7"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelowClassSchool6"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityClassSchoolButton7" />
+
+                <Space
+                    android:id="@+id/spaceBelowClassSchool7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityCassSchoolButton7"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityCassSchoolButton8"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelowClassSchool7"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityClassSchoolButton8" />
+
+                <TextView
+                    android:id="@+id/chosenClassSchoolTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/abilityCassSchoolButton6"
+                    android:layout_below="@id/abilityCassSchoolButton8"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="75sp"
-                    android:onClick="onAbilityClassSchoolButton7"
-                    />
+                    android:layout_marginTop="25sp"
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/chosenClassSchoolsDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/chosenClassSchoolTitle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginEnd="25sp"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_marginStart="25sp"
+                    android:layout_marginTop="10sp"
+                    android:text="@string/ClassSchoolsTitle"
+                    android:textSize="20sp" />
 
 
+                <Space
+                    android:id="@+id/spaceAbove1stLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/chosenClassSchoolsDescription"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl1AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove1stLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl1AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow1stLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl1AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton1_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow1stLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton1_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription1_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton1_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceBetween1stLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription1_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton1_2Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetween1stLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton1_2Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription1_2Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton1_2Schools" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove2ndLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription1_2Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl2AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove2ndLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl2AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow2ndLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl2AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton2_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow2ndLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton2_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription2_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton2_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceBetween2ndLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription2_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton2_2Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetween2ndLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton2_2Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription2_2Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton2_2Schools" />
+
+
+
+                <Space
+                    android:id="@+id/spaceAbove3rdLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription2_2Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl3AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove3rdLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl3AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow3rdLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl3AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton3_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow3rdLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton3_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription3_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton3_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceBetween3LvlButtonsSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription3_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton3_2Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBetween3LvlButtonsSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton3_2Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription3_2Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton3_2Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove6thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription3_2Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl6AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove6thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl6AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow6thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl6AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton6_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow6thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton6_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription6_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton6_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove7thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription6_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl7AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove7thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl7AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow7thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl7AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton7_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow7thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton7_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription7_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton7_1Schools" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove8thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription7_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl8AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove8thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl8AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow8thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl8AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton8_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow8thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton8_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription8_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton8_1Schools" />
+
+
+                <Space
+                    android:id="@+id/spaceAbove9thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription8_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl9AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove9thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl9AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow9thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl9AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton9_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow9thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton9_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription9_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton9_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove10thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription9_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl10AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove10thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl10AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow10thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl10AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton10_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow10thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton10_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription10_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton10_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove11thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription10_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl11AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove11thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl11AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow11thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl11AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton11_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow11thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton11_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription11_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton11_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove13thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription11_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl13AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove13thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl13AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow13thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl13AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton13_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow13thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton13_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription13_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton13_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove14thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription13_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl14AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove14thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl14AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow14thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl14AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton14_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow14thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton14_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription14_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton14_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove15thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription14_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl15AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove15thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl15AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow15thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl15AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton15_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow15thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton15_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription15_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton15_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove17thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription15_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl17AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove17thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl17AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow17thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl17AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton17_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow17thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton17_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription17_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton17_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove18thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription17_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl18AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove18thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl18AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow18thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl18AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton18_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow18thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton18_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription18_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_below="@id/abilityButton18_1Schools" />
+
+                <Space
+                    android:id="@+id/spaceAbove20thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/abilityDescription18_1Schools"
+                    android:layout_centerHorizontal="true" />
+
+                <TextView
+                    android:id="@+id/lvl20AbilitiesSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/spaceAbove20thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/lvl20AbilitiesLabel"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Space
+                    android:id="@+id/spaceBelow20thLvlLabelSchools"
+                    android:layout_width="wrap_content"
+                    android:layout_height="10sp"
+                    android:layout_below="@+id/lvl20AbilitiesSchools"
+                    android:layout_centerHorizontal="true" />
+
+                <Button
+                    android:id="@+id/abilityButton20_1Schools"
+                    android:layout_marginStart="50sp"
+                    android:layout_marginLeft="50sp"
+                    android:background="@android:color/holo_purple"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/spaceBelow20thLvlLabelSchools"
+                    android:layout_centerHorizontal="true"
+                    android:onClick="onAbilityButton20_1Schools" />
+
+                <TextView
+                    android:id="@+id/abilityDescription20_1Schools"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:layout_marginBottom="70sp"
+                    android:layout_below="@id/abilityButton20_1Schools" />
 
 
                 <Button
@@ -341,22 +1843,25 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
-                    android:src="@android:drawable/ic_menu_edit"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="20sp"
-                    android:text="@string/selectButton"
-                    android:onClick="onChooseButtonclick"/>
+                    android:onClick="onChooseButtonclick"
+                    android:src="@android:drawable/ic_menu_edit"
+                    android:text="@string/selectButton" />
+
+
 
                 <Button
                     android:id="@+id/nextButton"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="25sp"
                     android:onClick="onNextButton"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:text="@string/nextClassButton"/>
+                    android:text="@string/nextClassButton" />
 
                 <Button
                     android:id="@+id/previousButton"
@@ -367,7 +1872,11 @@
                     android:layout_alignParentStart="true"
                     android:onClick="onPreviousButton"
                     android:src="@android:drawable/ic_menu_edit"
-                    android:text="@string/previousClassButton"/>
+                    android:text="@string/previousClassButton" />
+
+
+
+
 
             </RelativeLayout>
         </ScrollView>
